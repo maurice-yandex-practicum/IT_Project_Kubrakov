@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="4">
+<mxfile host="app.diagrams.net" pages="5">
   <diagram name="Контекстная модель" id="uZNN2-uq09ivSvkGSua3">
     <mxGraphModel dx="2913" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -2913,6 +2913,339 @@
             </Array>
             <mxPoint x="400" y="611" as="sourcePoint" />
             <mxPoint x="520" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Декомпозиция функций" id="decompF0F12">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2450" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dec-title" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;" value="Декомпозиция функций АС «Каршеринг»" vertex="1">
+          <mxGeometry height="30" width="1000" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-legend" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontColor=#666666;" value="Уровень 0 — F0; уровень 1 — F1–F12; уровень 2 — подфункции F1, F3 и F5; штриховая стрелка — повторное использование подфункции." vertex="1">
+          <mxGeometry height="20" width="1200" x="40" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;fontStyle=1;fontSize=14;" value="Каршеринг (F0)" vertex="1">
+          <mxGeometry height="60" width="230" x="1135" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F1. Регистрация пользователя" vertex="1">
+          <mxGeometry height="70" width="180" x="115" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F2. Поиск ближайших ТС" vertex="1">
+          <mxGeometry height="70" width="180" x="305" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F3. Арендовать ТС" vertex="1">
+          <mxGeometry height="70" width="180" x="495" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F4. Получить информацию об аренде ТС" vertex="1">
+          <mxGeometry height="70" width="180" x="685" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F5. Завершить аренду" vertex="1">
+          <mxGeometry height="70" width="180" x="875" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F6. Обновить состояние ТС" vertex="1">
+          <mxGeometry height="70" width="180" x="1065" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F7. Начислить штраф" vertex="1">
+          <mxGeometry height="70" width="180" x="1255" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F8. Формирование перечня ТС" vertex="1">
+          <mxGeometry height="70" width="180" x="1445" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F9. Управление тарифами" vertex="1">
+          <mxGeometry height="70" width="180" x="1635" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F10. Управление парковкой" vertex="1">
+          <mxGeometry height="70" width="180" x="1825" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F11. Просмотр штрафов и задолженностей" vertex="1">
+          <mxGeometry height="70" width="180" x="2015" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F12. Оплата штрафов и задолженностей" vertex="1">
+          <mxGeometry height="70" width="180" x="2205" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-lbl-f1" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#666666;" value="Подфункции F1" vertex="1">
+          <mxGeometry height="20" width="250" x="330" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-lbl-f3" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#666666;" value="Подфункции F3" vertex="1">
+          <mxGeometry height="20" width="250" x="710" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-lbl-f5" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#666666;" value="Подфункции F5" vertex="1">
+          <mxGeometry height="20" width="250" x="1090" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F1.1. Подтвердить оферту" vertex="1">
+          <mxGeometry height="50" width="300" x="330" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f1-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F1.2. Создать пользователя" vertex="1">
+          <mxGeometry height="50" width="300" x="330" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f1-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F1.3. Проверить документы" vertex="1">
+          <mxGeometry height="50" width="300" x="330" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f3-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F3.1. Проверить состояние ТС" vertex="1">
+          <mxGeometry height="50" width="300" x="710" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f3-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F3.2. Проверить задолженности пользователя" vertex="1">
+          <mxGeometry height="50" width="300" x="710" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f3-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F3.3. Создать запись аренды" vertex="1">
+          <mxGeometry height="50" width="300" x="710" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f3-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F3.4. Разблокировка ТС" vertex="1">
+          <mxGeometry height="50" width="300" x="710" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f3-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F3.5. Получить тариф и стартовую стоимость" vertex="1">
+          <mxGeometry height="50" width="300" x="710" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f5-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F5.1. Получение идентификатора ТС" vertex="1">
+          <mxGeometry height="50" width="300" x="1090" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f5-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F5.2. Подтвердить парковочное место" vertex="1">
+          <mxGeometry height="50" width="300" x="1090" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f5-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F5.3. Рассчитать итоговую стоимость" vertex="1">
+          <mxGeometry height="50" width="300" x="1090" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f5-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F5.4. Закрыть ТС" vertex="1">
+          <mxGeometry height="50" width="300" x="1090" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-f5-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F5.5. Завершить аренду" vertex="1">
+          <mxGeometry height="50" width="300" x="1090" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-e-f0" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="150" as="sourcePoint" />
+            <mxPoint x="1250" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-bus" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="170" as="sourcePoint" />
+            <mxPoint x="2295" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f1" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="170" as="sourcePoint" />
+            <mxPoint x="205" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f2" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="170" as="sourcePoint" />
+            <mxPoint x="395" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f3" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="170" as="sourcePoint" />
+            <mxPoint x="585" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f4" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="170" as="sourcePoint" />
+            <mxPoint x="775" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f5" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="965" y="170" as="sourcePoint" />
+            <mxPoint x="965" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f6" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1155" y="170" as="sourcePoint" />
+            <mxPoint x="1155" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f7" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1345" y="170" as="sourcePoint" />
+            <mxPoint x="1345" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f8" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1535" y="170" as="sourcePoint" />
+            <mxPoint x="1535" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f9" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1725" y="170" as="sourcePoint" />
+            <mxPoint x="1725" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f10" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1915" y="170" as="sourcePoint" />
+            <mxPoint x="1915" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f11" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2105" y="170" as="sourcePoint" />
+            <mxPoint x="2105" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f12" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2295" y="170" as="sourcePoint" />
+            <mxPoint x="2295" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f1-v" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="270" as="sourcePoint" />
+            <mxPoint x="205" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f1-h" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="300" as="sourcePoint" />
+            <mxPoint x="315" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f1-bus" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="300" as="sourcePoint" />
+            <mxPoint x="315" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f1-1" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="385" as="sourcePoint" />
+            <mxPoint x="330" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f1-2" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="455" as="sourcePoint" />
+            <mxPoint x="330" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f1-3" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="525" as="sourcePoint" />
+            <mxPoint x="330" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f3-v" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="270" as="sourcePoint" />
+            <mxPoint x="585" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f3-h" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="300" as="sourcePoint" />
+            <mxPoint x="695" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f3-bus" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="300" as="sourcePoint" />
+            <mxPoint x="695" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f3-1" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="385" as="sourcePoint" />
+            <mxPoint x="710" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f3-2" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="455" as="sourcePoint" />
+            <mxPoint x="710" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f3-3" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="525" as="sourcePoint" />
+            <mxPoint x="710" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f3-4" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="595" as="sourcePoint" />
+            <mxPoint x="710" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f3-5" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="665" as="sourcePoint" />
+            <mxPoint x="710" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f5-v" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="965" y="270" as="sourcePoint" />
+            <mxPoint x="965" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f5-h" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="965" y="300" as="sourcePoint" />
+            <mxPoint x="1075" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f5-bus" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1075" y="300" as="sourcePoint" />
+            <mxPoint x="1075" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f5-1" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1075" y="385" as="sourcePoint" />
+            <mxPoint x="1090" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f5-2" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1075" y="455" as="sourcePoint" />
+            <mxPoint x="1090" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f5-3" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1075" y="525" as="sourcePoint" />
+            <mxPoint x="1090" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f5-4" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1075" y="595" as="sourcePoint" />
+            <mxPoint x="1090" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f5-5" edge="1" parent="1" style="html=1;rounded=0;endArrow=none;startArrow=none;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1075" y="665" as="sourcePoint" />
+            <mxPoint x="1090" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f3-uses-f13" edge="1" parent="1" style="html=1;rounded=0;dashed=1;endArrow=open;endFill=0;startArrow=none;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="270" as="sourcePoint" />
+            <mxPoint x="630" y="525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="320" />
+              <mxPoint x="650" y="320" />
+              <mxPoint x="650" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-e-f3-uses-f13-lbl" connectable="0" parent="dec-e-f3-uses-f13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;fontColor=#666666;fontSize=10;" value="использует F1.3" vertex="1">
+          <mxGeometry relative="1" x="0.25" y="0" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
