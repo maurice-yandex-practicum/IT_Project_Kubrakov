@@ -587,7 +587,7 @@
             <mxPoint x="800" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D3XdTPoQipbx6xVgP8s3-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Адрес" vertex="1">
+        <mxCell id="D3XdTPoQipbx6xVgP8s3-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Координаты" vertex="1">
           <mxGeometry height="40" width="100" x="770" y="370" as="geometry" />
         </mxCell>
         <mxCell id="r4ju8c6psSCgU1ylOhJi-2" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Штраф" vertex="1">

@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net" pages="4">
-  <diagram name="Арендовать автомобиль" id="5kUi6PcYie_1HwqnsOx_">
-    <mxGraphModel dx="1719" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="Арендовать автомобиль" id="7cWCPBH2jhcnP452d-hQ">
+    <mxGraphModel dx="2493" dy="2473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ibwi8WkH_vjcm2CmoWjk-2" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="АС Каршеринг" vertex="1">
           <mxGeometry height="530" width="3060" x="150" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="ibwi8WkH_vjcm2CmoWjk-3" parent="ibwi8WkH_vjcm2CmoWjk-2" style="swimlane;html=1;startSize=20;horizontal=0;" value="&lt;div&gt;Скользкая&lt;/div&gt;&lt;div&gt;дорожка&lt;/div&gt;" vertex="1">
+        <mxCell id="ibwi8WkH_vjcm2CmoWjk-3" parent="ibwi8WkH_vjcm2CmoWjk-2" style="swimlane;html=1;startSize=20;horizontal=0;" value="" vertex="1">
           <mxGeometry height="510" width="3060" y="20" as="geometry">
             <mxRectangle height="20" width="960" y="20" as="alternateBounds" />
           </mxGeometry>
@@ -16,13 +15,13 @@
         <mxCell id="ibwi8WkH_vjcm2CmoWjk-1" parent="ibwi8WkH_vjcm2CmoWjk-3" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;labelPerimeter=1;" value="&lt;div&gt;Пришел запрос&lt;/div&gt;&lt;div&gt;на аренду&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="50" x="40" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="ibwi8WkH_vjcm2CmoWjk-9" parent="ibwi8WkH_vjcm2CmoWjk-3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Получить состояние машины" vertex="1">
+        <mxCell id="ibwi8WkH_vjcm2CmoWjk-9" parent="ibwi8WkH_vjcm2CmoWjk-3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Получить состояние ТС" vertex="1">
           <mxGeometry height="80" width="120" x="180" y="130" as="geometry" />
         </mxCell>
         <mxCell id="8WD-lb_Kq3_2u8Igvqok-1" parent="ibwi8WkH_vjcm2CmoWjk-3" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;labelPerimeter=1;" value="БД Состояния" vertex="1">
           <mxGeometry height="100" width="100" x="190" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="ibwi8WkH_vjcm2CmoWjk-13" parent="ibwi8WkH_vjcm2CmoWjk-3" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;labelPerimeter=1;" value="ТС доступен?" vertex="1">
+        <mxCell id="ibwi8WkH_vjcm2CmoWjk-13" parent="ibwi8WkH_vjcm2CmoWjk-3" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;labelPerimeter=1;" value="ТС доступно?" vertex="1">
           <mxGeometry height="50" width="50" x="400" y="145" as="geometry" />
         </mxCell>
         <mxCell id="ibwi8WkH_vjcm2CmoWjk-14" edge="1" parent="ibwi8WkH_vjcm2CmoWjk-3" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ibwi8WkH_vjcm2CmoWjk-13" value="">
@@ -299,7 +298,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Y6bYUdfN3C4D-AM35kSB" name="Завершить поездку">
+  <diagram name="Завершить поездку" id="GlNcdk23PLAicJqGZo1v">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -307,7 +306,7 @@
         <mxCell id="HlzGJ8kN0c0o6Rj2o4un-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="АС Каршеринг" vertex="1">
           <mxGeometry height="500" width="2500" x="80" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="HlzGJ8kN0c0o6Rj2o4un-7" parent="HlzGJ8kN0c0o6Rj2o4un-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="Сервис аренды" vertex="1">
+        <mxCell id="HlzGJ8kN0c0o6Rj2o4un-7" parent="HlzGJ8kN0c0o6Rj2o4un-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="" vertex="1">
           <mxGeometry height="480" width="2500" y="20" as="geometry" />
         </mxCell>
         <mxCell id="HlzGJ8kN0c0o6Rj2o4un-8" parent="HlzGJ8kN0c0o6Rj2o4un-7" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Получить идентификатор ТС&amp;nbsp;" vertex="1">
@@ -524,7 +523,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="E7R3GNDHzQ53JiGQ_YOp" name="Регистрация">
+  <diagram name="Регистрация" id="QTDI0YIKUsz9FveWoS2o">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -532,7 +531,7 @@
         <mxCell id="xG__C5jHJ7uVr1y_vYsk-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="АС Каршеринг" vertex="1">
           <mxGeometry height="480" width="2300" x="200" y="720" as="geometry" />
         </mxCell>
-        <mxCell id="xG__C5jHJ7uVr1y_vYsk-18" parent="xG__C5jHJ7uVr1y_vYsk-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="БУРМАЛДАБОЛ" vertex="1">
+        <mxCell id="xG__C5jHJ7uVr1y_vYsk-18" parent="xG__C5jHJ7uVr1y_vYsk-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="" vertex="1">
           <mxGeometry height="460" width="2300" y="20" as="geometry" />
         </mxCell>
         <mxCell id="xG__C5jHJ7uVr1y_vYsk-20" parent="xG__C5jHJ7uVr1y_vYsk-18" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Проверить документы&amp;nbsp;" vertex="1">
@@ -696,23 +695,18 @@
         <mxCell id="xG__C5jHJ7uVr1y_vYsk-54" edge="1" parent="1" source="xG__C5jHJ7uVr1y_vYsk-50" style="dashed=1;dashPattern=8 4;endArrow=blockThin;endFill=1;startArrow=oval;startFill=0;endSize=6;startSize=4;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;edgeStyle=orthogonalEdgeStyle;exitX=0.65;exitY=-0.034;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="xG__C5jHJ7uVr1y_vYsk-25">
           <mxGeometry relative="1" x="-0.1217" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx6_Wc8BGPa_hsYYnhQCZl3ujzwJbELTuxSXUpccVIyg&amp;amp;s&quot; class=&quot;sFlh5c FyHeAf xfb9rd&quot; alt=&quot;Pearto | Roblox Item - Rolimon&#39;s&quot; style=&quot;max-width:420px;&quot;&gt;" id="4axBU1t833IFtrtcTN-P-1">
-          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
-            <mxGeometry height="40" width="30" x="2680" y="810" as="geometry" />
-          </mxCell>
-        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="YGumaEYOoMZiG-2ilO6G" name="Начислить штраф">
-    <mxGraphModel dx="1634" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+  <diagram name="Начислить штраф" id="IX08VFn2Bn0cPo4rLK-O">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kutTEqD_C3tkrE8KBd8o-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="АС Каршеринг" vertex="1">
           <mxGeometry height="380" width="1620" x="310" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="kutTEqD_C3tkrE8KBd8o-2" parent="kutTEqD_C3tkrE8KBd8o-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="Модуль администратора" vertex="1">
+        <mxCell id="kutTEqD_C3tkrE8KBd8o-2" parent="kutTEqD_C3tkrE8KBd8o-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="" vertex="1">
           <mxGeometry height="360" width="1620" y="20" as="geometry" />
         </mxCell>
         <mxCell id="kutTEqD_C3tkrE8KBd8o-3" parent="kutTEqD_C3tkrE8KBd8o-2" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;labelPerimeter=1;" value="Запрос на&lt;br&gt;начисление штрафа" vertex="1">
