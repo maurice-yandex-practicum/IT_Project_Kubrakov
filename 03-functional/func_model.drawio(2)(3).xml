@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="5">
+<mxfile host="app.diagrams.net" pages="3">
   <diagram name="Контекстная модель" id="uZNN2-uq09ivSvkGSua3">
     <mxGraphModel dx="2913" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -1289,7 +1289,7 @@
         <mxCell id="RI1WgYFHp14RG_HJokcS-198" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;div&gt;Платёжный&lt;/div&gt;&lt;div&gt;шлюз&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="120" x="360" y="3150" as="geometry" />
         </mxCell>
-        <mxCell id="RI1WgYFHp14RG_HJokcS-199" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Оплата штрафов и задолженностей(F12)" vertex="1">
+        <mxCell id="RI1WgYFHp14RG_HJokcS-199" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Обработка результатов оплаты (F12)" vertex="1">
           <mxGeometry height="120" width="235" x="760" y="3150" as="geometry" />
         </mxCell>
         <mxCell id="RI1WgYFHp14RG_HJokcS-200" edge="1" parent="1" source="RI1WgYFHp14RG_HJokcS-198" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="RI1WgYFHp14RG_HJokcS-199" value="">
@@ -2965,7 +2965,7 @@
         <mxCell id="dec-f11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F11. Просмотр штрафов и задолженностей" vertex="1">
           <mxGeometry height="70" width="180" x="2015" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="dec-f12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F12. Оплата штрафов и задолженностей" vertex="1">
+        <mxCell id="dec-f12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=11;" value="F12. Обработка результатов оплаты" vertex="1">
           <mxGeometry height="70" width="180" x="2205" y="200" as="geometry" />
         </mxCell>
         <mxCell id="dec-lbl-f1" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#666666;" value="Подфункции F1" vertex="1">
@@ -3247,6 +3247,152 @@
           <mxGeometry relative="1" x="0.25" y="0" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Уточнённые потоки" id="refined-flows">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rf-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=16;" value="Уточнённые потоки F2, F4, F8, F11, F12" vertex="1">
+          <mxGeometry height="30" width="900" x="40" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="F2. Поиск ближайших ТС" vertex="1">
+          <mxGeometry height="60" width="200" x="360" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f2-actor" parent="1" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Арендатор" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f2-veh" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="ТС" vertex="1">
+          <mxGeometry height="50" width="120" x="650" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f2-state" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Состояние" vertex="1">
+          <mxGeometry height="50" width="120" x="650" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f2-e1" edge="1" parent="1" source="rf-f2-actor" target="rf-f2" style="html=1;rounded=0;endArrow=classic;" value="точка поиска">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f2-e2" edge="1" parent="1" source="rf-f2-state" target="rf-f2" style="html=1;rounded=0;endArrow=classic;" value="местоположение">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f2-e3" edge="1" parent="1" source="rf-f2-veh" target="rf-f2" style="html=1;rounded=0;endArrow=classic;" value="карточки ТС, статус">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f2-e4" edge="1" parent="1" source="rf-f2" target="rf-f2-actor" style="html=1;rounded=0;endArrow=classic;" value="перечень ТС">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="F4. Информация об аренде" vertex="1">
+          <mxGeometry height="60" width="200" x="360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f4-actor" parent="1" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Арендатор" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f4-rental" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Аренды" vertex="1">
+          <mxGeometry height="50" width="120" x="650" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f4-cond" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Модели, тарифы" vertex="1">
+          <mxGeometry height="50" width="120" x="650" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f4-e1" edge="1" parent="1" source="rf-f4-actor" target="rf-f4" style="html=1;rounded=0;endArrow=classic;" value="запрос аренды">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f4-e2" edge="1" parent="1" source="rf-f4-rental" target="rf-f4" style="html=1;rounded=0;endArrow=classic;" value="сведения об аренде">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f4-e3" edge="1" parent="1" source="rf-f4-cond" target="rf-f4" style="html=1;rounded=0;endArrow=classic;" value="применённые условия">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f4-e4" edge="1" parent="1" source="rf-f4" target="rf-f4-actor" style="html=1;rounded=0;endArrow=classic;" value="сведения и предварительная стоимость">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="F8. Перечень на обслуживание" vertex="1">
+          <mxGeometry height="60" width="200" x="360" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f8-actor" parent="1" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Техническая служба" vertex="1">
+          <mxGeometry height="50" width="150" x="50" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f8-state" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Состояние" vertex="1">
+          <mxGeometry height="50" width="120" x="650" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f8-veh" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="ТС" vertex="1">
+          <mxGeometry height="50" width="120" x="650" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f8-e1" edge="1" parent="1" source="rf-f8-actor" target="rf-f8" style="html=1;rounded=0;endArrow=classic;" value="запрос перечня">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f8-e2" edge="1" parent="1" source="rf-f8-state" target="rf-f8" style="html=1;rounded=0;endArrow=classic;" value="состояние">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f8-e3" edge="1" parent="1" source="rf-f8-veh" target="rf-f8" style="html=1;rounded=0;endArrow=classic;" value="карточки ТС">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f8-e4" edge="1" parent="1" source="rf-f8" target="rf-f8-actor" style="html=1;rounded=0;endArrow=classic;" value="перечень с основанием">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="F11. Просмотр обязательств" vertex="1">
+          <mxGeometry height="60" width="200" x="360" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f11-renter" parent="1" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Арендатор" vertex="1">
+          <mxGeometry height="45" width="140" x="60" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f11-admin" parent="1" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Администратор" vertex="1">
+          <mxGeometry height="45" width="140" x="60" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f11-fine" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Штрафы" vertex="1">
+          <mxGeometry height="45" width="120" x="650" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f11-debt" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Задолженности" vertex="1">
+          <mxGeometry height="45" width="120" x="650" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f11-e1" edge="1" parent="1" source="rf-f11-renter" target="rf-f11" style="html=1;rounded=0;endArrow=classic;" value="свои обязательства">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f11-e2" edge="1" parent="1" source="rf-f11-admin" target="rf-f11" style="html=1;rounded=0;endArrow=classic;" value="все обязательства">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f11-e3" edge="1" parent="1" source="rf-f11-fine" target="rf-f11" style="html=1;rounded=0;endArrow=classic;" value="штрафы">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f11-e4" edge="1" parent="1" source="rf-f11-debt" target="rf-f11" style="html=1;rounded=0;endArrow=classic;" value="задолженности">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f11-e5" edge="1" parent="1" source="rf-f11" target="rf-f11-renter" style="html=1;rounded=0;endArrow=classic;" value="только свои">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f11-e6" edge="1" parent="1" source="rf-f11" target="rf-f11-admin" style="html=1;rounded=0;endArrow=classic;" value="по всем арендаторам">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="F12. Результат оплаты" vertex="1">
+          <mxGeometry height="60" width="200" x="360" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f12-gw" parent="1" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Платёжный шлюз" vertex="1">
+          <mxGeometry height="50" width="150" x="50" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f12-rental" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Аренды" vertex="1">
+          <mxGeometry height="45" width="120" x="650" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f12-fine" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Штрафы" vertex="1">
+          <mxGeometry height="45" width="120" x="650" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f12-debt" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Задолженности" vertex="1">
+          <mxGeometry height="45" width="120" x="650" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f12-e1" edge="1" parent="1" source="rf-f12-gw" target="rf-f12" style="html=1;rounded=0;endArrow=classic;" value="результат оплаты">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f12-e2" edge="1" parent="1" source="rf-f12" target="rf-f12-rental" style="html=1;rounded=0;endArrow=classic;" value="состояние оплаты аренды">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f12-e3" edge="1" parent="1" source="rf-f12" target="rf-f12-fine" style="html=1;rounded=0;endArrow=classic;" value="состояние штрафа">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f12-e4" edge="1" parent="1" source="rf-f12" target="rf-f12-debt" style="html=1;rounded=0;endArrow=classic;" value="состояние задолженности">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf-f12-e5" edge="1" parent="1" source="rf-f12" target="rf-f12-gw" style="html=1;rounded=0;endArrow=classic;" value="подтверждение обработки">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
