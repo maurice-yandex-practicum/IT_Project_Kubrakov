@@ -1,0 +1,572 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5361" height="5719" viewBox="0 0 5361 5719">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="2680.5" y="54.0" font-family="DejaVu Sans" font-size="29.700000000000003" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Декларативная модель (ER, нотация Чена): предметная область и система оценивания качества</text>
+<rect x="233.8" y="1247.2" width="5097.1" height="4326.8" rx="22" fill="none" stroke="#1f5fbf" stroke-width="2.2" stroke-dasharray="14,7"/>
+<text x="255.8" y="1287.7" font-family="DejaVu Sans" font-size="19.575000000000003" text-anchor="start" font-weight="bold" font-style="normal" fill="#1f5fbf">Хранится в БД — предметная область: 16 сущностей, 24 связей (логические хранилища D1–D4, физически одна база PostgreSQL)</text>
+<rect x="30.0" y="108.0" width="3114.2" height="956.6" rx="22" fill="none" stroke="#8a5a00" stroke-width="2.2" stroke-dasharray="14,7"/>
+<text x="52.0" y="148.5" font-family="DejaVu Sans" font-size="19.575000000000003" text-anchor="start" font-weight="bold" font-style="normal" fill="#8a5a00">Система оценивания качества — в БД не хранится: значения показателей и критериев — по итогам испытаний (ПМИ, §5.7)</text>
+<line x1="2757.6" y1="2231.9" x2="2917.1" y2="2348.2" stroke="#555" stroke-width="1.1"/>
+<line x1="2757.6" y1="2231.9" x2="2739.5" y2="2327.5" stroke="#555" stroke-width="1.1"/>
+<line x1="2757.6" y1="2231.9" x2="2600.5" y2="2279.1" stroke="#555" stroke-width="1.1"/>
+<line x1="2757.6" y1="2231.9" x2="2861.8" y2="1801.2" stroke="#555" stroke-width="1.1"/>
+<line x1="2757.6" y1="2231.9" x2="2990.0" y2="1805.7" stroke="#555" stroke-width="1.1"/>
+<line x1="2757.6" y1="2231.9" x2="3104.7" y2="1867.5" stroke="#555" stroke-width="1.1"/>
+<line x1="2757.6" y1="2231.9" x2="3237.2" y2="1939.2" stroke="#555" stroke-width="1.1"/>
+<line x1="3832.3" y1="2424.4" x2="3697.4" y2="2550.1" stroke="#555" stroke-width="1.1"/>
+<line x1="3832.3" y1="2424.4" x2="3909.1" y2="2304.6" stroke="#555" stroke-width="1.1"/>
+<line x1="3832.3" y1="2424.4" x2="3977.0" y2="2457.3" stroke="#555" stroke-width="1.1"/>
+<line x1="3710.1" y1="4937.5" x2="3531.0" y2="4919.8" stroke="#555" stroke-width="1.1"/>
+<line x1="3710.1" y1="4937.5" x2="3705.7" y2="4854.6" stroke="#555" stroke-width="1.1"/>
+<line x1="3710.1" y1="4937.5" x2="3903.3" y2="4896.3" stroke="#555" stroke-width="1.1"/>
+<line x1="3710.1" y1="4937.5" x2="3890.5" y2="5022.7" stroke="#555" stroke-width="1.1"/>
+<line x1="3710.1" y1="4937.5" x2="3788.5" y2="5088.9" stroke="#555" stroke-width="1.1"/>
+<line x1="3710.1" y1="4937.5" x2="3685.9" y2="5075.3" stroke="#555" stroke-width="1.1"/>
+<line x1="2495.6" y1="5376.5" x2="2604.8" y2="5267.7" stroke="#555" stroke-width="1.1"/>
+<line x1="2495.6" y1="5376.5" x2="2567.9" y2="5495.5" stroke="#555" stroke-width="1.1"/>
+<line x1="2495.6" y1="5376.5" x2="2359.7" y2="5525.4" stroke="#555" stroke-width="1.1"/>
+<line x1="1397.5" y1="4754.2" x2="1352.0" y2="4868.2" stroke="#555" stroke-width="1.1"/>
+<line x1="1397.5" y1="4754.2" x2="1254.9" y2="4715.9" stroke="#555" stroke-width="1.1"/>
+<line x1="1397.5" y1="4754.2" x2="1538.1" y2="4683.8" stroke="#555" stroke-width="1.1"/>
+<line x1="3028.5" y1="4037.5" x2="2921.3" y2="4150.5" stroke="#555" stroke-width="1.1"/>
+<line x1="3028.5" y1="4037.5" x2="3194.4" y2="4009.8" stroke="#555" stroke-width="1.1"/>
+<line x1="4016.6" y1="3749.5" x2="4341.2" y2="3982.3" stroke="#555" stroke-width="1.1"/>
+<line x1="4016.6" y1="3749.5" x2="4242.5" y2="4031.0" stroke="#555" stroke-width="1.1"/>
+<line x1="4016.6" y1="3749.5" x2="3950.4" y2="3870.6" stroke="#555" stroke-width="1.1"/>
+<line x1="4016.6" y1="3749.5" x2="3650.1" y2="3704.5" stroke="#555" stroke-width="1.1"/>
+<line x1="4016.6" y1="3749.5" x2="3665.2" y2="3589.6" stroke="#555" stroke-width="1.1"/>
+<line x1="4016.6" y1="3749.5" x2="3727.3" y2="3489.5" stroke="#555" stroke-width="1.1"/>
+<line x1="4016.6" y1="3749.5" x2="3834.3" y2="3441.0" stroke="#555" stroke-width="1.1"/>
+<line x1="4016.6" y1="3749.5" x2="4178.8" y2="3534.9" stroke="#555" stroke-width="1.1"/>
+<line x1="4016.6" y1="3749.5" x2="4290.1" y2="3584.7" stroke="#555" stroke-width="1.1"/>
+<line x1="5103.0" y1="3871.1" x2="5147.8" y2="3754.7" stroke="#555" stroke-width="1.1"/>
+<line x1="5103.0" y1="3871.1" x2="5107.7" y2="3961.4" stroke="#555" stroke-width="1.1"/>
+<line x1="2554.7" y1="4327.7" x2="2560.2" y2="4237.5" stroke="#555" stroke-width="1.1"/>
+<line x1="2554.7" y1="4327.7" x2="2692.5" y2="4432.8" stroke="#555" stroke-width="1.1"/>
+<line x1="2850.7" y1="1541.6" x2="2955.2" y2="1729.2" stroke="#555" stroke-width="1.1"/>
+<line x1="2850.7" y1="1541.6" x2="2846.7" y2="1690.6" stroke="#555" stroke-width="1.1"/>
+<line x1="2850.7" y1="1541.6" x2="2735.7" y2="1724.0" stroke="#555" stroke-width="1.1"/>
+<line x1="2850.7" y1="1541.6" x2="2633.6" y2="1384.3" stroke="#555" stroke-width="1.1"/>
+<line x1="2850.7" y1="1541.6" x2="2805.1" y2="1353.3" stroke="#555" stroke-width="1.1"/>
+<line x1="2850.7" y1="1541.6" x2="2952.1" y2="1341.5" stroke="#555" stroke-width="1.1"/>
+<line x1="2850.7" y1="1541.6" x2="3117.4" y2="1430.2" stroke="#555" stroke-width="1.1"/>
+<line x1="1678.8" y1="2167.0" x2="1539.9" y2="2264.5" stroke="#555" stroke-width="1.1"/>
+<line x1="1678.8" y1="2167.0" x2="1522.0" y2="2195.8" stroke="#555" stroke-width="1.1"/>
+<line x1="1678.8" y1="2167.0" x2="1581.6" y2="1965.3" stroke="#555" stroke-width="1.1"/>
+<line x1="1678.8" y1="2167.0" x2="1688.3" y2="1986.2" stroke="#555" stroke-width="1.1"/>
+<line x1="1678.8" y1="2167.0" x2="1909.9" y2="2297.4" stroke="#555" stroke-width="1.1"/>
+<line x1="1678.8" y1="2167.0" x2="1758.5" y2="2347.7" stroke="#555" stroke-width="1.1"/>
+<line x1="1489.1" y1="3595.1" x2="1515.6" y2="3700.5" stroke="#555" stroke-width="1.1"/>
+<line x1="1489.1" y1="3595.1" x2="1344.5" y2="3706.4" stroke="#555" stroke-width="1.1"/>
+<line x1="1489.1" y1="3595.1" x2="1344.8" y2="3646.3" stroke="#555" stroke-width="1.1"/>
+<line x1="1489.1" y1="3595.1" x2="1239.8" y2="3353.0" stroke="#555" stroke-width="1.1"/>
+<line x1="1489.1" y1="3595.1" x2="1303.7" y2="3304.5" stroke="#555" stroke-width="1.1"/>
+<line x1="1489.1" y1="3595.1" x2="1596.5" y2="3488.8" stroke="#555" stroke-width="1.1"/>
+<line x1="593.1" y1="2010.9" x2="370.1" y2="2086.6" stroke="#555" stroke-width="1.1"/>
+<line x1="593.1" y1="2010.9" x2="405.9" y2="1909.6" stroke="#555" stroke-width="1.1"/>
+<line x1="593.1" y1="2010.9" x2="552.9" y2="1854.2" stroke="#555" stroke-width="1.1"/>
+<line x1="593.1" y1="2010.9" x2="717.9" y2="1817.3" stroke="#555" stroke-width="1.1"/>
+<line x1="593.1" y1="2010.9" x2="679.5" y2="2121.6" stroke="#555" stroke-width="1.1"/>
+<line x1="478.3" y1="3153.3" x2="482.2" y2="3236.1" stroke="#555" stroke-width="1.1"/>
+<line x1="478.3" y1="3153.3" x2="350.3" y2="3240.4" stroke="#555" stroke-width="1.1"/>
+<line x1="478.3" y1="3153.3" x2="326.9" y2="3085.1" stroke="#555" stroke-width="1.1"/>
+<line x1="478.3" y1="3153.3" x2="554.6" y2="3038.7" stroke="#555" stroke-width="1.1"/>
+<line x1="478.3" y1="3153.3" x2="630.5" y2="3120.9" stroke="#555" stroke-width="1.1"/>
+<line x1="2280.7" y1="3227.8" x2="2211.9" y2="3350.4" stroke="#555" stroke-width="1.1"/>
+<line x1="2280.7" y1="3227.8" x2="2432.9" y2="3203.0" stroke="#555" stroke-width="1.1"/>
+<line x1="2840.9" y1="3241.7" x2="2808.9" y2="3362.5" stroke="#555" stroke-width="1.1"/>
+<line x1="2840.9" y1="3241.7" x2="2664.0" y2="3089.6" stroke="#555" stroke-width="1.1"/>
+<line x1="2840.9" y1="3241.7" x2="3003.0" y2="3111.5" stroke="#555" stroke-width="1.1"/>
+<line x1="2840.9" y1="3241.7" x2="3042.5" y2="3246.6" stroke="#555" stroke-width="1.1"/>
+<line x1="3362.4" y1="2233.0" x2="3349.5" y2="2305.0" stroke="#555" stroke-width="1.1"/>
+<line x1="2447.9" y1="867.8" x2="2329.7" y2="986.1" stroke="#555" stroke-width="1.1"/>
+<line x1="2447.9" y1="867.8" x2="2336.7" y2="756.6" stroke="#555" stroke-width="1.1"/>
+<line x1="2447.9" y1="867.8" x2="2554.5" y2="761.2" stroke="#555" stroke-width="1.1"/>
+<line x1="2447.9" y1="354.8" x2="2429.3" y2="254.1" stroke="#555" stroke-width="1.1"/>
+<line x1="2447.9" y1="354.8" x2="2613.7" y2="385.6" stroke="#555" stroke-width="1.1"/>
+<line x1="1448.9" y1="354.8" x2="1584.5" y2="490.4" stroke="#555" stroke-width="1.1"/>
+<line x1="1448.9" y1="354.8" x2="1299.4" y2="504.4" stroke="#555" stroke-width="1.1"/>
+<line x1="1448.9" y1="354.8" x2="1369.7" y2="232.8" stroke="#555" stroke-width="1.1"/>
+<line x1="1448.9" y1="354.8" x2="1535.1" y2="222.2" stroke="#555" stroke-width="1.1"/>
+<line x1="449.9" y1="354.8" x2="575.2" y2="480.1" stroke="#555" stroke-width="1.1"/>
+<line x1="449.9" y1="354.8" x2="305.1" y2="493.7" stroke="#555" stroke-width="1.1"/>
+<line x1="449.9" y1="354.8" x2="180.4" y2="352.0" stroke="#555" stroke-width="1.1"/>
+<line x1="449.9" y1="354.8" x2="297.3" y2="202.2" stroke="#555" stroke-width="1.1"/>
+<line x1="449.9" y1="354.8" x2="448.7" y2="235.3" stroke="#555" stroke-width="1.1"/>
+<line x1="449.9" y1="354.8" x2="587.0" y2="211.9" stroke="#555" stroke-width="1.1"/>
+<line x1="1448.9" y1="867.8" x2="1586.3" y2="1021.9" stroke="#555" stroke-width="1.1"/>
+<line x1="1448.9" y1="867.8" x2="1434.6" y2="987.3" stroke="#555" stroke-width="1.1"/>
+<line x1="1448.9" y1="867.8" x2="1267.0" y2="993.3" stroke="#555" stroke-width="1.1"/>
+<line x1="1448.9" y1="867.8" x2="1564.8" y2="751.9" stroke="#555" stroke-width="1.1"/>
+<line x1="3710.1" y1="4937.5" x2="3168.8" y2="5351.4" stroke="#000" stroke-width="1.4"/>
+<line x1="3168.8" y1="5351.4" x2="2495.6" y2="5376.5" stroke="#000" stroke-width="1.4"/>
+<line x1="2495.6" y1="5376.5" x2="1850.6" y2="5224.8" stroke="#000" stroke-width="1.4"/>
+<line x1="1850.6" y1="5224.8" x2="1397.5" y2="4754.2" stroke="#000" stroke-width="1.4"/>
+<line x1="3710.1" y1="4937.5" x2="3430.2" y2="4618.8" stroke="#000" stroke-width="1.4"/>
+<line x1="3430.2" y1="4618.8" x2="3028.5" y2="4037.5" stroke="#000" stroke-width="1.4"/>
+<line x1="3710.1" y1="4937.5" x2="4095.1" y2="4393.4" stroke="#000" stroke-width="1.4"/>
+<line x1="4095.1" y1="4393.4" x2="4016.6" y2="3749.5" stroke="#000" stroke-width="1.4"/>
+<line x1="3832.3" y1="2424.4" x2="4042.4" y2="3067.5" stroke="#000" stroke-width="1.4"/>
+<line x1="4042.4" y1="3067.5" x2="4016.6" y2="3749.5" stroke="#000" stroke-width="1.4"/>
+<line x1="2757.6" y1="2231.9" x2="3362.4" y2="2233.0" stroke="#000" stroke-width="1.4"/>
+<line x1="3362.4" y1="2233.0" x2="3832.3" y2="2424.4" stroke="#000" stroke-width="1.4"/>
+<line x1="5103.0" y1="3871.1" x2="4572.9" y2="3786.9" stroke="#000" stroke-width="1.4"/>
+<line x1="4572.9" y1="3786.9" x2="4016.6" y2="3749.5" stroke="#000" stroke-width="1.4"/>
+<line x1="4016.6" y1="3749.5" x2="3522.0" y2="3987.9" stroke="#000" stroke-width="1.4"/>
+<line x1="3522.0" y1="3987.9" x2="2554.7" y2="4327.7" stroke="#000" stroke-width="1.4"/>
+<line x1="2495.6" y1="5376.5" x2="2515.6" y2="4891.9" stroke="#000" stroke-width="1.4"/>
+<line x1="2515.6" y1="4891.9" x2="2554.7" y2="4327.7" stroke="#000" stroke-width="1.4"/>
+<line x1="2757.6" y1="2231.9" x2="2178.8" y2="2052.0" stroke="#000" stroke-width="1.4"/>
+<line x1="2178.8" y1="2052.0" x2="1678.8" y2="2167.0" stroke="#000" stroke-width="1.4"/>
+<line x1="2850.7" y1="1541.6" x2="2137.9" y2="1645.7" stroke="#000" stroke-width="1.4"/>
+<line x1="2137.9" y1="1645.7" x2="1678.8" y2="2167.0" stroke="#000" stroke-width="1.4"/>
+<line x1="1678.8" y1="2167.0" x2="1463.1" y2="2808.5" stroke="#000" stroke-width="1.4"/>
+<line x1="1463.1" y1="2808.5" x2="1489.1" y2="3595.1" stroke="#000" stroke-width="1.4"/>
+<line x1="2554.7" y1="4327.7" x2="1979.2" y2="4043.2" stroke="#000" stroke-width="1.4"/>
+<line x1="1979.2" y1="4043.2" x2="1489.1" y2="3595.1" stroke="#000" stroke-width="1.4"/>
+<line x1="1397.5" y1="4754.2" x2="1297.1" y2="4140.3" stroke="#000" stroke-width="1.4"/>
+<line x1="1297.1" y1="4140.3" x2="1489.1" y2="3595.1" stroke="#000" stroke-width="1.4"/>
+<line x1="1678.8" y1="2167.0" x2="1159.8" y2="1915.0" stroke="#000" stroke-width="1.4"/>
+<line x1="1159.8" y1="1915.0" x2="593.1" y2="2010.9" stroke="#000" stroke-width="1.4"/>
+<line x1="1489.1" y1="3595.1" x2="933.6" y2="3461.7" stroke="#000" stroke-width="1.4"/>
+<line x1="933.6" y1="3461.7" x2="478.3" y2="3153.3" stroke="#000" stroke-width="1.4"/>
+<line x1="1489.1" y1="3595.1" x2="1580.1" y2="3214.6" stroke="#000" stroke-width="1.4"/>
+<line x1="1580.1" y1="3214.6" x2="2280.7" y2="3227.8" stroke="#000" stroke-width="1.4"/>
+<line x1="3028.5" y1="4037.5" x2="2647.0" y2="3802.3" stroke="#000" stroke-width="1.4"/>
+<line x1="2647.0" y1="3802.3" x2="2280.7" y2="3227.8" stroke="#000" stroke-width="1.4"/>
+<line x1="2757.6" y1="2231.9" x2="2430.2" y2="2631.6" stroke="#000" stroke-width="1.4"/>
+<line x1="2430.2" y1="2631.6" x2="2280.7" y2="3227.8" stroke="#000" stroke-width="1.4"/>
+<line x1="3028.5" y1="4037.5" x2="3160.6" y2="3566.6" stroke="#000" stroke-width="1.4"/>
+<line x1="3160.6" y1="3566.6" x2="2840.9" y2="3241.7" stroke="#000" stroke-width="1.4"/>
+<line x1="1489.1" y1="3595.1" x2="2017.9" y2="3474.2" stroke="#000" stroke-width="1.4"/>
+<line x1="2017.9" y1="3474.2" x2="2840.9" y2="3241.7" stroke="#000" stroke-width="1.4"/>
+<line x1="2757.6" y1="2231.9" x2="2908.9" y2="2699.7" stroke="#000" stroke-width="1.4"/>
+<line x1="2908.9" y1="2699.7" x2="2840.9" y2="3241.7" stroke="#000" stroke-width="1.4"/>
+<line x1="3832.3" y1="2424.4" x2="3526.6" y2="1808.7" stroke="#000" stroke-width="1.4"/>
+<line x1="3526.6" y1="1808.7" x2="2850.7" y2="1541.6" stroke="#000" stroke-width="1.4"/>
+<line x1="593.1" y1="2010.9" x2="348.5" y2="2569.0" stroke="#000" stroke-width="1.4"/>
+<line x1="348.5" y1="2569.0" x2="478.3" y2="3153.3" stroke="#000" stroke-width="1.4"/>
+<line x1="2757.6" y1="2231.9" x2="2447.9" y2="1118.9" stroke="#000" stroke-width="1.4"/>
+<line x1="2447.9" y1="1118.9" x2="2447.9" y2="867.8" stroke="#000" stroke-width="1.4"/>
+<line x1="2447.9" y1="867.8" x2="2447.9" y2="611.3" stroke="#000" stroke-width="1.4"/>
+<line x1="2447.9" y1="611.3" x2="2447.9" y2="354.8" stroke="#000" stroke-width="1.4"/>
+<line x1="2447.9" y1="354.8" x2="1948.4" y2="354.8" stroke="#000" stroke-width="1.4"/>
+<line x1="1948.4" y1="354.8" x2="1448.9" y2="354.8" stroke="#000" stroke-width="1.4"/>
+<line x1="1448.9" y1="354.8" x2="949.4" y2="354.8" stroke="#000" stroke-width="1.4"/>
+<line x1="949.4" y1="354.8" x2="449.9" y2="354.8" stroke="#000" stroke-width="1.4"/>
+<line x1="2447.9" y1="867.8" x2="1948.4" y2="867.8" stroke="#000" stroke-width="1.4"/>
+<line x1="1948.4" y1="867.8" x2="1448.9" y2="867.8" stroke="#000" stroke-width="1.4"/>
+<line x1="1448.9" y1="867.8" x2="1448.9" y2="611.3" stroke="#000" stroke-width="1.4"/>
+<line x1="1448.9" y1="611.3" x2="1448.9" y2="354.8" stroke="#000" stroke-width="1.4"/>
+<line x1="1448.9" y1="867.8" x2="449.9" y2="624.8" stroke="#000" stroke-width="1.4"/>
+<line x1="449.9" y1="624.8" x2="449.9" y2="354.8" stroke="#000" stroke-width="1.4"/>
+<line x1="2447.9" y1="867.8" x2="3014.9" y2="867.8" stroke="#000" stroke-width="1.4"/>
+<line x1="3014.9" y1="867.8" x2="3014.9" y2="1247.2" stroke="#000" stroke-width="1.4"/>
+<text x="3022.9" y="1239.2" font-family="DejaVu Sans" font-size="17.55" text-anchor="start" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="3649.1" y="4973.2" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="2594.6" y="5392.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="2400.6" y="5346.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="1428.5" y="4812.0" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="3682.5" y="4891.8" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="3047.9" y="4095.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="3752.2" y="4907.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="4008.9" y="3804.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="3834.7" y="2481.0" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">M</text>
+<text x="4031.8" y="3708.9" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="2863.4" y="2251.7" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">M</text>
+<text x="3748.2" y="2381.6" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="5006.8" y="3848.3" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">M</text>
+<text x="4115.8" y="3775.8" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="3933.3" y="3780.8" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="2660.3" y="4311.0" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="2511.0" y="5335.9" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="2537.9" y="4380.1" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="2656.6" y="2192.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="1779.9" y="2163.6" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="2750.4" y="1548.7" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="1726.7" y="2139.1" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="1650.4" y="2215.1" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="1501.1" y="3553.5" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="2484.9" y="4284.2" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="1525.5" y="3652.7" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="1403.1" y="4711.1" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="1460.1" y="3642.9" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="1607.7" y="2123.5" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="693.7" y="2013.7" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="1394.2" y="3564.5" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="529.1" y="3210.1" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="1513.5" y="3557.5" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="2182.4" y="3218.5" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="2972.5" y="3993.2" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="2297.6" y="3285.6" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="2711.7" y="2272.7" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="2305.5" y="3190.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="3054.6" y="4000.7" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="2872.8" y="3299.5" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="1590.3" y="3591.9" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="2715.2" y="3269.3" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="2759.8" y="2288.5" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="2860.2" y="3202.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="3821.9" y="2379.0" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="2937.3" y="1596.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="560.7" y="2057.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="481.1" y="3109.6" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="2757.6" y="2187.8" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">M</text>
+<text x="2434.4" y="921.2" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="2461.4" y="826.7" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="2434.4" y="408.2" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="2349.4" y="347.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="1577.4" y="374.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="1320.4" y="347.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="548.5" y="374.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="2349.4" y="860.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="1547.5" y="887.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="1462.4" y="826.7" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="1435.4" y="408.2" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="1354.1" y="836.9" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<text x="436.4" y="408.2" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">N</text>
+<text x="2546.5" y="887.4" font-family="DejaVu Sans" font-size="17.55" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">1</text>
+<rect x="2669.3" y="2202.2" width="176.6" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="2757.6" y="2238.7" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Пользователь</text>
+<rect x="3749.7" y="2394.7" width="165.2" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="3832.3" y="2431.1" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Организатор</text>
+<rect x="3629.1" y="4907.8" width="162.0" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="3710.1" y="4944.3" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Площадка</text>
+<rect x="2414.6" y="5346.8" width="162.0" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="2495.6" y="5383.3" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Зона зала</text>
+<rect x="1316.5" y="4724.5" width="162.0" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="1397.5" y="4761.0" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Место</text>
+<rect x="2947.5" y="4007.8" width="162.0" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="3028.5" y="4044.3" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Вход</text>
+<rect x="3933.9" y="3719.8" width="165.2" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="4016.6" y="3756.3" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Мероприятие</text>
+<rect x="5022.0" y="3841.4" width="162.0" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="5103.0" y="3877.9" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Артист</text>
+<rect x="2443.7" y="4298.0" width="221.9" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="2554.7" y="4334.5" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Продаваемая зона</text>
+<rect x="2769.7" y="1511.9" width="162.0" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="2850.7" y="1548.4" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Промокод</text>
+<rect x="1597.8" y="2137.3" width="162.0" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="1678.8" y="2173.7" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Заказ</text>
+<rect x="1408.1" y="3565.4" width="162.0" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="1489.1" y="3601.9" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Билет</text>
+<rect x="512.1" y="1981.2" width="162.0" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="593.1" y="2017.7" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Платёж</text>
+<rect x="397.3" y="3123.6" width="162.0" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="478.3" y="3160.1" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Возврат</text>
+<rect x="2199.7" y="3198.1" width="162.0" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="2280.7" y="3234.5" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Проход</text>
+<rect x="2707.3" y="3212.0" width="267.3" height="59.400000000000006" fill="#e4dcf3" stroke="#000" stroke-width="1.6"/>
+<text x="2840.9" y="3248.5" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Попытка сканирования</text>
+<polygon points="3168.8035613389707,5312.251487199078 3259.9285613389707,5351.401487199078 3168.8035613389707,5390.551487199077 3077.6785613389707,5351.401487199078" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="3168.8" y="5347.4" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r01</text>
+<text x="3168.8" y="5367.6" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">делится на</text>
+<polygon points="1850.5987613389702,5185.632863199078 1932.4087613389702,5224.782863199078 1850.5987613389702,5263.9328631990775 1768.7887613389703,5224.782863199078" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="1850.6" y="5220.7" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r02</text>
+<text x="1850.6" y="5241.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">содержит</text>
+<polygon points="3430.1635613389703,4579.641983199078 3498.0010613389704,4618.791983199078 3430.1635613389703,4657.941983199077 3362.3260613389702,4618.791983199078" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="3430.2" y="4614.7" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r03</text>
+<text x="3430.2" y="4635.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">имеет</text>
+<polygon points="4095.12676133897,4354.270463199078 4181.59426133897,4393.420463199078 4095.12676133897,4432.5704631990775 4008.65926133897,4393.420463199078" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="4095.1" y="4389.4" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r04</text>
+<text x="4095.1" y="4409.6" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">принимает</text>
+<polygon points="4042.37956133897,3028.3199031990775 4133.50456133897,3067.4699031990776 4042.37956133897,3106.6199031990777 3951.25456133897,3067.4699031990776" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="4042.4" y="3063.4" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r05</text>
+<text x="4042.4" y="3083.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">организует</text>
+<polygon points="3362.3683613389703,2193.8687031990776 3453.4933613389703,2233.0187031990777 3362.3683613389703,2272.1687031990778 3271.2433613389703,2233.0187031990777" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="3362.4" y="2229.0" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r06</text>
+<text x="3362.4" y="2249.2" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">работает в</text>
+<polygon points="4572.86116133897,3747.7727031990776 4673.30116133897,3786.9227031990777 4572.86116133897,3826.0727031990778 4472.421161338971,3786.9227031990777" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="4572.9" y="3782.9" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r07</text>
+<text x="4572.9" y="3803.1" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">выступает на</text>
+<polygon points="3522.03556133897,3948.750623199078 3608.5030613389704,3987.900623199078 3522.03556133897,4027.050623199078 3435.56806133897,3987.900623199078" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="3522.0" y="3983.9" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r08</text>
+<text x="3522.0" y="4004.1" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">открывает</text>
+<polygon points="2515.5619613389704,4852.755263199078 2620.6594613389702,4891.905263199078 2515.5619613389704,4931.055263199078 2410.4644613389705,4891.905263199078" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="2515.6" y="4887.9" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r09</text>
+<text x="2515.6" y="4908.1" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">продаётся как</text>
+<polygon points="2178.80356133897,2012.8175031990772 2265.2710613389704,2051.9675031990773 2178.80356133897,2091.1175031990774 2092.33606133897,2051.9675031990773" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="2178.8" y="2047.9" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r10</text>
+<text x="2178.8" y="2068.2" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">оформляет</text>
+<polygon points="2137.93636133897,1606.5215031990779 2229.06136133897,1645.671503199078 2137.93636133897,1684.821503199078 2046.81136133897,1645.671503199078" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="2137.9" y="1641.6" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r11</text>
+<text x="2137.9" y="1661.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">применён в</text>
+<polygon points="1463.07316133897,2769.3359031990776 1544.88316133897,2808.4859031990777 1463.07316133897,2847.635903199078 1381.2631613389701,2808.4859031990777" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="1463.1" y="2804.4" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r12</text>
+<text x="1463.1" y="2824.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">включает</text>
+<polygon points="1979.2195613389702,4004.032223199078 2084.3170613389702,4043.182223199078 1979.2195613389702,4082.3322231990783 1874.12206133897,4043.182223199078" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="1979.2" y="4039.1" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r13</text>
+<text x="1979.2" y="4059.4" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">даёт право на</text>
+<polygon points="1297.11748133897,4101.115583199078 1388.24248133897,4140.265583199078 1297.11748133897,4179.415583199077 1205.99248133897,4140.265583199078" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="1297.1" y="4136.2" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r14</text>
+<text x="1297.1" y="4156.5" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">занимается</text>
+<polygon points="1159.75300133897,1875.8015031990776 1260.1930013389701,1914.9515031990777 1159.75300133897,1954.1015031990778 1059.31300133897,1914.9515031990777" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="1159.8" y="1910.9" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r15</text>
+<text x="1159.8" y="1931.2" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">оплачивается</text>
+<polygon points="933.6211613389701,3422.5775031990775 1034.0611613389701,3461.7275031990775 933.6211613389701,3500.8775031990776 833.18116133897,3461.7275031990775" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="933.6" y="3457.7" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r16</text>
+<text x="933.6" y="3477.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">возвращается</text>
+<polygon points="1580.14660133897,3175.4735031990776 1671.27160133897,3214.6235031990777 1580.14660133897,3253.773503199078 1489.02160133897,3214.6235031990777" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="1580.1" y="3210.6" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r17</text>
+<text x="1580.1" y="3230.8" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">погашается</text>
+<polygon points="2647.03396133897,3763.137503199078 2733.5014613389703,3802.287503199078 2647.03396133897,3841.437503199078 2560.56646133897,3802.287503199078" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="2647.0" y="3798.2" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r18</text>
+<text x="2647.0" y="3818.5" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">фиксирует</text>
+<polygon points="2430.18436133897,2592.4031031990776 2516.6518613389703,2631.5531031990777 2430.18436133897,2670.7031031990778 2343.71686133897,2631.5531031990777" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="2430.2" y="2627.5" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r19</text>
+<text x="2430.2" y="2647.8" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">разрешает</text>
+<polygon points="3160.56676133897,3527.438303199078 3261.00676133897,3566.588303199078 3160.56676133897,3605.738303199078 3060.12676133897,3566.588303199078" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="3160.6" y="3562.5" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r20</text>
+<text x="3160.6" y="3582.8" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">регистрирует</text>
+<polygon points="2017.8691613389701,3435.0911031990777 2132.28166133897,3474.2411031990778 2017.8691613389701,3513.391103199078 1903.4566613389702,3474.2411031990778" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="2017.9" y="3470.2" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r21</text>
+<text x="2017.9" y="3490.4" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">предъявляется в</text>
+<polygon points="2908.8691613389706,2660.5151031990777 2995.3366613389708,2699.6651031990777 2908.8691613389706,2738.815103199078 2822.4016613389704,2699.6651031990777" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="2908.9" y="2695.6" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r22</text>
+<text x="2908.9" y="2715.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">выполняет</text>
+<polygon points="3526.62916133897,1769.5151031990777 3613.09666133897,1808.6651031990777 3526.62916133897,1847.8151031990778 3440.1616613389697,1808.6651031990777" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="3526.6" y="1804.6" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r23</text>
+<text x="3526.6" y="1824.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">выпускает</text>
+<polygon points="348.53908133896994,2529.835103199078 444.32158133896996,2568.985103199078 348.53908133896994,2608.135103199078 252.75658133896994,2568.985103199078" fill="#f6c9c9" stroke="#000" stroke-width="1.3"/>
+<text x="348.5" y="2564.9" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">r24</text>
+<text x="348.5" y="2585.2" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">возмещается</text>
+<rect x="2366.9" y="838.1" width="162.0" height="59.400000000000006" fill="#fdeedd" stroke="#000" stroke-width="1.6"/>
+<text x="2447.9" y="874.6" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Программа</text>
+<rect x="2366.9" y="325.1" width="162.0" height="59.400000000000006" fill="#fdeedd" stroke="#000" stroke-width="1.6"/>
+<text x="2447.9" y="361.6" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Функция</text>
+<rect x="1338.0" y="325.1" width="221.9" height="59.400000000000006" fill="#fdeedd" stroke="#000" stroke-width="1.6"/>
+<text x="1448.9" y="361.6" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Частный критерий</text>
+<rect x="368.9" y="325.1" width="162.0" height="59.400000000000006" fill="#fdeedd" stroke="#000" stroke-width="1.6"/>
+<text x="449.9" y="361.6" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Показатель</text>
+<rect x="1367.9" y="838.1" width="162.0" height="59.400000000000006" fill="#fdeedd" stroke="#000" stroke-width="1.6"/>
+<text x="1448.9" y="874.6" font-family="DejaVu Sans" font-size="18.900000000000002" text-anchor="middle" font-weight="bold" font-style="normal" fill="#000">Качество</text>
+<polygon points="2447.9260654977898,1079.7870111206862 2539.0510654977898,1118.9370111206863 2447.9260654977898,1158.0870111206864 2356.8010654977898,1118.9370111206863" fill="#fdeedd" stroke="#000" stroke-width="1.3"/>
+<text x="2447.9" y="1114.9" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">q1</text>
+<text x="2447.9" y="1135.1" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">пользуется</text>
+<polygon points="2447.9260654977898,572.187011120686 2534.39356549779,611.3370111206859 2447.9260654977898,650.4870111206859 2361.4585654977896,611.3370111206859" fill="#fdeedd" stroke="#000" stroke-width="1.3"/>
+<text x="2447.9" y="607.3" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">q2</text>
+<text x="2447.9" y="627.5" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">выполняет</text>
+<polygon points="1948.4260654977898,315.68701112068595 2044.2085654977898,354.83701112068593 1948.4260654977898,393.9870111206859 1852.6435654977897,354.83701112068593" fill="#fdeedd" stroke="#000" stroke-width="1.3"/>
+<text x="1948.4" y="350.8" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">q3</text>
+<text x="1948.4" y="371.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">оценивается</text>
+<polygon points="949.4260654977898,315.68701112068595 1059.1810654977899,354.83701112068593 949.4260654977898,393.9870111206859 839.6710654977898,354.83701112068593" fill="#fdeedd" stroke="#000" stroke-width="1.3"/>
+<text x="949.4" y="350.8" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">q4</text>
+<text x="949.4" y="371.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">вычисляется из</text>
+<polygon points="1948.4260654977898,828.687011120686 2030.2360654977897,867.8370111206859 1948.4260654977898,906.9870111206859 1866.6160654977898,867.8370111206859" fill="#fdeedd" stroke="#000" stroke-width="1.3"/>
+<text x="1948.4" y="863.8" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">q5</text>
+<text x="1948.4" y="884.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">обладает</text>
+<polygon points="1448.9260654977898,572.187011120686 1563.3385654977897,611.3370111206859 1448.9260654977898,650.4870111206859 1334.5135654977898,611.3370111206859" fill="#fdeedd" stroke="#000" stroke-width="1.3"/>
+<text x="1448.9" y="607.3" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">q6</text>
+<text x="1448.9" y="627.5" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">складывается из</text>
+<polygon points="449.92606549778975,585.687011120686 536.3935654977897,624.8370111206859 449.92606549778975,663.9870111206859 363.4585654977898,624.8370111206859" fill="#fdeedd" stroke="#000" stroke-width="1.3"/>
+<text x="449.9" y="620.8" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">q7</text>
+<text x="449.9" y="641.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">учитывает</text>
+<polygon points="3014.9260654977898,828.687011120686 3129.3385654977897,867.8370111206859 3014.9260654977898,906.9870111206859 2900.51356549779,867.8370111206859" fill="#fdeedd" stroke="#000" stroke-width="1.3"/>
+<text x="3014.9" y="863.8" font-family="DejaVu Sans" font-size="14.850000000000001" text-anchor="middle" font-weight="normal" font-style="normal" fill="#444">q8</text>
+<text x="3014.9" y="884.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">хранит данные в</text>
+<ellipse cx="2917.1" cy="2348.2" rx="87.4" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2917.1" y="2353.6" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID пользователя</text>
+<line x1="2852.1" y1="2357.6" x2="2982.1" y2="2357.6" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="2739.5" cy="2327.5" rx="31.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2739.5" y="2332.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ФИО</text>
+<ellipse cx="2600.5" cy="2279.1" rx="40.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2600.5" y="2284.5" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Email</text>
+<ellipse cx="2861.8" cy="1801.2" rx="50.2" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2861.8" y="1806.6" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Телефон</text>
+<ellipse cx="2990.0" cy="1805.7" rx="78.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2990.0" y="1811.1" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Дата рождения</text>
+<ellipse cx="3104.7" cy="1867.5" rx="64.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3104.7" y="1872.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Хэш пароля</text>
+<ellipse cx="3237.2" cy="1939.2" rx="115.4" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3237.2" y="1944.6" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Администратор сервиса</text>
+<ellipse cx="3697.4" cy="2550.1" rx="87.4" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3697.4" y="2555.5" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID организатора</text>
+<line x1="3632.4" y1="2559.5" x2="3762.3" y2="2559.5" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="3909.1" cy="2304.6" rx="54.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3909.1" y="2310.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Название</text>
+<ellipse cx="3977.0" cy="2457.3" rx="31.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3977.0" y="2462.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ИНН</text>
+<ellipse cx="3531.0" cy="4919.8" rx="68.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3531.0" y="4925.2" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID площадки</text>
+<line x1="3483.3" y1="4929.2" x2="3578.6" y2="4929.2" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="3705.7" cy="4854.6" rx="54.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3705.7" y="4860.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Название</text>
+<ellipse cx="3903.3" cy="4896.3" rx="40.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3903.3" y="4901.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Город</text>
+<ellipse cx="3890.5" cy="5022.7" rx="40.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3890.5" y="5028.1" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Адрес</text>
+<ellipse cx="3788.5" cy="5088.9" rx="45.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3788.5" y="5094.3" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Широта</text>
+<ellipse cx="3685.9" cy="5075.3" rx="50.2" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3685.9" y="5080.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Долгота</text>
+<ellipse cx="2604.8" cy="5267.7" rx="50.2" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2604.8" y="5273.1" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID зоны</text>
+<line x1="2574.5" y1="5277.2" x2="2635.1" y2="5277.2" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="2567.9" cy="5495.5" rx="54.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2567.9" y="5500.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Название</text>
+<ellipse cx="2359.7" cy="5525.4" rx="124.7" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2359.7" y="5530.8" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Тип (сидячая / стоячая)</text>
+<ellipse cx="1352.0" cy="4868.2" rx="54.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1352.0" y="4873.6" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID места</text>
+<line x1="1317.4" y1="4877.7" x2="1386.7" y2="4877.7" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="1254.9" cy="4715.9" rx="31.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1254.9" y="4721.3" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Ряд</text>
+<ellipse cx="1538.1" cy="4683.8" rx="40.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1538.1" y="4689.2" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Номер</text>
+<ellipse cx="2921.3" cy="4150.5" rx="54.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2921.3" y="4155.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID входа</text>
+<line x1="2886.7" y1="4159.9" x2="2956.0" y2="4159.9" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="3194.4" cy="4009.8" rx="54.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3194.4" y="4015.2" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Название</text>
+<ellipse cx="4341.2" cy="3982.3" rx="82.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="4341.2" y="3987.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID мероприятия</text>
+<line x1="4280.6" y1="3991.8" x2="4401.9" y2="3991.8" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="4242.5" cy="4031.0" rx="54.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="4242.5" y="4036.4" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Название</text>
+<ellipse cx="3950.4" cy="3870.6" rx="59.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3950.4" y="3876.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Категория</text>
+<ellipse cx="3650.1" cy="3704.5" rx="45.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3650.1" y="3709.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Начало</text>
+<ellipse cx="3665.2" cy="3589.6" rx="59.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3665.2" y="3595.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Окончание</text>
+<ellipse cx="3727.3" cy="3489.5" rx="78.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3727.3" y="3494.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Начало продаж</text>
+<ellipse cx="3834.3" cy="3441.0" rx="73.4" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3834.3" y="3446.4" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Конец продаж</text>
+<ellipse cx="4178.8" cy="3534.9" rx="45.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="4178.8" y="3540.3" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Статус</text>
+<ellipse cx="4290.1" cy="3584.7" rx="82.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="4290.1" y="3590.1" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Причина отмены</text>
+<ellipse cx="5147.8" cy="3754.7" rx="64.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="5147.8" y="3760.1" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID артиста</text>
+<line x1="5104.4" y1="3764.2" x2="5191.1" y2="3764.2" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="5107.7" cy="3961.4" rx="199.2" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="5107.7" y="3966.8" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Название (имя, псевдоним или коллектив)</text>
+<ellipse cx="2560.2" cy="4237.5" rx="129.3" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2560.2" y="4242.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID мероприятия + ID зоны</text>
+<line x1="2456.2" y1="4246.9" x2="2664.1" y2="4246.9" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="2692.5" cy="4432.8" rx="36.2" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2692.5" y="4438.2" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Цена</text>
+<ellipse cx="2955.2" cy="1729.2" rx="73.4" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2955.2" y="1734.6" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID промокода</text>
+<line x1="2903.2" y1="1738.7" x2="3007.2" y2="1738.7" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="2846.7" cy="1690.6" rx="31.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2846.7" y="1696.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Код</text>
+<ellipse cx="2735.7" cy="1724.0" rx="64.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2735.7" y="1729.4" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Тип скидки</text>
+<ellipse cx="2633.6" cy="1384.3" rx="78.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2633.6" y="1389.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Размер скидки</text>
+<ellipse cx="2805.1" cy="1353.3" rx="68.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2805.1" y="1358.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Действует с</text>
+<ellipse cx="2952.1" cy="1341.5" rx="73.4" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2952.1" y="1346.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Действует по</text>
+<ellipse cx="3117.4" cy="1430.2" rx="92.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3117.4" y="1435.6" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Лимит применений</text>
+<ellipse cx="1539.9" cy="2264.5" rx="59.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1539.9" y="2269.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID заказа</text>
+<line x1="1501.0" y1="2273.9" x2="1578.9" y2="2273.9" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="1522.0" cy="2195.8" rx="45.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1522.0" y="2201.2" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Создан</text>
+<ellipse cx="1581.6" cy="1965.3" rx="45.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1581.6" y="1970.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Статус</text>
+<ellipse cx="1688.3" cy="1986.2" rx="54.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1688.3" y="1991.6" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Бронь до</text>
+<ellipse cx="1909.9" cy="2297.4" rx="101.4" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1909.9" y="2302.8" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Контактный телефон</text>
+<ellipse cx="1758.5" cy="2347.7" rx="92.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1758.5" y="2353.1" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Контактный email</text>
+<ellipse cx="1515.6" cy="3700.5" rx="59.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1515.6" y="3705.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID билета</text>
+<line x1="1476.6" y1="3709.9" x2="1554.6" y2="3709.9" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="1344.5" cy="3706.4" rx="78.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1344.5" y="3711.8" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ФИО держателя</text>
+<ellipse cx="1344.8" cy="3646.3" rx="36.2" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1344.8" y="3651.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Цена</text>
+<ellipse cx="1239.8" cy="3353.0" rx="45.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1239.8" y="3358.4" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Скидка</text>
+<ellipse cx="1303.7" cy="3304.5" rx="68.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1303.7" y="3309.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Код доступа</text>
+<ellipse cx="1596.5" cy="3488.8" rx="45.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1596.5" y="3494.2" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Статус</text>
+<ellipse cx="370.1" cy="2086.6" rx="64.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="370.1" y="2092.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID платежа</text>
+<line x1="326.8" y1="2096.1" x2="413.4" y2="2096.1" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="405.9" cy="1909.6" rx="40.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="405.9" y="1915.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Сумма</text>
+<ellipse cx="552.9" cy="1854.2" rx="45.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="552.9" y="1859.6" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Статус</text>
+<ellipse cx="717.9" cy="1817.3" rx="115.4" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="717.9" y="1822.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID транзакции сервиса</text>
+<ellipse cx="679.5" cy="2121.6" rx="40.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="679.5" y="2127.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Время</text>
+<ellipse cx="482.2" cy="3236.1" rx="68.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="482.2" y="3241.5" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID возврата</text>
+<line x1="434.5" y1="3245.5" x2="529.8" y2="3245.5" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="350.3" cy="3240.4" rx="40.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="350.3" y="3245.8" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Сумма</text>
+<ellipse cx="326.9" cy="3085.1" rx="50.2" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="326.9" y="3090.5" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Причина</text>
+<ellipse cx="554.6" cy="3038.7" rx="45.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="554.6" y="3044.1" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Статус</text>
+<ellipse cx="630.5" cy="3120.9" rx="40.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="630.5" y="3126.3" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Время</text>
+<ellipse cx="2211.9" cy="3350.4" rx="64.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2211.9" y="3355.8" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID прохода</text>
+<line x1="2168.6" y1="3359.8" x2="2255.2" y2="3359.8" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="2432.9" cy="3203.0" rx="40.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2432.9" y="3208.4" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Время</text>
+<ellipse cx="2808.9" cy="3362.5" rx="64.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2808.9" y="3367.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">ID попытки</text>
+<line x1="2765.6" y1="3371.9" x2="2852.2" y2="3371.9" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="2664.0" cy="3089.6" rx="96.7" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2664.0" y="3095.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Предъявленный код</text>
+<ellipse cx="3003.0" cy="3111.5" rx="59.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3003.0" y="3116.9" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Результат</text>
+<ellipse cx="3042.5" cy="3246.6" rx="40.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3042.5" y="3252.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Время</text>
+<ellipse cx="3349.5" cy="2305.0" rx="36.2" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="3349.5" y="2310.4" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Роль</text>
+<ellipse cx="2329.7" cy="986.1" rx="68.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2329.7" y="991.5" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Обозначение</text>
+<line x1="2282.0" y1="995.5" x2="2377.3" y2="995.5" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="2336.7" cy="756.6" rx="54.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2336.7" y="762.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Название</text>
+<ellipse cx="2554.5" cy="761.2" rx="45.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2554.5" y="766.6" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Версия</text>
+<ellipse cx="2429.3" cy="254.1" rx="68.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2429.3" y="259.5" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Код функции</text>
+<line x1="2381.6" y1="263.6" x2="2476.9" y2="263.6" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="2613.7" cy="385.6" rx="54.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="2613.7" y="391.0" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Название</text>
+<ellipse cx="1584.5" cy="490.4" rx="73.4" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1584.5" y="495.8" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Код критерия</text>
+<line x1="1532.5" y1="499.9" x2="1636.5" y2="499.9" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="1299.4" cy="504.4" rx="101.4" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1299.4" y="509.8" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Правило оценивания</text>
+<ellipse cx="1369.7" cy="232.8" rx="31.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1369.7" y="238.2" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Вес</text>
+<ellipse cx="1535.1" cy="222.2" rx="54.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1535.1" y="227.6" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Значение</text>
+<ellipse cx="575.2" cy="480.1" rx="82.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="575.2" y="485.5" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Код показателя</text>
+<line x1="514.5" y1="489.5" x2="635.8" y2="489.5" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="305.1" cy="493.7" rx="54.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="305.1" y="499.1" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Название</text>
+<ellipse cx="180.4" cy="352.0" rx="120.0" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="180.4" y="357.4" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Характеристика (25010)</text>
+<ellipse cx="297.3" cy="202.2" rx="78.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="297.3" y="207.6" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Как считается</text>
+<ellipse cx="448.7" cy="235.3" rx="73.4" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="448.7" y="240.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Проверки ПМИ</text>
+<ellipse cx="587.0" cy="211.9" rx="54.8" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="587.0" y="217.3" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Значение</text>
+<ellipse cx="1586.3" cy="1021.9" rx="92.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1586.3" y="1027.3" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Версия программы</text>
+<line x1="1517.0" y1="1031.4" x2="1655.6" y2="1031.4" stroke="#000" stroke-width="1.2"/>
+<ellipse cx="1434.6" cy="987.3" rx="59.5" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1434.6" y="992.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Правило Q</text>
+<ellipse cx="1267.0" cy="993.3" rx="87.4" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1267.0" y="998.7" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Условия приёмки</text>
+<ellipse cx="1564.8" cy="751.9" rx="64.1" ry="20.2" fill="#fff2b3" stroke="#000" stroke-width="1.1"/>
+<text x="1564.8" y="757.3" font-family="DejaVu Sans" font-size="15.525" text-anchor="middle" font-weight="normal" font-style="normal" fill="#000">Значение Q</text>
+<text x="30.0" y="5651.0" font-family="DejaVu Sans" font-size="17.55" text-anchor="start" font-weight="normal" font-style="normal" fill="#555">Прямоугольник — сущность; ромб — связь (код и глагол); овал — атрибут, подчёркнут — ключ; 1, N, M — максимальная кратность у сущности. Синий пунктир — то, что хранится в БД; коричневый — система оценивания качества: пользователь пользуется программой, качество программы складывается из частных критериев функций и общих показателей, критерии вычисляются из показателей.</text>
+</svg>
