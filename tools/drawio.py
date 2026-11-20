@@ -229,6 +229,59 @@ def cmd_check(args):
         sys.exit(1)
 
 
+def cmd_add_edge(args):
+    xml = read_xml(args.file)
+    body = find_page(xml, args.page)
+    style = args.style or (
+        "edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;"
+        "strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;"
+        "dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;"
+    )
+    eid = args.edge_id or ("e-" + args.source + "-" + args.target)
+    edge = (
+        f'<mxCell id="{eid}" value="{xml_escape(args.label)}" style="{style}" '
+        f'edge="1" source="{args.source}" target="{args.target}" parent="1">'
+        '<mxGeometry relative="1" as="geometry"/></mxCell>'
+    )
+    new_body = insert_cells(body, edge)
+    xml = xml.replace(body, new_body, 1)
+    with open(args.file, "w", encoding="utf-8") as f:
+        f.write(xml)
+    print(f"добавлено ребро: {args.source} -> {args.target} : {args.label}")
+
+
+def cmd_remove_edge(args):
+    xml = read_xml(args.file)
+    body = find_page(xml, args.page)
+    pattern = re.compile(
+        r'<mxCell\b[^>]*\bedge="1"[^>]*\bsource="' + re.escape(args.source) + r'"[^>]*\btarget="' + re.escape(args.target) + r'"[^>]*'
+        r'(?:/>|>.*?</mxCell>)',
+        re.S,
+    )
+    new_body, n = pattern.subn("", body)
+    if not n:
+        raise SystemExit(f"ребро {args.source} -> {args.target} не найдено")
+    xml = xml.replace(body, new_body, 1)
+    with open(args.file, "w", encoding="utf-8") as f:
+        f.write(xml)
+    print(f"ребро удалено: {args.source} -> {args.target}")
+
+
+def cmd_add_vertex(args):
+    xml = read_xml(args.file)
+    body = find_page(xml, args.page)
+    style = args.style or "whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;"
+    cell = (
+        f'<mxCell id="{args.cell}" value="{xml_escape(args.label)}" style="{style}" vertex="1" parent="1">'
+        f'<mxGeometry x="{args.x}" y="{args.y}" width="{args.width}" height="{args.height}" as="geometry"/></mxCell>'
+    )
+    new_body = insert_cells(body, cell)
+    xml = xml.replace(body, new_body, 1)
+    with open(args.file, "w", encoding="utf-8") as f:
+        f.write(xml)
+    print(f"добавлена вершина: {args.cell} = {args.label}")
+
+
 def cmd_add_child(args):
     xml = read_xml(args.file)
     body = find_page(xml, args.page)
@@ -275,6 +328,9 @@ def main(argv=None):
     sp = sub.add_parser("set-label"); sp.add_argument("file"); sp.add_argument("page"); sp.add_argument("source"); sp.add_argument("target"); sp.add_argument("text"); sp.set_defaults(func=cmd_set_label)
     sp = sub.add_parser("set-cell"); sp.add_argument("file"); sp.add_argument("page"); sp.add_argument("cell"); sp.add_argument("text"); sp.set_defaults(func=cmd_set_cell)
     sp = sub.add_parser("add-child"); sp.add_argument("file"); sp.add_argument("page"); sp.add_argument("parent"); sp.add_argument("child"); sp.add_argument("label"); sp.add_argument("--x"); sp.add_argument("--y"); sp.set_defaults(func=cmd_add_child)
+    sp = sub.add_parser("add-edge"); sp.add_argument("file"); sp.add_argument("page"); sp.add_argument("source"); sp.add_argument("target"); sp.add_argument("label"); sp.add_argument("--style"); sp.add_argument("--edge-id"); sp.set_defaults(func=cmd_add_edge)
+    sp = sub.add_parser("remove-edge"); sp.add_argument("file"); sp.add_argument("page"); sp.add_argument("source"); sp.add_argument("target"); sp.set_defaults(func=cmd_remove_edge)
+    sp = sub.add_parser("add-vertex"); sp.add_argument("file"); sp.add_argument("page"); sp.add_argument("cell"); sp.add_argument("label"); sp.add_argument("--style"); sp.add_argument("--x"); sp.add_argument("--y"); sp.add_argument("--width"); sp.add_argument("--height"); sp.set_defaults(func=cmd_add_vertex)
 
     args = p.parse_args(argv)
     args.func(args)

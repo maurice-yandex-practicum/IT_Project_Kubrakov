@@ -13,7 +13,7 @@
         <mxCell id="RA0" value="Запрос начала аренды" style="shape=mxgraph.bpmn.event;outline=standard;symbol=message;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="35" y="140" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="RA1" value="RA1. Проверить JWT и роль&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
+        <mxCell id="RA1" value="RA1. Проверить учётные данные и роль&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="130" y="125" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="RA2" value="RA2. Проверить ключ и параметры попытки&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
@@ -22,10 +22,10 @@
         <mxCell id="RAG1" value="Исход проверки?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="650" y="140" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="RA3" value="RA3. Вернуть существующую попытку либо конфликт&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
+        <mxCell id="RA3" value="RA3. Вернуть существующую попытку&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="790" y="45" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="RAE1" value="200 / 409" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
+        <mxCell id="RAE1" value="Существующая попытка возвращена" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="1050" y="60" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="RAG2" value="" style="shape=mxgraph.bpmn.gateway2;gwType=parallel;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
@@ -43,7 +43,7 @@
         <mxCell id="RA6" value="RA6. Получить актуальные сведения о ТС&lt;br&gt;&lt;b&gt;[state]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="1260" y="250" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="RA7" value="RA7. Проверить допуск под блокировкой; сохранить starting, условия и задание открытия&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
+        <mxCell id="RA7" value="RA7. Проверить допуск и задолженность&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="1520" y="240" width="250" height="104" as="geometry" />
         </mxCell>
         <mxCell id="RAG4" value="Допуск подтверждён?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
@@ -52,16 +52,16 @@
         <mxCell id="RA8" value="RA8. Вернуть отказ без новой аренды&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="1830" y="70" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="RAE2" value="400 / 403 / 409" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
+        <mxCell id="RAE2" value="Отказ с причиной" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="1920" y="175" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="RAG5" value="" style="shape=mxgraph.bpmn.gateway2;gwType=parallel;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="1970" y="265" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="RA9" value="RA9. Вернуть starting и адрес получения результата&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
+        <mxCell id="RA9" value="RA9. Вернуть принятие запроса и адрес получения результата&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="2100" y="60" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="RAE3" value="202: ожидание открытия" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
+        <mxCell id="RAE3" value="Запрос принят с ожиданием открытия" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="2360" y="75" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="RA10" value="RA10. Получить задание и отправить команду открытия&lt;br&gt;&lt;b&gt;[telemetry_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
@@ -79,22 +79,22 @@
         <mxCell id="RA13" value="RA13. Проверить служебные данные отправителя&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="2620" y="145" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="RA14" value="RA14. Сверить попытку, поколение и срок; применить подтверждённое открытие&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
+        <mxCell id="RA14" value="RA14. Сверить попытку, поколение и срок&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="2880" y="130" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="RAG7" value="Исход?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="3190" y="160" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="RAE4" value="active; started_at; ТС rented" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
+        <mxCell id="RAE4" value="Аренда действует с зафиксированным временем начала" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="3300" y="70" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="RA15" value="RA15. Зафиксировать start_failed, blocked и задание согласующего закрытия&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
+        <mxCell id="RA15" value="RA15. Зафиксировать неуспешное начало с блокировкой автомобиля и заданием согласующего закрытия&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="2670" y="435" width="270" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="RAE5" value="Отказ; ТС заблокировано до согласования" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
+        <mxCell id="RAE5" value="Автомобиль заблокирован до согласования" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="3000" y="465" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="RAE6" value="Старый ответ: только журнал" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
+        <mxCell id="RAE6" value="Устаревший ответ: только запись" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-main">
           <mxGeometry x="3300" y="300" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="e31_RA0_RA1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RA0" target="RA1" parent="1">
@@ -106,7 +106,7 @@
         <mxCell id="e33_RA2_RAG1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RA2" target="RAG1" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e34_RAG1_RA3" value="повтор / конфликт" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RAG1" target="RA3" parent="1">
+        <mxCell id="e34_RAG1_RA3" value="повтор" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RAG1" target="RA3" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e35_RA3_RAE1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RA3" target="RAE1" parent="1">
@@ -142,9 +142,7 @@
         <mxCell id="e45_RA8_RAE2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RA8" target="RAE2" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e46_RAG4_RAG5" value="да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RAG4" target="RAG5" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
+        
         <mxCell id="e47_RAG5_RA9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RAG5" target="RA9" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -172,10 +170,8 @@
         <mxCell id="e55_RA14_RAG7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RA14" target="RAG7" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e56_RAG7_RAE4" value="открыто вовремя" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RAG7" target="RAE4" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e57_RAG7_RA15" value="отказ / истёк срок" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RAG7" target="RA15" parent="1">
+        
+        <mxCell id="e57_RAG7_RA15" value="отказ в открытии" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RAG7" target="RA15" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e58_RAG7_RAE6" value="неактуальная попытка" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RAG7" target="RAE6" parent="1">
@@ -190,37 +186,37 @@
         <mxCell id="RA-X-USER" value="Арендатор" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="100.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e62_RA-X-USER_RA0" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA-X-USER" target="RA0" parent="1">
+        <mxCell id="e62_RA-X-USER_RA0" value="запрос начала аренды" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA-X-USER" target="RA0" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RA-X-DOC" value="Имитаторы паспорта и ВУ" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="240.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e64_RA-X-DOC_RA4" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA-X-DOC" target="RA4" parent="1">
+        <mxCell id="e64_RA-X-DOC_RA4" value="результат проверки паспорта" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA-X-DOC" target="RA4" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e65_RA4_RA-X-DOC" value="запрос" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA4" target="RA-X-DOC" parent="1">
+        <mxCell id="e65_RA4_RA-X-DOC" value="запрос проверки паспорта" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA4" target="RA-X-DOC" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e66_RA5_RA-X-DOC" value="проверка ВУ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA5" target="RA-X-DOC" parent="1">
+        <mxCell id="e66_RA5_RA-X-DOC" value="запрос проверки ВУ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA5" target="RA-X-DOC" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RA-X-TEL" value="Имитатор телематики" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="410.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e68_RA-X-TEL_RA10" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA-X-TEL" target="RA10" parent="1">
+        <mxCell id="e68_RA-X-TEL_RA10" value="квитанция приёма команды" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA-X-TEL" target="RA10" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e69_RA10_RA-X-TEL" value="запрос" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA10" target="RA-X-TEL" parent="1">
+        <mxCell id="e69_RA10_RA-X-TEL" value="команда открытия" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA10" target="RA-X-TEL" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e70_RA-X-TEL_RA11" value="command_id, attempt_id, lease_version" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA-X-TEL" target="RA11" parent="1">
+        <mxCell id="e70_RA-X-TEL_RA11" value="подтверждение открытия с идентификаторами команды, попытки и поколения" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA-X-TEL" target="RA11" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rental-recover" value="Согласование команд той же попытки: поздние ответы и восстановление после остановки" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
           <mxGeometry x="0" y="800" width="3480" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="RC0" value="Поздний ответ / повтор задания / запуск после сбоя" style="shape=mxgraph.bpmn.event;outline=standard;symbol=message;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
+        <mxCell id="RC0" value="Возобновление согласования" style="shape=mxgraph.bpmn.event;outline=standard;symbol=message;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
           <mxGeometry x="35" y="100" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="RC1" value="RC1. Взять сохранённое задание команды&lt;br&gt;&lt;b&gt;[telemetry_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
@@ -232,22 +228,22 @@
         <mxCell id="RCG1" value="Задание актуально?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
           <mxGeometry x="710" y="100" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="RC3" value="RC3. Запросить статус команды; отправить ту же команду закрытия при необходимости&lt;br&gt;&lt;b&gt;[telemetry_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
+        <mxCell id="RC3" value="RC3. Запросить статус команды закрытия&lt;br&gt;&lt;b&gt;[telemetry_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
           <mxGeometry x="850" y="85" width="260" height="105" as="geometry" />
         </mxCell>
         <mxCell id="RCG2" value="Закрытие подтверждено?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
           <mxGeometry x="1180" y="100" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="RC4" value="RC4. Сохранить результат; освободить ТС при выполненных условиях&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
+        <mxCell id="RC4" value="RC4. Сохранить подтверждённое закрытие&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
           <mxGeometry x="1340" y="55" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="RCE1" value="ТС available либо blocked по техническому признаку" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
+        <mxCell id="RCE1" value="Автомобиль снова доступен" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
           <mxGeometry x="1660" y="85" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="RC5" value="RC5. Оставить blocked; назначить повтор либо attention&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
+        <mxCell id="RC5" value="RC5. Оставить автомобиль заблокированным&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
           <mxGeometry x="1340" y="230" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="RCE2" value="Состояние контролируется заданием" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
+        <mxCell id="RCE2" value="Назначен повтор задания" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
           <mxGeometry x="1660" y="255" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="RC6" value="RC6. Завершить устаревшее задание без команды&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-recover">
@@ -274,15 +270,11 @@
         <mxCell id="e89_RCG2_RC4" value="да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RCG2" target="RC4" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e90_RC4_RCE1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RC4" target="RCE1" parent="1">
+        
+        <mxCell id="e91_RCG2_RC5" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RCG2" target="RC5" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e91_RCG2_RC5" value="нет / таймаут" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RCG2" target="RC5" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e92_RC5_RCE2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RC5" target="RCE2" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
+        
         <mxCell id="e93_RCG1_RC6" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RCG1" target="RC6" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -307,13 +299,13 @@
         <mxCell id="e100_RS1_RS2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RS1" target="RS2" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RS3" value="RS3. Отобрать доступные ТС, применить радиус, упорядочить расстояния&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-search">
+        <mxCell id="RS3" value="RS3. Сформировать перечень доступных ТС по радиусу и расстоянию&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-search">
           <mxGeometry x="670" y="70" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="e102_RS2_RS3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RS2" target="RS3" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RS4" value="RS4. Вернуть перечень; пустой набор допустим&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-search">
+        <mxCell id="RS4" value="RS4. Вернуть перечень&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-search">
           <mxGeometry x="930" y="70" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="e104_RS3_RS4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RS3" target="RS4" parent="1">
@@ -328,34 +320,32 @@
         <mxCell id="RSX" value="Арендатор" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="1245.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e108_RSX_RS0" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RSX" target="RS0" parent="1">
+        <mxCell id="e108_RSX_RS0" value="запрос поиска" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RSX" target="RS0" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rental-info" value="F4. Самостоятельный запрос сведений о попытке или аренде" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
+        <mxCell id="rental-info" value="F4. Самостоятельный запрос сведений об аренде" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
           <mxGeometry x="0" y="1420" width="3480" height="230" as="geometry" />
         </mxCell>
         <mxCell id="RI0" value="Запрос конкретной аренды" style="shape=mxgraph.bpmn.event;outline=standard;symbol=message;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-info">
           <mxGeometry x="35" y="85" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="RI1" value="RI1. Проверить JWT&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-info">
+        <mxCell id="RI1" value="RI1. Проверить учётные данные&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-info">
           <mxGeometry x="150" y="70" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="e112_RI0_RI1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RI0" target="RI1" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RI2" value="RI2. Проверить владельца; прочитать аренду и снимок условий&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-info">
+        <mxCell id="RI2" value="RI2. Проверить владельца&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-info">
           <mxGeometry x="410" y="70" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="e114_RI1_RI2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RI1" target="RI2" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RI3" value="RI3. Определить статус и стоимость на время запроса&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-info">
+        <mxCell id="RI3" value="RI3. Определить статус и стоимость по сохранённым условиям&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-info">
           <mxGeometry x="670" y="70" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="e116_RI2_RI3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RI2" target="RI3" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RI4" value="RI4. Вернуть сведения либо 403/404&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-info">
+        
+        <mxCell id="RI4" value="RI4. Вернуть сведения&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="rental-info">
           <mxGeometry x="930" y="70" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="e118_RI3_RI4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RI3" target="RI4" parent="1">
@@ -370,7 +360,7 @@
         <mxCell id="RIX" value="Арендатор" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="1475.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e122_RIX_RI0" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RIX" target="RI0" parent="1">
+        <mxCell id="e122_RIX_RI0" value="запрос сведений" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RIX" target="RI0" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="state-update" value="F6. Входящее состояние: подтверждение только после фиксации" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
@@ -379,34 +369,34 @@
         <mxCell id="ST0" value="Сообщение телематики" style="shape=mxgraph.bpmn.event;outline=standard;symbol=message;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
           <mxGeometry x="35" y="100" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="ST1" value="ST1. Проверить служебный токен&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
+        <mxCell id="ST1" value="ST1. Проверить служебные данные отправителя&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
           <mxGeometry x="160" y="85" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="ST2" value="ST2. Проверить формат, ТС, message_id и свободное место обработки&lt;br&gt;&lt;b&gt;[state]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
+        <mxCell id="ST2" value="ST2. Проверить форму, автомобиль, признак повтора и готовность приёма&lt;br&gt;&lt;b&gt;[state]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
           <mxGeometry x="720" y="85" width="250" height="105" as="geometry" />
         </mxCell>
         <mxCell id="STG1" value="Вход допустим?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
           <mxGeometry x="1040" y="100" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="ST3" value="ST3. Атомарно сравнить отметку, обновить состояние и сохранить квитанцию&lt;br&gt;&lt;b&gt;[state]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
+        <mxCell id="ST3" value="ST3. Сравнить отметку, обновить состояние и сохранить квитанцию&lt;br&gt;&lt;b&gt;[state]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
           <mxGeometry x="1210" y="85" width="270" height="105" as="geometry" />
         </mxCell>
         <mxCell id="STG2" value="Фиксация успешна?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
           <mxGeometry x="1550" y="100" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="ST4" value="ST4. Вернуть applied / ignored / duplicate&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
+        <mxCell id="ST4" value="ST4. Вернуть квитанцию с сохранённым исходом&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
           <mxGeometry x="1710" y="55" width="240" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="STE1" value="200 после фиксации" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
+        <mxCell id="STE1" value="Квитанция после сохранения" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
           <mxGeometry x="2020" y="75" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="ST5" value="ST5. Вернуть причину без подтверждения обработки&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
           <mxGeometry x="1210" y="260" width="270" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="STE2" value="400 / 401 / 404 / 409 / 429 / 503" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
+        <mxCell id="STE2" value="Отказ с причиной без подтверждения обработки" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
           <mxGeometry x="1550" y="280" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="ST6" value="ST6. Нормализовать сообщение поддерживаемой версии&lt;br&gt;&lt;b&gt;[telemetry_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
+        <mxCell id="ST6" value="ST6. Привести сообщение к принятой форме&lt;br&gt;&lt;b&gt;[telemetry_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="state-update">
           <mxGeometry x="440" y="85" width="250" height="95" as="geometry" />
         </mxCell>
         <mxCell id="e135_ST0_ST1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="ST0" target="ST1" parent="1">
@@ -445,7 +435,7 @@
         <mxCell id="ST-X-TEL" value="Имитатор телематики" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="1710.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e147_ST-X-TEL_ST0" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="ST-X-TEL" target="ST0" parent="1">
+        <mxCell id="e147_ST-X-TEL_ST0" value="сообщение состояния" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="ST-X-TEL" target="ST0" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="maintenance-read" value="F8. Перечень для технической службы по данным парка и регламенту" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
@@ -463,19 +453,19 @@
         <mxCell id="MTG1" value="Данные полны?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="maintenance-read">
           <mxGeometry x="760" y="100" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="MT3" value="MT3. Применить пороги и интервалы; указать каждое основание и возраст состояния&lt;br&gt;&lt;b&gt;[maintenance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="maintenance-read">
+        <mxCell id="MT3" value="MT3. Определить основания и возраст состояния по порогам и интервалам&lt;br&gt;&lt;b&gt;[maintenance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="maintenance-read">
           <mxGeometry x="930" y="85" width="270" height="105" as="geometry" />
         </mxCell>
         <mxCell id="MT4" value="MT4. Вернуть перечень&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="maintenance-read">
           <mxGeometry x="1270" y="85" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="MTE1" value="200: перечень с основаниями" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="maintenance-read">
+        <mxCell id="MTE1" value="Перечень с основаниями" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="maintenance-read">
           <mxGeometry x="1540" y="100" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="MT5" value="MT5. Вернуть ошибку неполных данных&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="maintenance-read">
           <mxGeometry x="930" y="230" width="270" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="MTE2" value="422 без подстановки норм" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="maintenance-read">
+        <mxCell id="MTE2" value="Ошибка неполных данных без подстановки норм" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="maintenance-read">
           <mxGeometry x="1270" y="250" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="e158_MT0_MT1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="MT0" target="MT1" parent="1">
@@ -505,10 +495,10 @@
         <mxCell id="MT-X-USER" value="Техническая служба" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="2130.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e167_MT-X-USER_MT0" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="MT-X-USER" target="MT0" parent="1">
+        <mxCell id="e167_MT-X-USER_MT0" value="запрос перечня" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="MT-X-USER" target="MT0" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-      </root>
+      <mxCell id="e-msg-Арендовать автомобиль-1" value="результат проверки ВУ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA-X-DOC" target="RA5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-msg-Арендовать автомобиль-2" value="запрос статуса команды" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RC3" target="RA-X-TEL" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-msg-Арендовать автомобиль-3" value="статус команды закрытия" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RA-X-TEL" target="RC3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="RA16" value="RA16. Сохранить оформляемую попытку, условия и задание открытия&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1800" y="350" width="270" height="100" as="geometry"/></mxCell><mxCell id="RA17" value="RA17. Применить подтверждённое открытие&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="3040" y="40" width="240" height="90" as="geometry"/></mxCell><mxCell id="RCG3" value="Возврат автомобиля в доступ возможен?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1620" y="175" width="54" height="54" as="geometry"/></mxCell><mxCell id="RCE4" value="Автомобиль остаётся заблокированным по техническому признаку" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1780" y="185" width="48" height="48" as="geometry"/></mxCell><mxCell id="RCG4" value="Допустим повтор?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1600" y="320" width="54" height="54" as="geometry"/></mxCell><mxCell id="RCE5" value="Передано на сверку администратору" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1720" y="335" width="48" height="48" as="geometry"/></mxCell><mxCell id="RIG1" value="Владелец подтверждён?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="560" y="105" width="54" height="54" as="geometry"/></mxCell><mxCell id="RI5" value="RI5. Вернуть отказ&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="560" y="175" width="220" height="70" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-1" value="конфликт параметров" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RAG1" target="RA8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-2" value="да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RAG4" target="RA16" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RA16" target="RAG5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-4" value="открыто вовремя" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RAG7" target="RA17" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RA17" target="RAE4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-6" value="подтверждение после срока" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RAG7" target="RA15" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-7" value="истёк срок ожидания" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RCG2" target="RC5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RC4" target="RCG3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-9" value="да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RCG3" target="RCE1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-10" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RCG3" target="RCE4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RC5" target="RCG4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-12" value="да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RCG4" target="RCE2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-13" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RCG4" target="RCE5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RI2" target="RIG1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-15" value="да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RIG1" target="RI3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-16" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RIG1" target="RI5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Арендовать автомобиль-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RI5" target="RIE" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell></root>
     </mxGraphModel>
   </diagram>
   <diagram id="GlNcdk23PLAicJqGZo1v" name="Завершить поездку">
@@ -525,13 +515,13 @@
         <mxCell id="FN0" value="Запрос завершения" style="shape=mxgraph.bpmn.event;outline=standard;symbol=message;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="35" y="100" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="FN1" value="FN1. Проверить JWT&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
+        <mxCell id="FN1" value="FN1. Проверить учётные данные&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="160" y="85" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="FN2" value="FN2. Получить координаты и время измерения&lt;br&gt;&lt;b&gt;[state]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="420" y="85" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="FN3" value="FN3. Под блокировкой проверить владельца, статус, свежесть и парковку&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
+        <mxCell id="FN3" value="FN3. Проверить владельца, состояние, свежесть сведений и парковку&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="680" y="75" width="260" height="105" as="geometry" />
         </mxCell>
         <mxCell id="FNG1" value="Исход?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
@@ -540,31 +530,31 @@
         <mxCell id="FN4" value="FN4. Вернуть сохранённый результат повторного завершения&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="1150" y="260" width="260" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="FNE1" value="200 без новых заданий" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
+        <mxCell id="FNE1" value="Сохранённый результат без новых заданий" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="1470" y="280" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="FN5" value="FN5. Вернуть отказ; не фиксировать ended_at&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
+        <mxCell id="FN5" value="FN5. Вернуть отказ без фиксации окончания&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="1150" y="70" width="260" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="FNE2" value="403 / 404 / 409" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
+        <mxCell id="FNE2" value="Отказ с причиной" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="1470" y="90" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="FN6" value="FN6. Зафиксировать ended_at, итог, finished, blocked, pending и задания закрытия/оплаты&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
+        <mxCell id="FN6" value="FN6. Зафиксировать окончание, итог, стоимость и задания закрытия и оплаты&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="1640" y="75" width="300" height="115" as="geometry" />
         </mxCell>
         <mxCell id="FNG2" value="" style="shape=mxgraph.bpmn.gateway2;gwType=parallel;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="2010" y="100" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="FN7" value="FN7. Вернуть окончание, стоимость, pending и результат команды&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
+        <mxCell id="FN7" value="FN7. Вернуть окончание, стоимость, ожидаемый финансовый результат и результат команды&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="2160" y="70" width="270" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="FNE3" value="200: аренда finished" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
+        <mxCell id="FNE3" value="Аренда завершена" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="2520" y="95" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FN8" value="FN8. Отправить уведомление о завершении&lt;br&gt;&lt;b&gt;[notifier]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="2160" y="280" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="FNE4" value="Результат доступен в F4/F11" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
+        <mxCell id="FNE4" value="Результат доступен арендатору" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="2520" y="300" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="e17_FN0_FN1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FN0" target="FN1" parent="1">
@@ -579,7 +569,7 @@
         <mxCell id="e20_FN3_FNG1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FN3" target="FNG1" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e21_FNG1_FN4" value="уже finished" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FNG1" target="FN4" parent="1">
+        <mxCell id="e21_FNG1_FN4" value="уже завершена" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FNG1" target="FN4" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e22_FN4_FNE1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FN4" target="FNE1" parent="1">
@@ -591,7 +581,7 @@
         <mxCell id="e24_FN5_FNE2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FN5" target="FNE2" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e25_FNG1_FN6" value="active; условия выполнены" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FNG1" target="FN6" parent="1">
+        <mxCell id="e25_FNG1_FN6" value="условия завершения выполнены" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FNG1" target="FN6" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e26_FN6_FNG2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FN6" target="FNG2" parent="1">
@@ -612,13 +602,13 @@
         <mxCell id="FN-X-USER" value="Арендатор" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="100.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e32_FN-X-USER_FN0" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="FN-X-USER" target="FN0" parent="1">
+        <mxCell id="e32_FN-X-USER_FN0" value="запрос завершения" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="FN-X-USER" target="FN0" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="finish-close" value="Выполнение сохранённого задания закрытия; обработка подтверждения отдельно от окончания" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
+        <mxCell id="finish-close" value="Выполнение сохранённого задания закрытия отдельно от окончания" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
           <mxGeometry x="0" y="520" width="3480" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="CL0" value="Задание закрытия / восстановление" style="shape=mxgraph.bpmn.event;outline=standard;symbol=timer;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
+        <mxCell id="CL0" value="Задание закрытия" style="shape=mxgraph.bpmn.event;outline=standard;symbol=timer;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
           <mxGeometry x="35" y="100" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="CL1" value="CL1. Проверить попытку, поколение и актуальность задания&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
@@ -627,7 +617,7 @@
         <mxCell id="CL2" value="CL2. Отправить ту же команду закрытия&lt;br&gt;&lt;b&gt;[telemetry_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
           <mxGeometry x="490" y="85" width="250" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="CLG1" value="Ответ или 5 с" style="shape=mxgraph.bpmn.gateway2;gwType=event;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
+        <mxCell id="CLG1" value="Ожидание ответа до 5 с" style="shape=mxgraph.bpmn.gateway2;gwType=event;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
           <mxGeometry x="810" y="105" width="54" height="54" as="geometry" />
         </mxCell>
         <mxCell id="CL3" value="Подтверждение" style="shape=mxgraph.bpmn.event;outline=catching;symbol=message;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
@@ -642,16 +632,16 @@
         <mxCell id="CLG2" value="Закрытие подтверждено?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
           <mxGeometry x="1320" y="70" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="CL6" value="CL6. Сохранить closed; вернуть available при выполненных условиях&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
+        <mxCell id="CL6" value="CL6. Сохранить согласованное закрытие&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
           <mxGeometry x="1480" y="40" width="280" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="CLE1" value="Закрытие согласовано" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
+        <mxCell id="CLE1" value="Закрытие согласовано, автомобиль доступен" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
           <mxGeometry x="1840" y="70" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="CL7" value="CL7. Сохранить blocked; повторить задание либо attention&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
+        <mxCell id="CL7" value="CL7. Оставить автомобиль заблокированным&lt;br&gt;&lt;b&gt;[rental]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
           <mxGeometry x="1480" y="250" width="280" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="CLE2" value="Окончание и стоимость не меняются" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
+        <mxCell id="CLE2" value="Назначен повтор задания" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
           <mxGeometry x="1840" y="280" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="CLG0" value="Поколение актуально?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-close">
@@ -690,25 +680,21 @@
         <mxCell id="e57_CLG2_CL6" value="да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CLG2" target="CL6" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e58_CL6_CLE1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CL6" target="CLE1" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
+        
         <mxCell id="e59_CLG2_CL7" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CLG2" target="CL7" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e60_CL4_CL7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CL4" target="CL7" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e61_CL7_CLE2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CL7" target="CLE2" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
+        
         <mxCell id="CL-X-TEL" value="Имитатор телематики" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="580.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e63_CL-X-TEL_CL2" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="CL-X-TEL" target="CL2" parent="1">
+        <mxCell id="e63_CL-X-TEL_CL2" value="квитанция приёма команды" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="CL-X-TEL" target="CL2" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e64_CL2_CL-X-TEL" value="запрос" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="CL2" target="CL-X-TEL" parent="1">
+        <mxCell id="e64_CL2_CL-X-TEL" value="команда закрытия" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="CL2" target="CL-X-TEL" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e65_CL-X-TEL_CL3" value="подтверждение команды" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="CL-X-TEL" target="CL3" parent="1">
@@ -717,48 +703,46 @@
         <mxCell id="FN-D9" value="D9. Исходящие задания" style="shape=cylinder3;size=15;fillColor=#e2f0d9;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-main">
           <mxGeometry x="1680" y="310" width="250" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="e67_FN6_FN-D9" value="одна транзакция" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;dashPattern=1 3;endArrow=open;endFill=0;" edge="1" source="FN6" target="FN-D9" parent="1">
+        <mxCell id="e67_FN6_FN-D9" value="задания закрытия и оплаты" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;dashPattern=1 3;endArrow=open;endFill=0;" edge="1" source="FN6" target="FN-D9" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e68_FN-D9_CL1" value="сохранённое закрытие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;dashPattern=1 3;endArrow=open;endFill=0;" edge="1" source="FN-D9" target="CL1" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="finish-pay" value="F5. Инициирование оплаты сохранённой стоимости; финансовый результат обрабатывается F12" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
+        <mxCell id="finish-pay" value="F5. Инициирование оплаты сохранённой стоимости" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
           <mxGeometry x="0" y="950" width="3480" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="CP0" value="Задание оплаты / восстановление" style="shape=mxgraph.bpmn.event;outline=standard;symbol=timer;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
+        <mxCell id="CP0" value="Задание оплаты" style="shape=mxgraph.bpmn.event;outline=standard;symbol=timer;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
           <mxGeometry x="35" y="100" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="CP1" value="CP1. Взять задание с внутренним operation_id&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
+        <mxCell id="CP1" value="CP1. Взять задание оплаты с идентификатором операции&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
           <mxGeometry x="160" y="85" width="250" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="CP2" value="CP2. Создать платёж с тем же ключом и metadata либо проверить известный объект&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
+        <mxCell id="CP2" value="CP2. Создать платёж с идентификатором операции и назначением&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
           <mxGeometry x="490" y="75" width="280" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="CP3" value="CP3. Связать внешний id и ссылку с обязательством&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
+        <mxCell id="CP3" value="CP3. Связать сведения платежа и ссылку с обязательством&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
           <mxGeometry x="840" y="85" width="260" height="95" as="geometry" />
         </mxCell>
         <mxCell id="CP4" value="CP4. Отправить ссылку и текущий результат&lt;br&gt;&lt;b&gt;[notifier]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
           <mxGeometry x="1170" y="85" width="250" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="CPE1" value="pending / проверенный результат → F12" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
+        <mxCell id="CPE1" value="Проверенный результат передан в обработку" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
           <mxGeometry x="1500" y="105" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="CPG1" value="Проверенный объект получен?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
+        <mxCell id="CPG1" value="Проверенные сведения получены?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
           <mxGeometry x="790" y="240" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="CP5" value="CP5. Сохранить задание для повтора; не объявлять финансовый отказ&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
+        <mxCell id="CP5" value="CP5. Сохранить задание для повтора без объявления финансового отказа&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
           <mxGeometry x="950" y="260" width="290" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="CPE2" value="pending; повтор с тем же operation_id" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
+        <mxCell id="CPE2" value="Ожидание с повтором по тому же идентификатору операции" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="finish-pay">
           <mxGeometry x="1320" y="285" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="e79_CP0_CP1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CP0" target="CP1" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e80_CP1_CP2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CP1" target="CP2" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
+        
         <mxCell id="e81_CP2_CPG1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CP2" target="CPG1" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -771,7 +755,7 @@
         <mxCell id="e84_CP4_CPE1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CP4" target="CPE1" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e85_CPG1_CP5" value="нет / таймаут" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CPG1" target="CP5" parent="1">
+        <mxCell id="e85_CPG1_CP5" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CPG1" target="CP5" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e86_CP5_CPE2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CP5" target="CPE2" parent="1">
@@ -780,16 +764,16 @@
         <mxCell id="e87_FN-D9_CP1" value="сохранённая оплата" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;dashPattern=1 3;endArrow=open;endFill=0;" edge="1" source="FN-D9" target="CP1" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CP-X-PAY" value="ЮKassa" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="CP-X-PAY" value="Платёжный шлюз" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="1010.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e89_CP-X-PAY_CP2" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="CP-X-PAY" target="CP2" parent="1">
+        <mxCell id="e89_CP-X-PAY_CP2" value="сведения о платеже и ссылка" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="CP-X-PAY" target="CP2" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e90_CP2_CP-X-PAY" value="запрос" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="CP2" target="CP-X-PAY" parent="1">
+        <mxCell id="e90_CP2_CP-X-PAY" value="создание платежа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="CP2" target="CP-X-PAY" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-      </root>
+      <mxCell id="CPG0" value="Платёж уже создан?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="470" y="190" width="54" height="54" as="geometry"/></mxCell><mxCell id="CP6" value="CP6. Проверить состояние известного платежа&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="470" y="280" width="280" height="90" as="geometry"/></mxCell><mxCell id="CLG3" value="Возврат автомобиля в доступ возможен?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1790" y="120" width="54" height="54" as="geometry"/></mxCell><mxCell id="CLE3" value="Автомобиль остаётся заблокированным по техническому признаку" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1900" y="160" width="48" height="48" as="geometry"/></mxCell><mxCell id="CLG4" value="Допустим повтор?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1780" y="330" width="54" height="54" as="geometry"/></mxCell><mxCell id="CLE4" value="Передано на сверку администратору" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1900" y="360" width="48" height="48" as="geometry"/></mxCell><mxCell id="e-atomic-Завершить поездку-1" value="истёк срок ожидания" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CPG1" target="CP5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Завершить поездку-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CP1" target="CPG0" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Завершить поездку-3" value="платёж не создан" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CPG0" target="CP2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Завершить поездку-4" value="платёж создан ранее" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CPG0" target="CP6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Завершить поездку-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CP6" target="CPG1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Завершить поездку-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CL6" target="CLG3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Завершить поездку-7" value="да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CLG3" target="CLE1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Завершить поездку-8" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CLG3" target="CLE3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Завершить поездку-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CL7" target="CLG4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Завершить поездку-10" value="да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CLG4" target="CLE2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Завершить поездку-11" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CLG4" target="CLE4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-CP6-PAY" value="проверка состояния платежа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="CP6" target="CP-X-PAY" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-PAY-CP6" value="сведения о платеже" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="CP-X-PAY" target="CP6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell></root>
     </mxGraphModel>
   </diagram>
   <diagram id="QTDI0YIKUsz9FveWoS2o" name="Регистрация">
@@ -800,7 +784,7 @@
         <mxCell id="pool" value="АС «Каршеринг». Регистрация и пользовательский доступ" style="swimlane;horizontal=1;startSize=40;fillColor=#ffffff;strokeWidth=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="20" y="20" width="3480" height="820" as="geometry" />
         </mxCell>
-        <mxCell id="registration-main" value="F1. Проверка оферты и документов; создание пользователя только после двух положительных ответов" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
+        <mxCell id="registration-main" value="F1. Проверка оферты и документов с созданием пользователя после двух положительных ответов" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
           <mxGeometry x="0" y="40" width="3480" height="480" as="geometry" />
         </mxCell>
         <mxCell id="RG0" value="Запрос регистрации с решением по оферте" style="shape=mxgraph.bpmn.event;outline=standard;symbol=message;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
@@ -809,7 +793,7 @@
         <mxCell id="RG1" value="RG1. Проверить структуру запроса&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
           <mxGeometry x="160" y="95" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="RG2" value="RG2. Проверить принятие оферты и уникальность телефона&lt;br&gt;&lt;b&gt;[registration]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
+        <mxCell id="RG2" value="RG2. Проверить принятие оферты и уникальность телефона и адреса почты&lt;br&gt;&lt;b&gt;[registration]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
           <mxGeometry x="420" y="95" width="250" height="95" as="geometry" />
         </mxCell>
         <mxCell id="RGG1" value="Данные допустимы?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
@@ -818,10 +802,10 @@
         <mxCell id="RGG2" value="" style="shape=mxgraph.bpmn.gateway2;gwType=parallel;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
           <mxGeometry x="880" y="115" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="RG3" value="RG3. Проверить паспорт; получить ответ либо таймаут 3 с&lt;br&gt;&lt;b&gt;[docs_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
+        <mxCell id="RG3" value="RG3. Проверить паспорт с ожиданием до 3 с&lt;br&gt;&lt;b&gt;[docs_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
           <mxGeometry x="1020" y="50" width="250" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="RG4" value="RG4. Проверить ВУ; получить ответ либо таймаут 3 с&lt;br&gt;&lt;b&gt;[docs_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
+        <mxCell id="RG4" value="RG4. Проверить ВУ с ожиданием до 3 с&lt;br&gt;&lt;b&gt;[docs_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
           <mxGeometry x="1020" y="250" width="250" height="95" as="geometry" />
         </mxCell>
         <mxCell id="RGG3" value="Два результата" style="shape=mxgraph.bpmn.gateway2;gwType=parallel;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
@@ -833,22 +817,22 @@
         <mxCell id="RGG4" value="Обе проверки положительны?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
           <mxGeometry x="1750" y="115" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="RG6" value="RG6. Подготовить хеш пароля&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
+        <mxCell id="RG6" value="RG6. Подготовить пароль к защищённому хранению&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
           <mxGeometry x="1910" y="95" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="RG7" value="RG7. В транзакции создать пользователя, документы и принятие оферты&lt;br&gt;&lt;b&gt;[registration]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
+        <mxCell id="RG7" value="RG7. Создать пользователя, документы и принятие оферты&lt;br&gt;&lt;b&gt;[registration]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
           <mxGeometry x="2170" y="85" width="270" height="105" as="geometry" />
         </mxCell>
         <mxCell id="RG8" value="RG8. Вернуть подтверждение регистрации&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
           <mxGeometry x="2510" y="95" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="RGE1" value="201: пользователь создан" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
+        <mxCell id="RGE1" value="Пользователь создан" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
           <mxGeometry x="2780" y="115" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="RG9" value="RG9. Вернуть отказ; не создавать пользователя&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
+        <mxCell id="RG9" value="RG9. Вернуть отказ без создания пользователя&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
           <mxGeometry x="1480" y="290" width="260" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="RGE2" value="400 / 409 / 503" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
+        <mxCell id="RGE2" value="Отказ с причиной" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="registration-main">
           <mxGeometry x="1810" y="315" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="e18_RG0_RG1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RG0" target="RG1" parent="1">
@@ -896,7 +880,7 @@
         <mxCell id="e32_RG8_RGE1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RG8" target="RGE1" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e33_RGG4_RG9" value="нет / таймаут" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RGG4" target="RG9" parent="1">
+        <mxCell id="e33_RGG4_RG9" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RGG4" target="RG9" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e34_RG9_RGE2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="RG9" target="RGE2" parent="1">
@@ -905,25 +889,25 @@
         <mxCell id="RG-X-USER" value="Арендатор: ознакомление и принятие оферты в клиентском средстве" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="100.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e36_RG-X-USER_RG0" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RG-X-USER" target="RG0" parent="1">
+        <mxCell id="e36_RG-X-USER_RG0" value="запрос регистрации" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RG-X-USER" target="RG0" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RG-X-PASS" value="Имитатор паспорта" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="230.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e38_RG-X-PASS_RG3" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RG-X-PASS" target="RG3" parent="1">
+        <mxCell id="e38_RG-X-PASS_RG3" value="результат проверки паспорта" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RG-X-PASS" target="RG3" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e39_RG3_RG-X-PASS" value="запрос" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RG3" target="RG-X-PASS" parent="1">
+        <mxCell id="e39_RG3_RG-X-PASS" value="запрос проверки паспорта" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RG3" target="RG-X-PASS" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RG-X-VU" value="Имитатор ВУ" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="360.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e41_RG-X-VU_RG4" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RG-X-VU" target="RG4" parent="1">
+        <mxCell id="e41_RG-X-VU_RG4" value="результат проверки ВУ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RG-X-VU" target="RG4" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e42_RG4_RG-X-VU" value="запрос" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RG4" target="RG-X-VU" parent="1">
+        <mxCell id="e42_RG4_RG-X-VU" value="запрос проверки ВУ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="RG4" target="RG-X-VU" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="login" value="Вход после регистрации" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
@@ -932,25 +916,25 @@
         <mxCell id="AU0" value="Телефон и пароль" style="shape=mxgraph.bpmn.event;outline=standard;symbol=message;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="login">
           <mxGeometry x="35" y="95" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="AU1" value="AU1. Сверить пароль с сохранённым хешем&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="login">
+        <mxCell id="AU1" value="AU1. Сверить пароль с сохранёнными данными&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="login">
           <mxGeometry x="160" y="80" width="250" height="95" as="geometry" />
         </mxCell>
         <mxCell id="AUG1" value="Учётные данные верны?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="login">
           <mxGeometry x="480" y="100" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="AU2" value="AU2. Выдать JWT с пользователем и ролью&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="login">
+        <mxCell id="AU2" value="AU2. Сформировать подтверждение входа с пользователем и ролью&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="login">
           <mxGeometry x="640" y="80" width="250" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="AU3" value="AU3. Вернуть JWT&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="login">
+        <mxCell id="AU3" value="AU3. Вернуть подтверждение входа&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="login">
           <mxGeometry x="960" y="80" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="AUE1" value="200" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="login">
+        <mxCell id="AUE1" value="Вход подтверждён" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="login">
           <mxGeometry x="1230" y="100" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AU4" value="AU4. Вернуть отказ во входе&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="login">
           <mxGeometry x="640" y="210" width="250" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="AUE2" value="401" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="login">
+        <mxCell id="AUE2" value="Отказ во входе" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="login">
           <mxGeometry x="960" y="225" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="e52_AU0_AU1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="AU0" target="AU1" parent="1">
@@ -977,10 +961,10 @@
         <mxCell id="AU-X-USER" value="Зарегистрированный участник" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="580.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e60_AU-X-USER_AU0" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="AU-X-USER" target="AU0" parent="1">
+        <mxCell id="e60_AU-X-USER_AU0" value="телефон и пароль" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="AU-X-USER" target="AU0" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-      </root>
+      <mxCell id="e-atomic-Регистрация-1" value="истёк срок ожидания" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="RGG4" target="RG9" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell></root>
     </mxGraphModel>
   </diagram>
   <diagram id="IX08VFn2Bn0cPo4rLK-O" name="Начислить штраф">
@@ -1000,37 +984,37 @@
         <mxCell id="FI1" value="FI1. Проверить роль администратора&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
           <mxGeometry x="160" y="90" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="FI2" value="FI2. Проверить аренду и сумму; сохранить штраф, operation_id и задание&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
+        <mxCell id="FI2" value="FI2. Проверить аренду и сумму&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
           <mxGeometry x="420" y="80" width="280" height="115" as="geometry" />
         </mxCell>
         <mxCell id="FIG1" value="" style="shape=mxgraph.bpmn.gateway2;gwType=parallel;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
           <mxGeometry x="770" y="110" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="FI3" value="FI3. Вернуть созданный штраф с pending&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
+        <mxCell id="FI3" value="FI3. Вернуть созданный штраф&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
           <mxGeometry x="920" y="60" width="250" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="FIE1" value="201" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
+        <mxCell id="FIE1" value="Штраф создан" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
           <mxGeometry x="1240" y="80" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FI4" value="FI4. Создать платёж с сохранённым ключом&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
           <mxGeometry x="920" y="220" width="250" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="FI5" value="FI5. Сохранить внешний id и ссылку&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
+        <mxCell id="FI5" value="FI5. Сохранить сведения платежа и ссылку&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
           <mxGeometry x="1240" y="220" width="250" height="95" as="geometry" />
         </mxCell>
         <mxCell id="FI6" value="FI6. Отправить уведомление со ссылкой&lt;br&gt;&lt;b&gt;[notifier]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
           <mxGeometry x="1560" y="220" width="250" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="FIE2" value="Ссылка доступна в F11" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
+        <mxCell id="FIE2" value="Ссылка на оплату доступна арендатору" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
           <mxGeometry x="1880" y="245" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="FIG2" value="Объект получен?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
+        <mxCell id="FIG2" value="Сведения о платеже получены?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
           <mxGeometry x="1190" y="375" width="54" height="54" as="geometry" />
         </mxCell>
         <mxCell id="FI7" value="FI7. Сохранить задание для повтора без отмены штрафа&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
           <mxGeometry x="1450" y="370" width="270" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="FIE3" value="pending / attention" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
+        <mxCell id="FIE3" value="Ожидание с сохранённым заданием повтора" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="fine">
           <mxGeometry x="1800" y="395" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="e15_FI0_FI1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FI0" target="FI1" parent="1">
@@ -1039,9 +1023,7 @@
         <mxCell id="e16_FI1_FI2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FI1" target="FI2" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e17_FI2_FIG1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FI2" target="FIG1" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
+        
         <mxCell id="e18_FIG1_FI3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FIG1" target="FI3" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1063,7 +1045,7 @@
         <mxCell id="e24_FI6_FIE2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FI6" target="FIE2" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e25_FIG2_FI7" value="нет / таймаут" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FIG2" target="FI7" parent="1">
+        <mxCell id="e25_FIG2_FI7" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FIG2" target="FI7" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e26_FI7_FIE3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FI7" target="FIE3" parent="1">
@@ -1072,31 +1054,31 @@
         <mxCell id="FI-X-ADMIN" value="Администратор" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="100.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e28_FI-X-ADMIN_FI0" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="FI-X-ADMIN" target="FI0" parent="1">
+        <mxCell id="e28_FI-X-ADMIN_FI0" value="запрос начисления штрафа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="FI-X-ADMIN" target="FI0" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FI-X-PAY" value="ЮKassa" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="FI-X-PAY" value="Платёжный шлюз" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="240.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e30_FI-X-PAY_FI4" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="FI-X-PAY" target="FI4" parent="1">
+        <mxCell id="e30_FI-X-PAY_FI4" value="сведения о платеже и ссылка" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="FI-X-PAY" target="FI4" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e31_FI4_FI-X-PAY" value="запрос" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="FI4" target="FI-X-PAY" parent="1">
+        <mxCell id="e31_FI4_FI-X-PAY" value="создание платежа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="FI4" target="FI-X-PAY" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="obligations" value="F11. Самостоятельный запрос собственных либо всех обязательств" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
+        <mxCell id="obligations" value="F11. Самостоятельный запрос обязательств по роли" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
           <mxGeometry x="0" y="550" width="3480" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="OB0" value="Запрос штрафов / задолженностей" style="shape=mxgraph.bpmn.event;outline=standard;symbol=message;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="obligations">
+        <mxCell id="OB0" value="Запрос обязательств" style="shape=mxgraph.bpmn.event;outline=standard;symbol=message;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="obligations">
           <mxGeometry x="35" y="85" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="OB1" value="OB1. Проверить JWT и роль&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="obligations">
+        <mxCell id="OB1" value="OB1. Проверить учётные данные и роль&lt;br&gt;&lt;b&gt;[auth]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="obligations">
           <mxGeometry x="150" y="70" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="e35_OB0_OB1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="OB0" target="OB1" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OB2" value="OB2. Ограничить набор владельцем либо правом администратора&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="obligations">
+        <mxCell id="OB2" value="OB2. Ограничить набор обязательств по роли&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="obligations">
           <mxGeometry x="410" y="70" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="e37_OB1_OB2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="OB1" target="OB2" parent="1">
@@ -1120,10 +1102,10 @@
         <mxCell id="e43_OB4_OBE" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="OB4" target="OBE" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OBX" value="Арендатор / администратор" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="OBX" value="Арендатор, администратор" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="605.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e45_OBX_OB0" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="OBX" target="OB0" parent="1">
+        <mxCell id="e45_OBX_OB0" value="запрос обязательств" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="OBX" target="OB0" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="config" value="F9–F10. Просмотр и изменение тарифов и парковок" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
@@ -1138,19 +1120,17 @@
         <mxCell id="e49_CF0_CF1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CF0" target="CF1" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CF2" value="CF2. Проверить параметры тарифа либо парковки&lt;br&gt;&lt;b&gt;[admin]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="config">
+        <mxCell id="CF2" value="CF2. Проверить параметры запроса&lt;br&gt;&lt;b&gt;[admin]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="config">
           <mxGeometry x="410" y="70" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="e51_CF1_CF2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CF1" target="CF2" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CF3" value="CF3. Прочитать или сохранить справочные данные&lt;br&gt;&lt;b&gt;[admin]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="config">
+        <mxCell id="CF3" value="CF3. Прочитать справочные данные&lt;br&gt;&lt;b&gt;[admin]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="config">
           <mxGeometry x="670" y="70" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="e53_CF2_CF3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CF2" target="CF3" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="CF4" value="CF4. Вернуть результат; снимки активных аренд сохранены&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="config">
+        
+        <mxCell id="CF4" value="CF4. Вернуть результат без изменения условий действующих аренд&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="config">
           <mxGeometry x="930" y="70" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="e55_CF3_CF4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="CF3" target="CF4" parent="1">
@@ -1165,19 +1145,19 @@
         <mxCell id="CFX" value="Администратор" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="835.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e59_CFX_CF0" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="CFX" target="CF0" parent="1">
+        <mxCell id="e59_CFX_CF0" value="запрос справочника" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="CFX" target="CF0" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="payment-result" value="F12. Проверенный финансовый результат, повтор и противоречие" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
           <mxGeometry x="0" y="1010" width="3480" height="650" as="geometry" />
         </mxCell>
-        <mxCell id="PY0" value="Уведомление шлюза / результат проверочного запроса" style="shape=mxgraph.bpmn.event;outline=standard;symbol=message;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PY0" value="Входящие сведения о платеже" style="shape=mxgraph.bpmn.event;outline=standard;symbol=message;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="35" y="110" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="PY1" value="PY1. Получить текущий объект платежа через аутентифицированное API&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PY1" value="PY1. Получить текущее состояние платежа через проверенный запрос&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="160" y="85" width="280" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PY2" value="PY2. Проверить магазин, metadata, сумму, валюту и внешний id; заблокировать обязательство&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PY2" value="PY2. Проверить принадлежность, назначение, сумму и валюту платежа&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="510" y="75" width="290" height="125" as="geometry" />
         </mxCell>
         <mxCell id="PYG1" value="Исход проверки?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
@@ -1186,16 +1166,16 @@
         <mxCell id="PY3" value="PY3. Записать аномалию без финансового изменения&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="1020" y="390" width="280" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="PYE1" value="Сверка администратором; 200 после журнала" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PYE1" value="Записано для сверки администратором" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="1370" y="410" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="PY4" value="PY4. Зафиксировать повтор; не менять обязательство&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PY4" value="PY4. Зафиксировать повтор без изменения обязательства&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="1020" y="220" width="280" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="PYE2" value="200: эффект не повторяется" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PYE2" value="Повтор без финансового эффекта" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="1370" y="245" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="PY5" value="PY5. Применить pending → paid / failed либо сохранить pending&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PY5" value="PY5. Зафиксировать проверенный финансовый результат&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="1500" y="80" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="PYG2" value="Финансовый исход?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
@@ -1204,25 +1184,25 @@
         <mxCell id="PY6" value="PY6. Зафиксировать оплату целевого обязательства&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="2010" y="35" width="270" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="PYE3" value="pending: ожидается подтверждение" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PYE3" value="Ожидается подтверждение" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="2370" y="220" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="PY7" value="PY7. Определить обязательство и число завершённых попыток&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="2010" y="390" width="290" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="PY8" value="PY8. Создать платёж задолженности с другим operation_id&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PY8" value="PY8. Создать платёж с новым идентификатором операции&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="2800" y="390" width="250" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="PY9" value="PY9. Сохранить ссылку задолженности&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PY9" value="PY9. Сохранить ссылку для оплаты&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="3100" y="390" width="250" height="95" as="geometry" />
         </mxCell>
         <mxCell id="PY10" value="PY10. Отправить финансовый результат&lt;br&gt;&lt;b&gt;[notifier]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="2720" y="75" width="250" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="PYE4" value="200 после фиксации" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PYE4" value="Результат зафиксирован" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="3050" y="100" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="PYG0" value="Объект получен?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PYG0" value="Сведения получены?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="460" y="260" width="54" height="54" as="geometry" />
         </mxCell>
         <mxCell id="e79_PY0_PY1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PY0" target="PY1" parent="1">
@@ -1264,7 +1244,7 @@
         <mxCell id="e91_PY10_PYE4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PY10" target="PYE4" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e92_PYG2_PYE3" value="pending / unknown" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PYG2" target="PYE3" parent="1">
+        <mxCell id="e92_PYG2_PYE3" value="неясный исход" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PYG2" target="PYE3" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e93_PYG2_PY7" value="failed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PYG2" target="PY7" parent="1">
@@ -1273,10 +1253,10 @@
         <mxCell id="PYG3" value="Допустима следующая попытка?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="2350" y="410" width="54" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="PY13" value="PY13. Создать долг аренды один раз либо следующую попытку того же обязательства&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PY13" value="PY13. Определить целевое обязательство&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="2480" y="390" width="250" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PY12" value="PY12. Сохранить attention; уведомить о необходимости сверки&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PY12" value="PY12. Передать на сверку с уведомлением администратора&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="2480" y="535" width="250" height="95" as="geometry" />
         </mxCell>
         <mxCell id="e97_PY7_PYG3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PY7" target="PYG3" parent="1">
@@ -1285,9 +1265,7 @@
         <mxCell id="e98_PYG3_PY13" value="да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PYG3" target="PY13" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e99_PY13_PY8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PY13" target="PY8" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
+        
         <mxCell id="e100_PY8_PY9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PY8" target="PY9" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1315,10 +1293,10 @@
         <mxCell id="PY11" value="PY11. Вернуть ошибку без применения результата&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="510" y="430" width="290" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="PYE5" value="400 / 404 / 503" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
+        <mxCell id="PYE5" value="Отказ без применения результата" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-result">
           <mxGeometry x="870" y="450" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="e106_PYG0_PY11" value="ошибка API / структура" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PYG0" target="PY11" parent="1">
+        <mxCell id="e106_PYG0_PY11" value="ошибка запроса" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PYG0" target="PY11" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e107_PYG1_PY11" value="неверная корреляция" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PYG1" target="PY11" parent="1">
@@ -1327,34 +1305,32 @@
         <mxCell id="e108_PY11_PYE5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PY11" target="PYE5" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PY-X-PAY" value="ЮKassa" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="PY-X-PAY" value="Платёжный шлюз" style="swimlane;horizontal=0;startSize=25;fillColor=#fff2cc;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="3570" y="1070.0" width="260" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e110_PY-X-PAY_PY0" value="запрос / событие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="PY-X-PAY" target="PY0" parent="1">
+        <mxCell id="e110_PY-X-PAY_PY0" value="уведомление о платеже" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="PY-X-PAY" target="PY0" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e111_PY1_PY-X-PAY" value="GET объекта платежа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="PY1" target="PY-X-PAY" parent="1">
+        <mxCell id="e111_PY1_PY-X-PAY" value="запрос состояния платежа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="PY1" target="PY-X-PAY" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="payment-recovery" value="Повтор незавершённых внешних заданий и уведомлений после сбоя" style="swimlane;horizontal=1;startSize=34;fillColor=#f8f9fa;strokeColor=#9aa5b1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="pool">
           <mxGeometry x="0" y="1660" width="3480" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="JB0" value="Таймер 5 с / перезапуск" style="shape=mxgraph.bpmn.event;outline=standard;symbol=timer;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-recovery">
+        <mxCell id="JB0" value="Периодический запуск" style="shape=mxgraph.bpmn.event;outline=standard;symbol=timer;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-recovery">
           <mxGeometry x="35" y="85" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="JB1" value="JB1. Получить незавершённое платёжное задание с тем же operation_id&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-recovery">
+        <mxCell id="JB1" value="JB1. Получить незавершённое платёжное задание с тем же идентификатором операции&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-recovery">
           <mxGeometry x="150" y="70" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="e115_JB0_JB1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="JB0" target="JB1" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JB2" value="JB2. Повторить запрос в допустимом окне либо получить статус по внешнему id&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-recovery">
+        <mxCell id="JB2" value="JB2. Повторить запрос&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-recovery">
           <mxGeometry x="410" y="70" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="e117_JB1_JB2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="JB1" target="JB2" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JB3" value="JB3. Применить правила F12 под блокировкой; сохранить результат&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-recovery">
+        
+        <mxCell id="JB3" value="JB3. Применить правила обработки платежа с сохранением результата&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-recovery">
           <mxGeometry x="670" y="70" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="e119_JB2_JB3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="JB2" target="JB3" parent="1">
@@ -1366,13 +1342,13 @@
         <mxCell id="e121_JB3_JB4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="JB3" target="JB4" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JBE" value="Результат / attention; новое списание не создаётся" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-recovery">
+        <mxCell id="JBE" value="Результат зафиксирован без нового списания" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="payment-recovery">
           <mxGeometry x="1190" y="85" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="e123_JB4_JBE" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="JB4" target="JBE" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-      </root>
+      <mxCell id="e-msg-Начислить штраф-1" value="повтор запроса" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="JB2" target="PY-X-PAY" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-msg-Начислить штраф-2" value="состояние платежа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="PY-X-PAY" target="JB2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-msg-Начислить штраф-3" value="создание платежа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="PY8" target="PY-X-PAY" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-msg-Начислить штраф-4" value="сведения о платеже и ссылка" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="PY-X-PAY" target="PY9" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="PYG4" value="Исходная оплата аренды?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="2810" y="330" width="54" height="54" as="geometry"/></mxCell><mxCell id="PY14" value="PY14. Создать задолженность аренды&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="2480" y="250" width="250" height="90" as="geometry"/></mxCell><mxCell id="CFG1" value="Операция?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="560" y="100" width="54" height="54" as="geometry"/></mxCell><mxCell id="CF5" value="CF5. Сохранить справочные данные&lt;br&gt;&lt;b&gt;[admin]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="560" y="160" width="220" height="70" as="geometry"/></mxCell><mxCell id="e-atomic-Начислить штраф-1" value="истёк срок ожидания" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="FIG2" target="FI7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Начислить штраф-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="PY13" target="PYG4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Начислить штраф-3" value="да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="PYG4" target="PY14" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Начислить штраф-4" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="PYG4" target="PY8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Начислить штраф-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="PY14" target="PY8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Начислить штраф-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CF2" target="CFG1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Начислить штраф-7" value="чтение" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CFG1" target="CF3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Начислить штраф-8" value="изменение" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CFG1" target="CF5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-atomic-Начислить штраф-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" source="CF5" target="CF4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-JB1-JBG1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="JB1" target="JBG1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-JBG1-JB2" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="JBG1" target="JB2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-JBG1-JB2b" value="да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="JBG1" target="JB2b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-JB2b-JB3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="JB2b" target="JB3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="JBG1" value="Известны сведения платежа?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="400" y="190" width="54" height="54" as="geometry"/></mxCell><mxCell id="JB2b" value="JB2b. Получить состояние платежа&lt;br&gt;&lt;b&gt;[payment_adapter]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="560" y="175" width="220" height="70" as="geometry"/></mxCell><mxCell id="FIG0" value="Аренда и сумма допустимы?" style="shape=mxgraph.bpmn.gateway2;gwType=exclusive;perimeter=rhombusPerimeter;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="740" y="200" width="54" height="54" as="geometry"/></mxCell><mxCell id="FI2b" value="FI2b. Сохранить штраф, идентификатор операции и задание&lt;br&gt;&lt;b&gt;[finance]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="760" y="300" width="280" height="90" as="geometry"/></mxCell><mxCell id="FI8" value="FI8. Вернуть отказ&lt;br&gt;&lt;b&gt;[gateway]&lt;/b&gt;" style="shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;taskMarker=service;spacing=7;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="430" y="210" width="220" height="70" as="geometry"/></mxCell><mxCell id="FIE4" value="Отказ с причиной" style="shape=mxgraph.bpmn.event;outline=end;symbol=general;perimeter=ellipsePerimeter;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1"><mxGeometry x="700" y="235" width="48" height="48" as="geometry"/></mxCell><mxCell id="e-FI2-FIG0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FI2" target="FIG0" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-FIG0-FI2b" value="да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FIG0" target="FI2b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-FIG0-FI8" value="нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FIG0" target="FI8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-FI2b-FIG1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FI2b" target="FIG1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-FI8-FIE4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="FI8" target="FIE4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-PYG0-PY11-struct" value="ошибка структуры" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" source="PYG0" target="PY11" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-JB2b-PAY" value="запрос состояния платежа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="JB2b" target="PY-X-PAY" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e-PAY-JB2b" value="состояние платежа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=blockThin;endFill=1;strokeColor=#334155;fontSize=12;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;startArrow=oval;startFill=0;" edge="1" source="PY-X-PAY" target="JB2b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell></root>
     </mxGraphModel>
   </diagram>
 </mxfile>
