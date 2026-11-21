@@ -9,11 +9,11 @@
 3. `func_model.drawio(2)(3).xml`, `functional.md` — контекст, DFD и дерево функций.
 4. `BPMN.drawio.xml`, `bpmn.md` — четыре переработанных исходных представления процессов.
 5. `architecture.drawio.xml`, `architecture.md` — компоненты, окружение, ресурсы, связи и принципы.
-6. `tech_project.md`, `technical_solution.drawio.xml` и включаемый в этот раздел `requirements.md` — техническое решение, схема размещения и обменов, устройство rental/state и требования.
+6. `tech_project.md`, `technical_solution.drawio.xml` — техническое решение, схема размещения и обменов, устройство rental/state.
 7. `quality.md` — замысел методики, критерии КР-01–КР-12, проверки П-01–П-28 и контрольные примеры.
 8. `appendix.md` — сокращения, термины и источники.
 
-Каталоги 01–08 и 99 содержат соответствующие материалы. `requirements.md` располагается в `08-requirements`, при сборке входит в технический проект. `open-questions.md`, `old_plan.txt`, `docs`, `quality_plan.md` и `architecture_diagram.md` служебные и в записку не включаются.
+Каталоги 01–07 и 99 содержат соответствующие материалы. `open-questions.md`, `old_plan.txt`, `docs`, `quality_plan.md` и `architecture_diagram.md` служебные и в записку не включаются.
 
 ## Текущая редакция схем
 
