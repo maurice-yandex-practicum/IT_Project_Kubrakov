@@ -25,7 +25,7 @@
 
 Опции команды fix:
     --no-layout          не раздвигать блоки (только перекладывать рёбра)
-    --margin N           отступ рёбер от блоков, px (по умолчанию 8)
+    --margin N           отступ рёбер от блоков, px (по умолчанию 12)
     --grid N             шаг сетки маршрутизации, px (по умолчанию 10)
     --dry-run            показать, что изменится, без записи в файл
 """
@@ -156,7 +156,11 @@ def overlap(a, b, eps=1.0):
     return ox > eps and oy > eps
 
 
-def _separate_pair(a, b, bounds):
+# дополнительный зазор, на который раздвигаются пересекающиеся блоки
+SEP_MARGIN = 8.0
+
+
+def _separate_pair(a, b, bounds, margin=SEP_MARGIN):
     """Вычислить новую позицию b (x, y), чтобы она не пересекала a.
     Возвращает (nx, ny) или None, если двигать не требуется."""
     ax, ay, aw, ah = a
@@ -168,7 +172,6 @@ def _separate_pair(a, b, bounds):
 
     cax, cay = ax + aw / 2, ay + ah / 2
     cbx, cby = bx + bw / 2, by + bh / 2
-    margin = 4.0
     if ox <= oy:
         dx = ox + margin if cbx >= cax else -(ox + margin)
         dy = 0.0
@@ -191,11 +194,11 @@ def _separate_pair(a, b, bounds):
     return (nx, ny)
 
 
-def resolve_overlaps(cells, by_id, max_iter=400):
+def resolve_overlaps(cells, by_id, max_iter=400, margin=SEP_MARGIN):
     """Вернуть {id: (abs_x, abs_y)} для вершин, которые пришлось сдвинуть.
 
-    Раздвигает все листовые фигуры глобально; фигура, у которой есть родитель-
-    контейнер (swimlane), удерживается в его границах."""
+    Раздвигает все пересекающиеся листовые фигуры глобально; фигура, у которой есть
+    родитель-контейнер (swimlane), удерживается в его границах."""
     rects = []
     for c in cells:
         if c["vertex"] and not is_swimlane(c["style"]) and c["w"] > 0 and c["h"] > 0:
@@ -214,7 +217,7 @@ def resolve_overlaps(cells, by_id, max_iter=400):
                 a = rects[i][1:5]
                 b = rects[j][1:5]
                 if overlap(a, b):
-                    new = _separate_pair(a, b, rects[j][5])
+                    new = _separate_pair(a, b, rects[j][5], margin)
                     if new is not None:
                         rects[j][1], rects[j][2] = new
                         moved = True
@@ -685,7 +688,7 @@ def main(argv=None):
     sp.add_argument("file")
     sp.add_argument("pages", nargs="*")
     sp.add_argument("--no-layout", action="store_true")
-    sp.add_argument("--margin", type=float, default=8.0)
+    sp.add_argument("--margin", type=float, default=12.0)
     sp.add_argument("--grid", type=int, default=10)
     sp.add_argument("--dry-run", action="store_true")
     sp.set_defaults(func=cmd_fix)
