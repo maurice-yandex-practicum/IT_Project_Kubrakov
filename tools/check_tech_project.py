@@ -3,7 +3,7 @@
 """Статическая сверка ссылок и геометрии технического проекта.
 
 Проверяет основания проверок методики, коды задач BPMN в техническом
-проекте, уникальность идентификаторов и маршруты нового исходника draw.io.
+проекте, уровни C4, границы, типы элементов и маршруты исходника draw.io.
 Маршруты читаются с учётом exitX/entryX; смещение подписи не является точкой
 маршрута. Программные испытания серверного ПО этим инструментом не выполняются.
 """
@@ -84,21 +84,59 @@ def check_diagram():
     tree = ET.fromstring(read("06-tech_project/technical_solution.drawio.xml"))
     pages = tree.findall("diagram")
     verify(len(pages) == 3, "Техническая схема должна содержать три листа")
+    verify([p.get("c4Level") for p in pages] == ["1", "2", "3"], "Неверный порядок уровней C4")
+    expected_components = set(re.findall(r"^\| ([a-z_]+) \|", read("05-architecture/architecture.md"), re.M))
+    identities = {}
     for page in pages:
+        level = page.get("c4Level")
         cells = list(page.iter("mxCell"))
         ids = [c.get("id") for c in cells]
         verify(len(ids) == len(set(ids)), f"Повтор id на листе {page.get('name')}")
         rects = {}
+        boundaries = {}
+        typed = []
         model = page.find("mxGraphModel")
         for cell in cells:
             if cell.get("vertex") != "1":
                 continue
             geo = cell.find("mxGeometry")
             rect = tuple(float(geo.get(key, "0")) for key in ("x", "y", "width", "height"))
-            rects[cell.get("id")] = rect
+            if cell.get("c4Type") == "Boundary":
+                boundaries[cell.get("id")] = rect
+            else:
+                rects[cell.get("id")] = rect
+            if cell.get("c4Type") in ("Person", "SoftwareSystem", "Container", "Component"):
+                typed.append(cell)
+                verify(bool(cell.get("c4Name")) and bool(cell.get("c4Description")), f"Нет имени или ответственности C4: {cell.get('id')}")
+                if cell.get("c4Type") in ("Container", "Component"):
+                    verify(bool(cell.get("c4Technology")), f"Нет технологии C4: {cell.get('id')}")
+                identity = (cell.get("c4Type"), cell.get("c4Name"), cell.get("c4Technology"))
+                previous = identities.setdefault(cell.get("id"), identity)
+                verify(previous == identity, f"Разные определения элемента C4: {cell.get('id')}")
             x, y, w, h = rect
             verify(0 <= x and 0 <= y and x+w <= float(model.get("pageWidth"))
                    and y+h <= float(model.get("pageHeight")), f"Блок за границами: {cell.get('id')}")
+        internal = [c for c in typed if c.get("c4External") == "false"]
+        if level == "1":
+            verify([(c.get("id"), c.get("c4Type")) for c in internal] == [("system", "SoftwareSystem")], "C1 должен показывать систему как целое")
+            verify(not any(c.get("c4Type") in ("Container", "Component") for c in typed), "В C1 смешаны уровни детализации")
+        if level == "2":
+            verify({c.get("id") for c in internal} == {"app", "database"}, "Неверный состав контейнеров C2")
+            verify(all(c.get("c4Type") == "Container" for c in internal), "В C2 смешаны уровни детализации")
+            verify("system" in boundaries, "У C2 отсутствует граница системы")
+        if level == "3":
+            components = {c.get("id") for c in typed if c.get("c4Type") == "Component"}
+            verify(components == expected_components, "Компоненты C3 расходятся с архитектурой")
+            verify("app" in boundaries, "У C3 отсутствует граница контейнера приложения")
+        for cell in typed:
+            scope = cell.get("c4Scope")
+            if scope in boundaries:
+                x, y, w, h = rects[cell.get("id")]
+                bx, by, bw, bh = boundaries[scope]
+                verify(bx <= x and by <= y and x+w <= bx+bw and y+h <= by+bh,
+                       f"Элемент вне своей границы C4: {cell.get('id')}")
+            if level == "3" and cell.get("c4Type") == "Component":
+                verify(scope == "app", f"Неверная принадлежность компонента: {cell.get('id')}")
         overlaps = 0
         for i, (ident, a) in enumerate(rects.items()):
             for other, b in list(rects.items())[i+1:]:
@@ -114,6 +152,11 @@ def check_diagram():
                 verify(False, f"Нет конца связи: {cell.get('id')}")
                 continue
             style = style_values(cell.get("style", ""))
+            verify(style.get("startArrow", "none") == "none" and style.get("endArrow") == "block",
+                   f"Связь C4 должна быть направленной: {cell.get('id')}")
+            verify(bool(cell.get("value", "").strip()), f"Нет описания связи C4: {cell.get('id')}")
+            if level in ("2", "3"):
+                verify(bool(cell.get("c4Technology")), f"Нет технологии связи C4: {cell.get('id')}")
             sx, sy, sw, sh = rects[source]
             tx, ty, tw, th = rects[target]
             pts = [(sx + sw*float(style.get("exitX", ".5")), sy + sh*float(style.get("exitY", ".5")))]
