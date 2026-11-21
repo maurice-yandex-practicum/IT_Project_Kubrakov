@@ -13,65 +13,65 @@
         <mxCell id="renter" value="Арендатор" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=0;fillColor=#fff2cc;">
           <mxGeometry x="60" y="180" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="e-1" value="Регистрация; поиск; начало; сведения об аренде; завершение; просмотр обязательств" edge="1" parent="1" source="renter" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-1" value="Регистрация; поиск; начало; сведения об аренде; завершение; просмотр обязательств" edge="1" parent="1" source="renter" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="207" y="280" /><mxPoint x="207" y="562" /><mxPoint x="377" y="562" /><mxPoint x="377" y="762" /><mxPoint x="1080" y="762" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-2" value="Регистрация; список; статус аренды; стоимость; обязательства; уведомления" edge="1" parent="1" source="F0" target="renter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-2" value="Регистрация; список; статус аренды; стоимость; обязательства; уведомления" edge="1" parent="1" source="F0" target="renter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="1080" y="762" /><mxPoint x="387" y="762" /><mxPoint x="387" y="552" /><mxPoint x="207" y="552" /><mxPoint x="207" y="280" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="admin" value="Администратор" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=0;fillColor=#fff2cc;">
           <mxGeometry x="60" y="580" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="e-3" value="Штраф; тарифы; парковки; просмотр обязательств" edge="1" parent="1" source="admin" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-3" value="Штраф; тарифы; парковки; просмотр обязательств" edge="1" parent="1" source="admin" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="207" y="680" /><mxPoint x="207" y="752" /><mxPoint x="397" y="752" /><mxPoint x="397" y="762" /><mxPoint x="1080" y="762" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-4" value="Справочники; штраф; обязательства" edge="1" parent="1" source="F0" target="admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-4" value="Справочники; штраф; обязательства" edge="1" parent="1" source="F0" target="admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="1080" y="762" /><mxPoint x="407" y="762" /><mxPoint x="407" y="742" /><mxPoint x="207" y="742" /><mxPoint x="207" y="680" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="maint" value="Техническая служба" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=0;fillColor=#fff2cc;">
           <mxGeometry x="60" y="980" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="e-5" value="Запрос обслуживания" edge="1" parent="1" source="maint" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-5" value="Запрос обслуживания" edge="1" parent="1" source="maint" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="207" y="980" /><mxPoint x="207" y="772" /><mxPoint x="417" y="772" /><mxPoint x="417" y="762" /><mxPoint x="1080" y="762" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-6" value="Перечень с основаниями и возрастом данных" edge="1" parent="1" source="F0" target="maint" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-6" value="Перечень с основаниями и возрастом данных" edge="1" parent="1" source="F0" target="maint" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="1080" y="762" /><mxPoint x="427" y="762" /><mxPoint x="427" y="782" /><mxPoint x="207" y="782" /><mxPoint x="207" y="980" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="pass" value="Система проверки паспорта" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=0;fillColor=#fff2cc;">
           <mxGeometry x="1900" y="120" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="e-7" value="Результат проверки" edge="1" parent="1" source="pass" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-7" value="Результат проверки" edge="1" parent="1" source="pass" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1900" y="172" /><mxPoint x="1287" y="172" /><mxPoint x="1287" y="580" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-8" value="Запрос проверки паспорта" edge="1" parent="1" source="F0" target="pass" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-8" value="Запрос проверки паспорта" edge="1" parent="1" source="F0" target="pass" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="1287" y="580" /><mxPoint x="1287" y="182" /><mxPoint x="1297" y="182" /><mxPoint x="1297" y="172" /><mxPoint x="1900" y="172" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="vu" value="Система проверки ВУ" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=0;fillColor=#fff2cc;">
           <mxGeometry x="1900" y="470" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="e-9" value="Результат проверки" edge="1" parent="1" source="vu" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-9" value="Результат проверки" edge="1" parent="1" source="vu" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1900" y="522" /><mxPoint x="1287" y="522" /><mxPoint x="1287" y="580" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-10" value="Запрос проверки ВУ" edge="1" parent="1" source="F0" target="vu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-10" value="Запрос проверки ВУ" edge="1" parent="1" source="F0" target="vu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="1287" y="580" /><mxPoint x="1287" y="532" /><mxPoint x="1297" y="532" /><mxPoint x="1297" y="522" /><mxPoint x="1900" y="522" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="tel" value="Телематический модуль" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=0;fillColor=#fff2cc;">
           <mxGeometry x="1900" y="820" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="e-11" value="Состояние; подтверждения команд" edge="1" parent="1" source="tel" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-11" value="Состояние; подтверждения команд" edge="1" parent="1" source="tel" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1900" y="872" /><mxPoint x="1500" y="872" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-12" value="Команда с поколением; квитанция" edge="1" parent="1" source="F0" target="tel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-12" value="Команда с поколением; квитанция" edge="1" parent="1" source="F0" target="tel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="1500" y="872" /><mxPoint x="1900" y="872" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="pay" value="Платёжный шлюз" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=0;fillColor=#fff2cc;">
           <mxGeometry x="1900" y="1170" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="e-13" value="Уведомление; объект и ссылка платежа" edge="1" parent="1" source="pay" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-13" value="Уведомление; объект и ссылка платежа" edge="1" parent="1" source="pay" target="F0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1900" y="1222" /><mxPoint x="1287" y="1222" /><mxPoint x="1287" y="950" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-14" value="Создание платежа; проверка статуса; подтверждение обработки" edge="1" parent="1" source="F0" target="pay" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-14" value="Создание платежа; проверка статуса; подтверждение обработки" edge="1" parent="1" source="F0" target="pay" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="1287" y="950" /><mxPoint x="1287" y="1212" /><mxPoint x="1297" y="1212" /><mxPoint x="1297" y="1222" /><mxPoint x="1900" y="1222" /></Array></mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -90,38 +90,38 @@
         <mxCell id="F1-actor" value="Арендатор" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="270" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="e-1" value="Сведения, пароль, документы, оферта" edge="1" parent="1" source="F1-actor" target="F1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.25;exitY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-1" value="Сведения, пароль, документы, оферта" edge="1" parent="1" source="F1-actor" target="F1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="300" y="332" /><mxPoint x="650" y="332" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-2" value="Регистрация либо отказ" edge="1" parent="1" source="F1" target="F1-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.75;exitY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-2" value="Регистрация либо отказ" edge="1" parent="1" source="F1" target="F1-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="650" y="332" /><mxPoint x="300" y="332" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F1-D1" value="D1. Пользователи, паспорт и ВУ" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="130" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-3" value="Зарегистрированные телефоны" edge="1" parent="1" source="F1-D1" target="F1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-3" value="Зарегистрированные телефоны" edge="1" parent="1" source="F1-D1" target="F1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="172" /><mxPoint x="797" y="172" /><mxPoint x="797" y="270" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-4" value="Пользователь, документы, оферта" edge="1" parent="1" source="F1" target="F1-D1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-4" value="Пользователь, документы, оферта" edge="1" parent="1" source="F1" target="F1-D1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="797" y="270" /><mxPoint x="797" y="182" /><mxPoint x="807" y="182" /><mxPoint x="807" y="172" /><mxPoint x="1350" y="172" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F1-ext0" value="Система проверки паспорта" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="350" y="580" width="350" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e-5" value="запрос / команда" edge="1" parent="1" source="F1" target="F1-ext0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=1;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-5" value="запрос / команда" edge="1" parent="1" source="F1" target="F1-ext0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="650" y="332" /><mxPoint x="527" y="332" /><mxPoint x="527" y="580" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-6" value="проверенный результат" edge="1" parent="1" source="F1-ext0" target="F1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0;entryY=1;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-6" value="проверенный результат" edge="1" parent="1" source="F1-ext0" target="F1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="527" y="580" /><mxPoint x="527" y="342" /><mxPoint x="537" y="342" /><mxPoint x="537" y="332" /><mxPoint x="650" y="332" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F1-ext1" value="Система проверки ВУ" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="800" y="580" width="350" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e-7" value="запрос / команда" edge="1" parent="1" source="F1" target="F1-ext1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=1;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-7" value="запрос / команда" edge="1" parent="1" source="F1" target="F1-ext1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="797" y="395" /><mxPoint x="797" y="612" /><mxPoint x="800" y="612" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-8" value="проверенный результат" edge="1" parent="1" source="F1-ext1" target="F1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0;entryY=1;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-8" value="проверенный результат" edge="1" parent="1" source="F1-ext1" target="F1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="800" y="602" /><mxPoint x="797" y="602" /><mxPoint x="797" y="395" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F2" value="&lt;b&gt;F2&lt;/b&gt;&lt;hr&gt;Поиск ближайших ТС" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;arcSize=10;fillColor=#dae8fc;">
           <mxGeometry x="650" y="870" width="300" height="125" as="geometry" />
@@ -129,29 +129,29 @@
         <mxCell id="F2-actor" value="Арендатор" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="870" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="e-9" value="Координаты и радиус" edge="1" parent="1" source="F2-actor" target="F2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.25;exitY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-9" value="Координаты и радиус" edge="1" parent="1" source="F2-actor" target="F2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="300" y="932" /><mxPoint x="650" y="932" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-10" value="Перечень доступных ТС" edge="1" parent="1" source="F2" target="F2-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.75;exitY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-10" value="Перечень доступных ТС" edge="1" parent="1" source="F2" target="F2-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="650" y="932" /><mxPoint x="300" y="932" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F2-D2" value="D2. ТС, модели, ПТС, сведения о ТО" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="730" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-11" value="ТС и операционные статусы" edge="1" parent="1" source="F2-D2" target="F2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-11" value="ТС и операционные статусы" edge="1" parent="1" source="F2-D2" target="F2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="772" /><mxPoint x="797" y="772" /><mxPoint x="797" y="870" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F2-D3" value="D3. Актуальное состояние и квитанции" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="845" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-12" value="Координаты, признак, время" edge="1" parent="1" source="F2-D3" target="F2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-12" value="Координаты, признак, время" edge="1" parent="1" source="F2-D3" target="F2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="882" /><mxPoint x="950" y="882" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F2-D4" value="D4. Аренды и снимки финансовых условий" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="960" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-13" value="Незавершённые аренды ТС" edge="1" parent="1" source="F2-D4" target="F2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-13" value="Незавершённые аренды ТС" edge="1" parent="1" source="F2-D4" target="F2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="1002" /><mxPoint x="797" y="1002" /><mxPoint x="797" y="995" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3" value="&lt;b&gt;F3&lt;/b&gt;&lt;hr&gt;Начало аренды" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;arcSize=10;fillColor=#dae8fc;">
           <mxGeometry x="650" y="1470" width="300" height="125" as="geometry" />
@@ -159,89 +159,89 @@
         <mxCell id="F3-actor" value="Арендатор" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="1470" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="e-14" value="ТС, ключ идемпотентности" edge="1" parent="1" source="F3-actor" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.25;exitY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-14" value="ТС, ключ идемпотентности" edge="1" parent="1" source="F3-actor" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="300" y="1532" /><mxPoint x="650" y="1532" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-15" value="Попытка и её подтверждённый исход" edge="1" parent="1" source="F3" target="F3-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.75;exitY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-15" value="Попытка и её подтверждённый исход" edge="1" parent="1" source="F3" target="F3-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="650" y="1532" /><mxPoint x="300" y="1532" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-D1" value="D1. Пользователи, паспорт и ВУ" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="1330" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-16" value="Пользователь и документы" edge="1" parent="1" source="F3-D1" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-16" value="Пользователь и документы" edge="1" parent="1" source="F3-D1" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="1372" /><mxPoint x="797" y="1372" /><mxPoint x="797" y="1470" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-D2" value="D2. ТС, модели, ПТС, сведения о ТО" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="1445" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-17" value="ТС, модель и поколение" edge="1" parent="1" source="F3-D2" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-17" value="ТС, модель и поколение" edge="1" parent="1" source="F3-D2" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="1482" /><mxPoint x="950" y="1482" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-18" value="Статус и поколение ТС" edge="1" parent="1" source="F3" target="F3-D2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-18" value="Статус и поколение ТС" edge="1" parent="1" source="F3" target="F3-D2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="950" y="1482" /><mxPoint x="1350" y="1482" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-D3" value="D3. Актуальное состояние и квитанции" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="1560" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-19" value="Технический признак и возраст" edge="1" parent="1" source="F3-D3" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-19" value="Технический признак и возраст" edge="1" parent="1" source="F3-D3" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="1602" /><mxPoint x="797" y="1602" /><mxPoint x="797" y="1595" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-D4" value="D4. Аренды и снимки финансовых условий" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="1675" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-20" value="Существующие попытки и аренды" edge="1" parent="1" source="F3-D4" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-20" value="Существующие попытки и аренды" edge="1" parent="1" source="F3-D4" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="1712" /><mxPoint x="807" y="1712" /><mxPoint x="807" y="1595" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-21" value="Попытка, условия, время начала" edge="1" parent="1" source="F3" target="F3-D4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-21" value="Попытка, условия, время начала" edge="1" parent="1" source="F3" target="F3-D4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="807" y="1595" /><mxPoint x="807" y="1702" /><mxPoint x="817" y="1702" /><mxPoint x="817" y="1712" /><mxPoint x="1350" y="1712" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-D5" value="D5. Тарифы" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1900" y="1330" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-22" value="Активные тарифы" edge="1" parent="1" source="F3-D5" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-22" value="Активные тарифы" edge="1" parent="1" source="F3-D5" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1900" y="1372" /><mxPoint x="1727" y="1372" /><mxPoint x="1727" y="1422" /><mxPoint x="797" y="1422" /><mxPoint x="797" y="1470" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-D8" value="D8. Задолженности" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1900" y="1445" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-23" value="Непогашенные задолженности" edge="1" parent="1" source="F3-D8" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-23" value="Непогашенные задолженности" edge="1" parent="1" source="F3-D8" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1900" y="1482" /><mxPoint x="1727" y="1482" /><mxPoint x="1727" y="1542" /><mxPoint x="950" y="1542" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-D9" value="D9. Исходящие задания и история интеграций" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1900" y="1560" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-24" value="Ключи запросов и команды" edge="1" parent="1" source="F3-D9" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-24" value="Ключи запросов и команды" edge="1" parent="1" source="F3-D9" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="1900" y="1602" /><mxPoint x="1727" y="1602" /><mxPoint x="1727" y="1542" /><mxPoint x="950" y="1542" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-25" value="Команды и сроки исполнения" edge="1" parent="1" source="F3" target="F3-D9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-25" value="Команды и сроки исполнения" edge="1" parent="1" source="F3" target="F3-D9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="32"><Array as="points"><mxPoint x="950" y="1542" /><mxPoint x="1727" y="1542" /><mxPoint x="1727" y="1592" /><mxPoint x="1737" y="1592" /><mxPoint x="1737" y="1602" /><mxPoint x="1900" y="1602" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-ext0" value="Система проверки паспорта" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="350" y="1780" width="350" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e-26" value="запрос / команда" edge="1" parent="1" source="F3" target="F3-ext0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=1;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-26" value="запрос / команда" edge="1" parent="1" source="F3" target="F3-ext0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="650" y="1532" /><mxPoint x="527" y="1532" /><mxPoint x="527" y="1780" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-27" value="проверенный результат" edge="1" parent="1" source="F3-ext0" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0;entryY=1;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-27" value="проверенный результат" edge="1" parent="1" source="F3-ext0" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="527" y="1780" /><mxPoint x="527" y="1542" /><mxPoint x="537" y="1542" /><mxPoint x="537" y="1532" /><mxPoint x="650" y="1532" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-ext1" value="Система проверки ВУ" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="800" y="1780" width="350" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e-28" value="запрос / команда" edge="1" parent="1" source="F3" target="F3-ext1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=1;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-28" value="запрос / команда" edge="1" parent="1" source="F3" target="F3-ext1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="807" y="1595" /><mxPoint x="807" y="1692" /><mxPoint x="827" y="1692" /><mxPoint x="827" y="1780" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-29" value="проверенный результат" edge="1" parent="1" source="F3-ext1" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0;entryY=1;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-29" value="проверенный результат" edge="1" parent="1" source="F3-ext1" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="837" y="1780" /><mxPoint x="837" y="1682" /><mxPoint x="807" y="1682" /><mxPoint x="807" y="1595" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-ext2" value="Телематический модуль" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="1250" y="1780" width="350" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e-30" value="запрос / команда" edge="1" parent="1" source="F3" target="F3-ext2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=1;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-30" value="запрос / команда" edge="1" parent="1" source="F3" target="F3-ext2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="807" y="1595" /><mxPoint x="807" y="1672" /><mxPoint x="847" y="1672" /><mxPoint x="847" y="1762" /><mxPoint x="1167" y="1762" /><mxPoint x="1167" y="1812" /><mxPoint x="1250" y="1812" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-31" value="проверенный результат" edge="1" parent="1" source="F3-ext2" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0;entryY=1;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-31" value="проверенный результат" edge="1" parent="1" source="F3-ext2" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="1250" y="1812" /><mxPoint x="1177" y="1812" /><mxPoint x="1177" y="1752" /><mxPoint x="857" y="1752" /><mxPoint x="857" y="1662" /><mxPoint x="807" y="1662" /><mxPoint x="807" y="1595" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F4" value="&lt;b&gt;F4&lt;/b&gt;&lt;hr&gt;Сведения об аренде" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;arcSize=10;fillColor=#dae8fc;">
           <mxGeometry x="650" y="2070" width="300" height="125" as="geometry" />
@@ -249,35 +249,35 @@
         <mxCell id="F4-actor" value="Арендатор" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="2070" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="e-32" value="Идентификатор аренды" edge="1" parent="1" source="F4-actor" target="F4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.25;exitY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-32" value="Идентификатор аренды" edge="1" parent="1" source="F4-actor" target="F4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="300" y="2132" /><mxPoint x="650" y="2132" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-33" value="Статус, сохранённые условия, стоимость" edge="1" parent="1" source="F4" target="F4-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.75;exitY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-33" value="Статус, сохранённые условия, стоимость" edge="1" parent="1" source="F4" target="F4-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="650" y="2132" /><mxPoint x="300" y="2132" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F4-D2" value="D2. ТС, модели, ПТС, сведения о ТО" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="1930" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-34" value="Карточки ТС и модели" edge="1" parent="1" source="F4-D2" target="F4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-34" value="Карточки ТС и модели" edge="1" parent="1" source="F4-D2" target="F4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="1972" /><mxPoint x="797" y="1972" /><mxPoint x="797" y="2070" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F4-D3" value="D3. Актуальное состояние и квитанции" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="2045" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-35" value="Текущее состояние ТС" edge="1" parent="1" source="F4-D3" target="F4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-35" value="Текущее состояние ТС" edge="1" parent="1" source="F4-D3" target="F4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="2082" /><mxPoint x="950" y="2082" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F4-D4" value="D4. Аренды и снимки финансовых условий" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="2160" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-36" value="Аренда, снимок цены и итог" edge="1" parent="1" source="F4-D4" target="F4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-36" value="Аренда, снимок цены и итог" edge="1" parent="1" source="F4-D4" target="F4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="2202" /><mxPoint x="797" y="2202" /><mxPoint x="797" y="2195" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F4-D9" value="D9. Исходящие задания и история интеграций" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="2275" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-37" value="Ссылка, статус оплаты и команды" edge="1" parent="1" source="F4-D9" target="F4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-37" value="Ссылка, статус оплаты и команды" edge="1" parent="1" source="F4-D9" target="F4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="2312" /><mxPoint x="807" y="2312" /><mxPoint x="807" y="2195" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5" value="&lt;b&gt;F5&lt;/b&gt;&lt;hr&gt;Завершение аренды" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;arcSize=10;fillColor=#dae8fc;">
           <mxGeometry x="650" y="2670" width="300" height="125" as="geometry" />
@@ -285,74 +285,74 @@
         <mxCell id="F5-actor" value="Арендатор" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="2670" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="e-38" value="Идентификатор аренды" edge="1" parent="1" source="F5-actor" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.25;exitY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-38" value="Идентификатор аренды" edge="1" parent="1" source="F5-actor" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="300" y="2732" /><mxPoint x="650" y="2732" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-39" value="Окончание, стоимость, финансовый статус" edge="1" parent="1" source="F5" target="F5-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.75;exitY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-39" value="Окончание, стоимость, финансовый статус" edge="1" parent="1" source="F5" target="F5-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="650" y="2732" /><mxPoint x="300" y="2732" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-D1" value="D1. Пользователи, паспорт и ВУ" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="2530" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-40" value="Владелец и адресат" edge="1" parent="1" source="F5-D1" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-40" value="Владелец и адресат" edge="1" parent="1" source="F5-D1" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="2572" /><mxPoint x="797" y="2572" /><mxPoint x="797" y="2670" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-D2" value="D2. ТС, модели, ПТС, сведения о ТО" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="2645" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-41" value="Статус ТС и поколение" edge="1" parent="1" source="F5-D2" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-41" value="Статус ТС и поколение" edge="1" parent="1" source="F5-D2" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="2682" /><mxPoint x="950" y="2682" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-42" value="blocked / согласованная доступность" edge="1" parent="1" source="F5" target="F5-D2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-42" value="blocked / согласованная доступность" edge="1" parent="1" source="F5" target="F5-D2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="950" y="2682" /><mxPoint x="1350" y="2682" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-D3" value="D3. Актуальное состояние и квитанции" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="2760" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-43" value="Координаты и время" edge="1" parent="1" source="F5-D3" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-43" value="Координаты и время" edge="1" parent="1" source="F5-D3" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="2802" /><mxPoint x="797" y="2802" /><mxPoint x="797" y="2795" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-D4" value="D4. Аренды и снимки финансовых условий" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="2875" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-44" value="Аренда, started_at, снимок" edge="1" parent="1" source="F5-D4" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-44" value="Аренда, started_at, снимок" edge="1" parent="1" source="F5-D4" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="2912" /><mxPoint x="807" y="2912" /><mxPoint x="807" y="2795" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-45" value="ended_at, итог, finished, закрытие" edge="1" parent="1" source="F5" target="F5-D4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-45" value="ended_at, итог, finished, закрытие" edge="1" parent="1" source="F5" target="F5-D4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="807" y="2795" /><mxPoint x="807" y="2902" /><mxPoint x="817" y="2902" /><mxPoint x="817" y="2912" /><mxPoint x="1350" y="2912" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-D6" value="D6. Парковки" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1900" y="2530" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-46" value="Координаты и радиус парковки" edge="1" parent="1" source="F5-D6" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-46" value="Координаты и радиус парковки" edge="1" parent="1" source="F5-D6" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1900" y="2572" /><mxPoint x="1727" y="2572" /><mxPoint x="1727" y="2622" /><mxPoint x="797" y="2622" /><mxPoint x="797" y="2670" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-D9" value="D9. Исходящие задания и история интеграций" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1900" y="2645" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-47" value="Сохранённые исходы повторов" edge="1" parent="1" source="F5-D9" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-47" value="Сохранённые исходы повторов" edge="1" parent="1" source="F5-D9" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1900" y="2682" /><mxPoint x="1727" y="2682" /><mxPoint x="1727" y="2742" /><mxPoint x="950" y="2742" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-48" value="Задания закрытия и оплаты" edge="1" parent="1" source="F5" target="F5-D9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-48" value="Задания закрытия и оплаты" edge="1" parent="1" source="F5" target="F5-D9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="950" y="2732" /><mxPoint x="1337" y="2732" /><mxPoint x="1337" y="2742" /><mxPoint x="1727" y="2742" /><mxPoint x="1727" y="2692" /><mxPoint x="1737" y="2692" /><mxPoint x="1737" y="2682" /><mxPoint x="1900" y="2682" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-ext0" value="Телематический модуль" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="350" y="2980" width="350" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e-49" value="запрос / команда" edge="1" parent="1" source="F5" target="F5-ext0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=1;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-49" value="запрос / команда" edge="1" parent="1" source="F5" target="F5-ext0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="650" y="2732" /><mxPoint x="527" y="2732" /><mxPoint x="527" y="2980" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-50" value="проверенный результат" edge="1" parent="1" source="F5-ext0" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0;entryY=1;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-50" value="проверенный результат" edge="1" parent="1" source="F5-ext0" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="527" y="2980" /><mxPoint x="527" y="2742" /><mxPoint x="537" y="2742" /><mxPoint x="537" y="2732" /><mxPoint x="650" y="2732" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-ext1" value="Платёжный шлюз" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="800" y="2980" width="350" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e-51" value="запрос / команда" edge="1" parent="1" source="F5" target="F5-ext1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=1;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-51" value="запрос / команда" edge="1" parent="1" source="F5" target="F5-ext1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="807" y="2795" /><mxPoint x="807" y="2892" /><mxPoint x="827" y="2892" /><mxPoint x="827" y="2980" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-52" value="проверенный результат" edge="1" parent="1" source="F5-ext1" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0;entryY=1;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-52" value="проверенный результат" edge="1" parent="1" source="F5-ext1" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="837" y="2980" /><mxPoint x="837" y="2882" /><mxPoint x="807" y="2882" /><mxPoint x="807" y="2795" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F6" value="&lt;b&gt;F6&lt;/b&gt;&lt;hr&gt;Обновление состояния" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;arcSize=10;fillColor=#dae8fc;">
           <mxGeometry x="650" y="3270" width="300" height="125" as="geometry" />
@@ -360,26 +360,26 @@
         <mxCell id="F6-actor" value="Телематический модуль" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="3270" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="e-53" value="Сообщение состояния" edge="1" parent="1" source="F6-actor" target="F6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.25;exitY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-53" value="Сообщение состояния" edge="1" parent="1" source="F6-actor" target="F6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="300" y="3332" /><mxPoint x="650" y="3332" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-54" value="Квитанция либо контролируемая ошибка" edge="1" parent="1" source="F6" target="F6-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.75;exitY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-54" value="Квитанция либо контролируемая ошибка" edge="1" parent="1" source="F6" target="F6-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="650" y="3332" /><mxPoint x="300" y="3332" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F6-D2" value="D2. ТС, модели, ПТС, сведения о ТО" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="3130" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-55" value="Известные ТС и тип энергии" edge="1" parent="1" source="F6-D2" target="F6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-55" value="Известные ТС и тип энергии" edge="1" parent="1" source="F6-D2" target="F6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="3172" /><mxPoint x="797" y="3172" /><mxPoint x="797" y="3270" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F6-D3" value="D3. Актуальное состояние и квитанции" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="3245" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-56" value="Предыдущая отметка и квитанция" edge="1" parent="1" source="F6-D3" target="F6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-56" value="Предыдущая отметка и квитанция" edge="1" parent="1" source="F6-D3" target="F6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="3282" /><mxPoint x="950" y="3282" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-57" value="Новое состояние и квитанция" edge="1" parent="1" source="F6" target="F6-D3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-57" value="Новое состояние и квитанция" edge="1" parent="1" source="F6" target="F6-D3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="950" y="3282" /><mxPoint x="1350" y="3282" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F7" value="&lt;b&gt;F7&lt;/b&gt;&lt;hr&gt;Начисление штрафа" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;arcSize=10;fillColor=#dae8fc;">
           <mxGeometry x="650" y="3870" width="300" height="125" as="geometry" />
@@ -387,56 +387,56 @@
         <mxCell id="F7-actor" value="Администратор" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="3870" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="e-58" value="Аренда, размер, статья" edge="1" parent="1" source="F7-actor" target="F7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.25;exitY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-58" value="Аренда, размер, статья" edge="1" parent="1" source="F7-actor" target="F7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="300" y="3932" /><mxPoint x="650" y="3932" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-59" value="Штраф и предоставленная ссылка" edge="1" parent="1" source="F7" target="F7-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.75;exitY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-59" value="Штраф и предоставленная ссылка" edge="1" parent="1" source="F7" target="F7-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="650" y="3932" /><mxPoint x="300" y="3932" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F7-D1" value="D1. Пользователи, паспорт и ВУ" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="3730" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-60" value="Адресат уведомления" edge="1" parent="1" source="F7-D1" target="F7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-60" value="Адресат уведомления" edge="1" parent="1" source="F7-D1" target="F7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="3772" /><mxPoint x="797" y="3772" /><mxPoint x="797" y="3870" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F7-D4" value="D4. Аренды и снимки финансовых условий" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="3845" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-61" value="Аренда и владелец" edge="1" parent="1" source="F7-D4" target="F7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-61" value="Аренда и владелец" edge="1" parent="1" source="F7-D4" target="F7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="3882" /><mxPoint x="950" y="3882" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F7-D7" value="D7. Штрафы" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="3960" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-62" value="Сведения о штрафах" edge="1" parent="1" source="F7-D7" target="F7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-62" value="Сведения о штрафах" edge="1" parent="1" source="F7-D7" target="F7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="4002" /><mxPoint x="797" y="4002" /><mxPoint x="797" y="3995" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-63" value="Штраф и сумма" edge="1" parent="1" source="F7" target="F7-D7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-63" value="Штраф и сумма" edge="1" parent="1" source="F7" target="F7-D7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="807" y="3995" /><mxPoint x="807" y="4002" /><mxPoint x="1350" y="4002" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F7-D9" value="D9. Исходящие задания и история интеграций" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="4075" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-64" value="Платёжные задания" edge="1" parent="1" source="F7-D9" target="F7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-64" value="Платёжные задания" edge="1" parent="1" source="F7-D9" target="F7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="4112" /><mxPoint x="817" y="4112" /><mxPoint x="817" y="3995" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-65" value="Оплата и уведомление штрафа" edge="1" parent="1" source="F7" target="F7-D9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-65" value="Оплата и уведомление штрафа" edge="1" parent="1" source="F7" target="F7-D9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="817" y="3995" /><mxPoint x="817" y="4102" /><mxPoint x="827" y="4102" /><mxPoint x="827" y="4112" /><mxPoint x="1350" y="4112" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F7-ext0" value="Платёжный шлюз" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="350" y="4180" width="350" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e-66" value="запрос / команда" edge="1" parent="1" source="F7" target="F7-ext0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=1;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-66" value="запрос / команда" edge="1" parent="1" source="F7" target="F7-ext0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="650" y="3932" /><mxPoint x="527" y="3932" /><mxPoint x="527" y="4180" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-67" value="проверенный результат" edge="1" parent="1" source="F7-ext0" target="F7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0;entryY=1;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-67" value="проверенный результат" edge="1" parent="1" source="F7-ext0" target="F7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="527" y="4180" /><mxPoint x="527" y="3942" /><mxPoint x="537" y="3942" /><mxPoint x="537" y="3932" /><mxPoint x="650" y="3932" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F7-renter" value="Арендатор" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="4080" width="250" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-68" value="Уведомление и ссылка" edge="1" parent="1" source="F7" target="F7-renter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="650" y="3932" /><mxPoint x="547" y="3932" /><mxPoint x="547" y="3952" /><mxPoint x="317" y="3952" /><mxPoint x="317" y="3992" /><mxPoint x="177" y="3992" /><mxPoint x="177" y="4080" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F8" value="&lt;b&gt;F8&lt;/b&gt;&lt;hr&gt;Перечень обслуживания" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;arcSize=10;fillColor=#dae8fc;">
           <mxGeometry x="650" y="4470" width="300" height="125" as="geometry" />
@@ -444,23 +444,23 @@
         <mxCell id="F8-actor" value="Техническая служба" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="4470" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="e-69" value="Запрос перечня и время оценки" edge="1" parent="1" source="F8-actor" target="F8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.25;exitY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-69" value="Запрос перечня и время оценки" edge="1" parent="1" source="F8-actor" target="F8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="300" y="4532" /><mxPoint x="650" y="4532" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-70" value="Перечень с причинами включения" edge="1" parent="1" source="F8" target="F8-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.75;exitY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-70" value="Перечень с причинами включения" edge="1" parent="1" source="F8" target="F8-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="650" y="4532" /><mxPoint x="300" y="4532" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F8-D2" value="D2. ТС, модели, ПТС, сведения о ТО" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="4330" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-71" value="Нормы модели и база последнего ТО" edge="1" parent="1" source="F8-D2" target="F8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-71" value="Нормы модели и база последнего ТО" edge="1" parent="1" source="F8-D2" target="F8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="4372" /><mxPoint x="797" y="4372" /><mxPoint x="797" y="4470" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F8-D3" value="D3. Актуальное состояние и квитанции" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="4445" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-72" value="Пробег, топливо, заряд, признак, время" edge="1" parent="1" source="F8-D3" target="F8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-72" value="Пробег, топливо, заряд, признак, время" edge="1" parent="1" source="F8-D3" target="F8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="4482" /><mxPoint x="950" y="4482" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F9" value="&lt;b&gt;F9&lt;/b&gt;&lt;hr&gt;Ведение тарифов" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;arcSize=10;fillColor=#dae8fc;">
           <mxGeometry x="650" y="5070" width="300" height="125" as="geometry" />
@@ -468,20 +468,20 @@
         <mxCell id="F9-actor" value="Администратор" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="5070" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="e-73" value="Запрос и параметры тарифа" edge="1" parent="1" source="F9-actor" target="F9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.25;exitY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-73" value="Запрос и параметры тарифа" edge="1" parent="1" source="F9-actor" target="F9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="300" y="5132" /><mxPoint x="650" y="5132" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-74" value="Сведения / сохранённый тариф" edge="1" parent="1" source="F9" target="F9-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.75;exitY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-74" value="Сведения / сохранённый тариф" edge="1" parent="1" source="F9" target="F9-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="650" y="5132" /><mxPoint x="300" y="5132" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F9-D5" value="D5. Тарифы" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="4930" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-75" value="Сведения тарифов" edge="1" parent="1" source="F9-D5" target="F9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-75" value="Сведения тарифов" edge="1" parent="1" source="F9-D5" target="F9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="4972" /><mxPoint x="797" y="4972" /><mxPoint x="797" y="5070" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-76" value="Изменённый тариф" edge="1" parent="1" source="F9" target="F9-D5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-76" value="Изменённый тариф" edge="1" parent="1" source="F9" target="F9-D5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="797" y="5070" /><mxPoint x="797" y="4982" /><mxPoint x="807" y="4982" /><mxPoint x="807" y="4972" /><mxPoint x="1350" y="4972" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F10" value="&lt;b&gt;F10&lt;/b&gt;&lt;hr&gt;Ведение парковок" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;arcSize=10;fillColor=#dae8fc;">
           <mxGeometry x="650" y="5670" width="300" height="125" as="geometry" />
@@ -489,20 +489,20 @@
         <mxCell id="F10-actor" value="Администратор" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="5670" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="e-77" value="Запрос, координаты, радиус" edge="1" parent="1" source="F10-actor" target="F10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.25;exitY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-77" value="Запрос, координаты, радиус" edge="1" parent="1" source="F10-actor" target="F10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="300" y="5732" /><mxPoint x="650" y="5732" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-78" value="Сведения / сохранённая парковка" edge="1" parent="1" source="F10" target="F10-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.75;exitY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-78" value="Сведения / сохранённая парковка" edge="1" parent="1" source="F10" target="F10-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="650" y="5732" /><mxPoint x="300" y="5732" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F10-D6" value="D6. Парковки" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="5530" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-79" value="Координаты и радиусы парковок" edge="1" parent="1" source="F10-D6" target="F10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-79" value="Координаты и радиусы парковок" edge="1" parent="1" source="F10-D6" target="F10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="5572" /><mxPoint x="797" y="5572" /><mxPoint x="797" y="5670" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-80" value="Изменённая парковка" edge="1" parent="1" source="F10" target="F10-D6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-80" value="Изменённая парковка" edge="1" parent="1" source="F10" target="F10-D6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="797" y="5670" /><mxPoint x="797" y="5582" /><mxPoint x="807" y="5582" /><mxPoint x="807" y="5572" /><mxPoint x="1350" y="5572" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F11" value="&lt;b&gt;F11&lt;/b&gt;&lt;hr&gt;Просмотр обязательств" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;arcSize=10;fillColor=#dae8fc;">
           <mxGeometry x="650" y="6270" width="300" height="125" as="geometry" />
@@ -510,41 +510,41 @@
         <mxCell id="F11-actor" value="Арендатор / администратор" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="6270" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="e-81" value="Запрос с учётными данными" edge="1" parent="1" source="F11-actor" target="F11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.25;exitY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-81" value="Запрос с учётными данными" edge="1" parent="1" source="F11-actor" target="F11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="300" y="6332" /><mxPoint x="650" y="6332" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-82" value="Свои / все обязательства по роли" edge="1" parent="1" source="F11" target="F11-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.75;exitY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-82" value="Свои / все обязательства по роли" edge="1" parent="1" source="F11" target="F11-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="650" y="6332" /><mxPoint x="300" y="6332" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F11-D1" value="D1. Пользователи, паспорт и ВУ" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="6130" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-83" value="Роль и пользователь" edge="1" parent="1" source="F11-D1" target="F11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-83" value="Роль и пользователь" edge="1" parent="1" source="F11-D1" target="F11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="6172" /><mxPoint x="797" y="6172" /><mxPoint x="797" y="6270" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F11-D4" value="D4. Аренды и снимки финансовых условий" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="6245" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-84" value="Владельцы аренд" edge="1" parent="1" source="F11-D4" target="F11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-84" value="Владельцы аренд" edge="1" parent="1" source="F11-D4" target="F11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="6282" /><mxPoint x="950" y="6282" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F11-D7" value="D7. Штрафы" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="6360" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-85" value="Штрафы: суммы и состояния" edge="1" parent="1" source="F11-D7" target="F11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-85" value="Штрафы: суммы и состояния" edge="1" parent="1" source="F11-D7" target="F11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="6402" /><mxPoint x="797" y="6402" /><mxPoint x="797" y="6395" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F11-D8" value="D8. Задолженности" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="6475" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-86" value="Долги: суммы и состояния" edge="1" parent="1" source="F11-D8" target="F11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-86" value="Долги: суммы и состояния" edge="1" parent="1" source="F11-D8" target="F11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="6512" /><mxPoint x="807" y="6512" /><mxPoint x="807" y="6395" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F11-D9" value="D9. Исходящие задания и история интеграций" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1900" y="6130" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-87" value="Текущие попытки и ссылки" edge="1" parent="1" source="F11-D9" target="F11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-87" value="Текущие попытки и ссылки" edge="1" parent="1" source="F11-D9" target="F11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1900" y="6172" /><mxPoint x="1727" y="6172" /><mxPoint x="1727" y="6222" /><mxPoint x="797" y="6222" /><mxPoint x="797" y="6270" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F12" value="&lt;b&gt;F12&lt;/b&gt;&lt;hr&gt;Результаты оплаты" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;arcSize=10;fillColor=#dae8fc;">
           <mxGeometry x="650" y="6870" width="300" height="125" as="geometry" />
@@ -552,68 +552,68 @@
         <mxCell id="F12-actor" value="Платёжный шлюз" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="6870" width="250" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="e-88" value="Сигнал о платеже и проверенный объект" edge="1" parent="1" source="F12-actor" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.25;exitY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-88" value="Сигнал о платеже и проверенный объект" edge="1" parent="1" source="F12-actor" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="300" y="6932" /><mxPoint x="650" y="6932" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-89" value="Подтверждение обработки" edge="1" parent="1" source="F12" target="F12-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryY=0.75;exitY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-89" value="Подтверждение обработки" edge="1" parent="1" source="F12" target="F12-actor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="650" y="6932" /><mxPoint x="300" y="6932" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F12-D1" value="D1. Пользователи, паспорт и ВУ" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="6730" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-90" value="Адресат уведомления" edge="1" parent="1" source="F12-D1" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-90" value="Адресат уведомления" edge="1" parent="1" source="F12-D1" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="6772" /><mxPoint x="797" y="6772" /><mxPoint x="797" y="6870" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F12-D4" value="D4. Аренды и снимки финансовых условий" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="6845" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-91" value="Финансовый результат аренды" edge="1" parent="1" source="F12-D4" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-91" value="Финансовый результат аренды" edge="1" parent="1" source="F12-D4" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="6882" /><mxPoint x="950" y="6882" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-92" value="Финансовый исход аренды" edge="1" parent="1" source="F12" target="F12-D4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-92" value="Финансовый исход аренды" edge="1" parent="1" source="F12" target="F12-D4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="950" y="6882" /><mxPoint x="1350" y="6882" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F12-D7" value="D7. Штрафы" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="6960" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-93" value="Штраф и состояние" edge="1" parent="1" source="F12-D7" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-93" value="Штраф и состояние" edge="1" parent="1" source="F12-D7" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="7002" /><mxPoint x="797" y="7002" /><mxPoint x="797" y="6995" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-94" value="Состояние штрафа" edge="1" parent="1" source="F12" target="F12-D7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-94" value="Состояние штрафа" edge="1" parent="1" source="F12" target="F12-D7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="807" y="6995" /><mxPoint x="807" y="7002" /><mxPoint x="1350" y="7002" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F12-D8" value="D8. Задолженности" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1350" y="7075" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-95" value="Долг и состояние" edge="1" parent="1" source="F12-D8" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-95" value="Долг и состояние" edge="1" parent="1" source="F12-D8" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1350" y="7112" /><mxPoint x="817" y="7112" /><mxPoint x="817" y="6995" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-96" value="Создание / погашение долга" edge="1" parent="1" source="F12" target="F12-D8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-96" value="Создание / погашение долга" edge="1" parent="1" source="F12" target="F12-D8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="817" y="6995" /><mxPoint x="817" y="7102" /><mxPoint x="827" y="7102" /><mxPoint x="827" y="7112" /><mxPoint x="1350" y="7112" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F12-D9" value="D9. Исходящие задания и история интеграций" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1900" y="6730" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e-97" value="Идентификаторы и история попыток" edge="1" parent="1" source="F12-D9" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.25;entryY=0.25;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-97" value="Идентификаторы и история попыток" edge="1" parent="1" source="F12-D9" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1900" y="6772" /><mxPoint x="1727" y="6772" /><mxPoint x="1727" y="6822" /><mxPoint x="797" y="6822" /><mxPoint x="797" y="6870" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-98" value="Результат, попытка, уведомление" edge="1" parent="1" source="F12" target="F12-D9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0.75;entryY=0.75;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-98" value="Результат, попытка, уведомление" edge="1" parent="1" source="F12" target="F12-D9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="797" y="6870" /><mxPoint x="797" y="6832" /><mxPoint x="1737" y="6832" /><mxPoint x="1737" y="6772" /><mxPoint x="1900" y="6772" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F12-ext0" value="Платёжный шлюз" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="350" y="7180" width="350" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e-99" value="запрос / команда" edge="1" parent="1" source="F12" target="F12-ext0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=1;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-99" value="запрос / команда" edge="1" parent="1" source="F12" target="F12-ext0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="650" y="6932" /><mxPoint x="527" y="6932" /><mxPoint x="527" y="7180" /></Array></mxGeometry>
         </mxCell>
-        <mxCell id="e-100" value="проверенный результат" edge="1" parent="1" source="F12-ext0" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitY=0;entryY=1;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e-100" value="проверенный результат" edge="1" parent="1" source="F12-ext0" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="527" y="7180" /><mxPoint x="527" y="6942" /><mxPoint x="537" y="6942" /><mxPoint x="537" y="6932" /><mxPoint x="650" y="6932" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F12-renter" value="Арендатор" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="50" y="7080" width="250" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-101" value="Финансовый результат и ссылка" edge="1" parent="1" source="F12" target="F12-renter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="650" y="6932" /><mxPoint x="547" y="6932" /><mxPoint x="547" y="6952" /><mxPoint x="317" y="6952" /><mxPoint x="317" y="6992" /><mxPoint x="177" y="6992" /><mxPoint x="177" y="7080" /></Array></mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -636,16 +636,16 @@
           <mxGeometry x="880" y="180" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="e-1" value="Документы и принятое согласие" edge="1" parent="1" source="reg-F1.1" target="reg-F1.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="400" y="232" /><mxPoint x="490" y="232" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-2" value="Два положительных результата" edge="1" parent="1" source="reg-F1.3" target="reg-F1.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="790" y="232" /><mxPoint x="880" y="232" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="D1" value="D1. Пользователи и документы" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1000" y="390" width="360" height="85" as="geometry" />
         </mxCell>
         <mxCell id="e-3" value="Пользователь, статусы документов, оферта" edge="1" parent="1" source="reg-F1.2" target="D1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1027" y="290" /><mxPoint x="1027" y="390" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="start-F3.1" value="F3.1&lt;hr&gt;Проверить состояние и доступность" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="100" y="700" width="300" height="110" as="geometry" />
@@ -666,22 +666,22 @@
           <mxGeometry x="2050" y="700" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="e-4" value="Доступное ТС" edge="1" parent="1" source="start-F3.1" target="start-F3.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="400" y="752" /><mxPoint x="490" y="752" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-5" value="Допущенный пользователь" edge="1" parent="1" source="start-F3.2" target="start-F1.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="790" y="752" /><mxPoint x="880" y="752" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-6" value="Действительные документы" edge="1" parent="1" source="start-F1.3" target="start-F3.5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1180" y="752" /><mxPoint x="1270" y="752" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-7" value="Применимые финансовые условия" edge="1" parent="1" source="start-F3.5" target="start-F3.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1570" y="752" /><mxPoint x="1660" y="752" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-8" value="Попытка, поколение, команда" edge="1" parent="1" source="start-F3.3" target="start-F3.4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1960" y="752" /><mxPoint x="2050" y="752" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-9" value="Подтверждение либо отказ открытия" edge="1" parent="1" source="start-F3.4" target="start-F3.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="16"><Array as="points"><mxPoint x="2050" y="752" /><mxPoint x="1960" y="752" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="s-D2" value="D2. ТС, модели, ПТС, сведения о ТО" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="100" y="1030" width="300" height="100" as="geometry" />
@@ -702,31 +702,31 @@
           <mxGeometry x="2050" y="1030" width="300" height="100" as="geometry" />
         </mxCell>
         <mxCell id="e-10" value="ТС" edge="1" parent="1" source="s-D2" target="start-F3.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="247" y="1030" /><mxPoint x="247" y="810" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-11" value="Состояние и возраст" edge="1" parent="1" source="s-D3" target="start-F3.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="490" y="1082" /><mxPoint x="417" y="1082" /><mxPoint x="417" y="1012" /><mxPoint x="247" y="1012" /><mxPoint x="247" y="810" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-12" value="Непогашенная задолженность" edge="1" parent="1" source="s-D8" target="start-F3.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1270" y="1082" /><mxPoint x="1197" y="1082" /><mxPoint x="1197" y="1012" /><mxPoint x="637" y="1012" /><mxPoint x="637" y="810" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-13" value="Тариф" edge="1" parent="1" source="s-D5" target="start-F3.5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1027" y="1030" /><mxPoint x="1027" y="822" /><mxPoint x="1197" y="822" /><mxPoint x="1197" y="752" /><mxPoint x="1270" y="752" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-14" value="Стартовая стоимость модели" edge="1" parent="1" source="s-D2" target="start-F3.5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="247" y="1030" /><mxPoint x="247" y="1022" /><mxPoint x="257" y="1022" /><mxPoint x="257" y="832" /><mxPoint x="1207" y="832" /><mxPoint x="1207" y="752" /><mxPoint x="1270" y="752" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-15" value="Попытка, снимок условий и её исход" edge="1" parent="1" source="start-F3.3" target="s-D4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1807" y="810" /><mxPoint x="1807" y="1030" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-16" value="Задание команды" edge="1" parent="1" source="start-F3.3" target="s-D9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1807" y="810" /><mxPoint x="1807" y="1012" /><mxPoint x="1977" y="1012" /><mxPoint x="1977" y="1082" /><mxPoint x="2050" y="1082" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-17" value="Операционный статус" edge="1" parent="1" source="start-F3.3" target="s-D2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1660" y="752" /><mxPoint x="1587" y="752" /><mxPoint x="1587" y="822" /><mxPoint x="1217" y="822" /><mxPoint x="1217" y="842" /><mxPoint x="267" y="842" /><mxPoint x="267" y="1030" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-18" value="Сохранённая команда" edge="1" parent="1" source="s-D9" target="start-F3.4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2197" y="1030" /><mxPoint x="2197" y="810" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="finish-F5.1" value="F5.1&lt;hr&gt;Получить аренду и ТС" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="100" y="1430" width="300" height="110" as="geometry" />
@@ -747,19 +747,19 @@
           <mxGeometry x="2050" y="1430" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="e-19" value="ТС и аренда" edge="1" parent="1" source="finish-F5.1" target="finish-F5.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="400" y="1482" /><mxPoint x="490" y="1482" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-20" value="Подтверждённое место и время запроса" edge="1" parent="1" source="finish-F5.2" target="finish-F5.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="790" y="1482" /><mxPoint x="880" y="1482" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-21" value="Итоговая стоимость" edge="1" parent="1" source="finish-F5.3" target="finish-F5.5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1180" y="1482" /><mxPoint x="1270" y="1482" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-22" value="Задание закрытия" edge="1" parent="1" source="finish-F5.5" target="finish-F5.4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1570" y="1482" /><mxPoint x="1660" y="1482" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-23" value="Задание оплаты" edge="1" parent="1" source="finish-F5.5" target="finish-F5.6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1570" y="1482" /><mxPoint x="1647" y="1482" /><mxPoint x="1647" y="1412" /><mxPoint x="1977" y="1412" /><mxPoint x="1977" y="1482" /><mxPoint x="2050" y="1482" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="f-D4" value="D4. Аренды и снимки финансовых условий" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="100" y="1760" width="300" height="100" as="geometry" />
@@ -777,31 +777,31 @@
           <mxGeometry x="1660" y="1760" width="300" height="100" as="geometry" />
         </mxCell>
         <mxCell id="e-24" value="Аренда и снимок условий" edge="1" parent="1" source="f-D4" target="finish-F5.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="247" y="1760" /><mxPoint x="247" y="1540" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-25" value="Свежие координаты" edge="1" parent="1" source="f-D3" target="finish-F5.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="637" y="1760" /><mxPoint x="637" y="1540" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-26" value="Координаты и радиус парковки" edge="1" parent="1" source="f-D6" target="finish-F5.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="880" y="1812" /><mxPoint x="807" y="1812" /><mxPoint x="807" y="1742" /><mxPoint x="637" y="1742" /><mxPoint x="637" y="1540" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-27" value="Снимок цены и время начала" edge="1" parent="1" source="f-D4" target="finish-F5.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="247" y="1760" /><mxPoint x="247" y="1552" /><mxPoint x="807" y="1552" /><mxPoint x="807" y="1482" /><mxPoint x="880" y="1482" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-28" value="ended_at, итог, finished" edge="1" parent="1" source="finish-F5.5" target="f-D4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1270" y="1482" /><mxPoint x="1197" y="1482" /><mxPoint x="1197" y="1552" /><mxPoint x="817" y="1552" /><mxPoint x="817" y="1562" /><mxPoint x="247" y="1562" /><mxPoint x="247" y="1760" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-29" value="blocked" edge="1" parent="1" source="finish-F5.5" target="f-D2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1417" y="1540" /><mxPoint x="1417" y="1760" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-30" value="Команда и платёжное задание" edge="1" parent="1" source="finish-F5.5" target="f-D9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1417" y="1540" /><mxPoint x="1417" y="1742" /><mxPoint x="1587" y="1742" /><mxPoint x="1587" y="1812" /><mxPoint x="1660" y="1812" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-31" value="Результат закрытия" edge="1" parent="1" source="finish-F5.4" target="f-D4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1660" y="1482" /><mxPoint x="1657" y="1482" /><mxPoint x="1657" y="1492" /><mxPoint x="1587" y="1492" /><mxPoint x="1587" y="1552" /><mxPoint x="1207" y="1552" /><mxPoint x="1207" y="1562" /><mxPoint x="827" y="1562" /><mxPoint x="827" y="1572" /><mxPoint x="247" y="1572" /><mxPoint x="247" y="1760" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-32" value="Внешний id и состояние попытки" edge="1" parent="1" source="finish-F5.6" target="f-D9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2050" y="1482" /><mxPoint x="1987" y="1482" /><mxPoint x="1987" y="1492" /><mxPoint x="1977" y="1492" /><mxPoint x="1977" y="1552" /><mxPoint x="1807" y="1552" /><mxPoint x="1807" y="1760" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="fin12" value="F12&lt;hr&gt;Проверить финансовый результат" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="2200" y="1940" width="300" height="110" as="geometry" />
@@ -810,19 +810,19 @@
           <mxGeometry x="2600" y="1680" width="300" height="100" as="geometry" />
         </mxCell>
         <mxCell id="e-33" value="Создание платежа" edge="1" parent="1" source="finish-F5.6" target="pay" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2197" y="1540" /><mxPoint x="2197" y="1732" /><mxPoint x="2600" y="1732" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-34" value="Уведомление и проверенный объект" edge="1" parent="1" source="pay" target="fin12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2600" y="1732" /><mxPoint x="2347" y="1732" /><mxPoint x="2347" y="1940" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-35" value="Финансовый результат аренды" edge="1" parent="1" source="fin12" target="f-D4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2200" y="1992" /><mxPoint x="247" y="1992" /><mxPoint x="247" y="1860" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="f-D8" value="D8. Задолженности" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;shape=partialRectangle;right=0;fillColor=#e2f0d9;">
           <mxGeometry x="1700" y="2090" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="e-36" value="Задолженность при окончательном отказе" edge="1" parent="1" source="fin12" target="f-D8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2200" y="1992" /><mxPoint x="1847" y="1992" /><mxPoint x="1847" y="2090" /></Array></mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -845,28 +845,28 @@
           <mxGeometry x="1100" y="220" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="e-1" value="Запросы с идентификаторами" edge="1" parent="1" source="F1.3.1" target="F1.3.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="420" y="272" /><mxPoint x="600" y="272" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-2" value="Оба результата либо причина отказа" edge="1" parent="1" source="F1.3.2" target="F1.3.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="920" y="272" /><mxPoint x="1100" y="272" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="doc-0" value="Имитатор паспорта" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="350" y="490" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="e-3" value="Серия, номер, request_id" edge="1" parent="1" source="F1.3.1" target="doc-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="257" y="320" /><mxPoint x="257" y="532" /><mxPoint x="350" y="532" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-4" value="valid / invalid / timeout" edge="1" parent="1" source="doc-0" target="F1.3.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="507" y="490" /><mxPoint x="507" y="272" /><mxPoint x="600" y="272" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="doc-1" value="Имитатор ВУ" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;fillColor=#fff2cc;">
           <mxGeometry x="1000" y="490" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="e-5" value="Серия, номер, request_id" edge="1" parent="1" source="F1.3.1" target="doc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="257" y="320" /><mxPoint x="257" y="472" /><mxPoint x="687" y="472" /><mxPoint x="687" y="532" /><mxPoint x="1000" y="532" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-6" value="valid / invalid / timeout" edge="1" parent="1" source="doc-1" target="F1.3.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1000" y="532" /><mxPoint x="757" y="532" /><mxPoint x="757" y="320" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3.5" value="F3.5&lt;hr&gt;Получить и зафиксировать применимые условия" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="700" y="900" width="380" height="110" as="geometry" />
@@ -881,13 +881,13 @@
           <mxGeometry x="1400" y="1200" width="360" height="90" as="geometry" />
         </mxCell>
         <mxCell id="e-7" value="Стартовая стоимость" edge="1" parent="1" source="D2" target="F3.5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="277" y="1200" /><mxPoint x="277" y="952" /><mxPoint x="700" y="952" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-8" value="Единица, цена" edge="1" parent="1" source="D5" target="F3.5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="887" y="1200" /><mxPoint x="887" y="1010" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="e-9" value="Согласованные значения; последующее чтение F4/F5" edge="1" parent="1" source="F3.5" target="D4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="887" y="1010" /><mxPoint x="887" y="1182" /><mxPoint x="1127" y="1182" /><mxPoint x="1127" y="1242" /><mxPoint x="1400" y="1242" /></Array></mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -907,225 +907,165 @@
           <mxGeometry x="50" y="360" width="420" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-1" value="" edge="1" parent="1" source="F0" target="F1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="270" />
-              <mxPoint x="260" y="270" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1100" y="162" /><mxPoint x="257" y="162" /><mxPoint x="257" y="360" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F1-F1.1" value="F1.1. Оферта и сведения" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="50" y="480" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-2" value="" edge="1" parent="1" source="F1" target="F1-F1.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="157" y="435" /><mxPoint x="157" y="480" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F1-F1.3" value="F1.3. Проверки документов" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="275" y="480" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-3" value="" edge="1" parent="1" source="F1" target="F1-F1.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="257" y="435" /><mxPoint x="257" y="462" /><mxPoint x="267" y="462" /><mxPoint x="267" y="512" /><mxPoint x="275" y="512" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F1-F1.2" value="F1.2. Пользователь" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="50" y="560" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-4" value="" edge="1" parent="1" source="F1" target="F1-F1.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="157" y="435" /><mxPoint x="157" y="462" /><mxPoint x="37" y="462" /><mxPoint x="37" y="592" /><mxPoint x="50" y="592" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F2" value="F2. Поиск ближайших ТС" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="510" y="360" width="420" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-5" value="" edge="1" parent="1" source="F0" target="F2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="270" />
-              <mxPoint x="720" y="270" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1100" y="162" /><mxPoint x="717" y="162" /><mxPoint x="717" y="360" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3" value="F3. Начало аренды" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="970" y="360" width="420" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-6" value="" edge="1" parent="1" source="F0" target="F3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="270" />
-              <mxPoint x="1180" y="270" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1177" y="200" /><mxPoint x="1177" y="360" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-F3.1" value="F3.1. Доступность" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="970" y="480" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-7" value="" edge="1" parent="1" source="F3" target="F3-F3.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1077" y="435" /><mxPoint x="1077" y="480" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-F3.2" value="F3.2. Задолженность" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="1195" y="480" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-8" value="" edge="1" parent="1" source="F3" target="F3-F3.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1177" y="435" /><mxPoint x="1177" y="462" /><mxPoint x="1187" y="462" /><mxPoint x="1187" y="512" /><mxPoint x="1195" y="512" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-F3.5" value="F3.5. Условия стоимости" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="970" y="560" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-9" value="" edge="1" parent="1" source="F3" target="F3-F3.5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1077" y="435" /><mxPoint x="1077" y="462" /><mxPoint x="957" y="462" /><mxPoint x="957" y="592" /><mxPoint x="970" y="592" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-F3.3" value="F3.3. Попытка и результат" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="1195" y="560" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-10" value="" edge="1" parent="1" source="F3" target="F3-F3.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1177" y="435" /><mxPoint x="1177" y="452" /><mxPoint x="1197" y="452" /><mxPoint x="1197" y="462" /><mxPoint x="1417" y="462" /><mxPoint x="1417" y="552" /><mxPoint x="1297" y="552" /><mxPoint x="1297" y="560" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-F3.4" value="F3.4. Команда открытия" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="970" y="640" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-11" value="" edge="1" parent="1" source="F3" target="F3-F3.4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1077" y="435" /><mxPoint x="1077" y="452" /><mxPoint x="947" y="452" /><mxPoint x="947" y="672" /><mxPoint x="970" y="672" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F3-doc-use" value="Использует F1.3 повторно" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;text;">
           <mxGeometry x="970" y="720" width="420" height="55" as="geometry" />
         </mxCell>
         <mxCell id="e-12" value="" edge="1" parent="1" source="F3" target="F3-doc-use" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;dashed=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1177" y="435" /><mxPoint x="1177" y="442" /><mxPoint x="1067" y="442" /><mxPoint x="1067" y="462" /><mxPoint x="957" y="462" /><mxPoint x="957" y="582" /><mxPoint x="947" y="582" /><mxPoint x="947" y="662" /><mxPoint x="957" y="662" /><mxPoint x="957" y="752" /><mxPoint x="970" y="752" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F4" value="F4. Сведения об аренде" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="1430" y="360" width="420" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-13" value="" edge="1" parent="1" source="F0" target="F4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="270" />
-              <mxPoint x="1640" y="270" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1307" y="200" /><mxPoint x="1307" y="342" /><mxPoint x="1407" y="342" /><mxPoint x="1407" y="402" /><mxPoint x="1430" y="402" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5" value="F5. Завершение аренды" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="1890" y="360" width="420" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-14" value="" edge="1" parent="1" source="F0" target="F5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="270" />
-              <mxPoint x="2100" y="270" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1307" y="200" /><mxPoint x="1307" y="332" /><mxPoint x="1417" y="332" /><mxPoint x="1417" y="342" /><mxPoint x="1867" y="342" /><mxPoint x="1867" y="402" /><mxPoint x="1890" y="402" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-F5.1" value="F5.1. Аренда и ТС" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="1890" y="480" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-15" value="" edge="1" parent="1" source="F5" target="F5-F5.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1997" y="435" /><mxPoint x="1997" y="480" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-F5.2" value="F5.2. Парковка" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="2115" y="480" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-16" value="" edge="1" parent="1" source="F5" target="F5-F5.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2097" y="435" /><mxPoint x="2097" y="462" /><mxPoint x="2107" y="462" /><mxPoint x="2107" y="512" /><mxPoint x="2115" y="512" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-F5.3" value="F5.3. Стоимость" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="1890" y="560" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-17" value="" edge="1" parent="1" source="F5" target="F5-F5.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1997" y="435" /><mxPoint x="1997" y="462" /><mxPoint x="1877" y="462" /><mxPoint x="1877" y="592" /><mxPoint x="1890" y="592" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-F5.5" value="F5.5. Фиксация окончания" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="2115" y="560" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-18" value="" edge="1" parent="1" source="F5" target="F5-F5.5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2097" y="435" /><mxPoint x="2097" y="452" /><mxPoint x="2117" y="452" /><mxPoint x="2117" y="462" /><mxPoint x="2337" y="462" /><mxPoint x="2337" y="552" /><mxPoint x="2217" y="552" /><mxPoint x="2217" y="560" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-F5.4" value="F5.4. Закрытие ТС" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="1890" y="640" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-19" value="" edge="1" parent="1" source="F5" target="F5-F5.4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1997" y="435" /><mxPoint x="1997" y="452" /><mxPoint x="1867" y="452" /><mxPoint x="1867" y="672" /><mxPoint x="1890" y="672" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F5-F5.6" value="F5.6. Инициирование оплаты" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#ffffff;">
           <mxGeometry x="2115" y="640" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-20" value="" edge="1" parent="1" source="F5" target="F5-F5.6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2097" y="435" /><mxPoint x="2097" y="442" /><mxPoint x="2127" y="442" /><mxPoint x="2127" y="462" /><mxPoint x="2337" y="462" /><mxPoint x="2337" y="632" /><mxPoint x="2217" y="632" /><mxPoint x="2217" y="640" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F6" value="F6. Обновление состояния" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="2350" y="360" width="420" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-21" value="" edge="1" parent="1" source="F0" target="F6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="270" />
-              <mxPoint x="2560" y="270" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1307" y="200" /><mxPoint x="1307" y="322" /><mxPoint x="1427" y="322" /><mxPoint x="1427" y="332" /><mxPoint x="1877" y="332" /><mxPoint x="1877" y="342" /><mxPoint x="2327" y="342" /><mxPoint x="2327" y="402" /><mxPoint x="2350" y="402" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F7" value="F7. Начисление штрафа" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="2810" y="360" width="420" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-22" value="" edge="1" parent="1" source="F0" target="F7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="270" />
-              <mxPoint x="3020" y="270" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1307" y="200" /><mxPoint x="1307" y="312" /><mxPoint x="1437" y="312" /><mxPoint x="1437" y="322" /><mxPoint x="1887" y="322" /><mxPoint x="1887" y="332" /><mxPoint x="2337" y="332" /><mxPoint x="2337" y="342" /><mxPoint x="2787" y="342" /><mxPoint x="2787" y="402" /><mxPoint x="2810" y="402" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F8" value="F8. Перечень обслуживания" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="3270" y="360" width="420" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-23" value="" edge="1" parent="1" source="F0" target="F8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="270" />
-              <mxPoint x="3480" y="270" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1307" y="200" /><mxPoint x="1307" y="302" /><mxPoint x="1447" y="302" /><mxPoint x="1447" y="312" /><mxPoint x="1897" y="312" /><mxPoint x="1897" y="322" /><mxPoint x="2347" y="322" /><mxPoint x="2347" y="332" /><mxPoint x="2797" y="332" /><mxPoint x="2797" y="342" /><mxPoint x="3247" y="342" /><mxPoint x="3247" y="402" /><mxPoint x="3270" y="402" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F9" value="F9. Ведение тарифов" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="3730" y="360" width="420" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-24" value="" edge="1" parent="1" source="F0" target="F9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="270" />
-              <mxPoint x="3940" y="270" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1307" y="200" /><mxPoint x="1307" y="292" /><mxPoint x="1457" y="292" /><mxPoint x="1457" y="302" /><mxPoint x="1907" y="302" /><mxPoint x="1907" y="312" /><mxPoint x="2357" y="312" /><mxPoint x="2357" y="322" /><mxPoint x="2807" y="322" /><mxPoint x="2807" y="332" /><mxPoint x="3257" y="332" /><mxPoint x="3257" y="342" /><mxPoint x="3707" y="342" /><mxPoint x="3707" y="402" /><mxPoint x="3730" y="402" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F10" value="F10. Ведение парковок" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="4190" y="360" width="420" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-25" value="" edge="1" parent="1" source="F0" target="F10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="270" />
-              <mxPoint x="4400" y="270" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1307" y="200" /><mxPoint x="1307" y="282" /><mxPoint x="1467" y="282" /><mxPoint x="1467" y="292" /><mxPoint x="1917" y="292" /><mxPoint x="1917" y="302" /><mxPoint x="2367" y="302" /><mxPoint x="2367" y="312" /><mxPoint x="2817" y="312" /><mxPoint x="2817" y="322" /><mxPoint x="3267" y="322" /><mxPoint x="3267" y="332" /><mxPoint x="3717" y="332" /><mxPoint x="3717" y="342" /><mxPoint x="4167" y="342" /><mxPoint x="4167" y="402" /><mxPoint x="4190" y="402" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F11" value="F11. Просмотр обязательств" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="4650" y="360" width="420" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-26" value="" edge="1" parent="1" source="F0" target="F11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="270" />
-              <mxPoint x="4860" y="270" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1307" y="200" /><mxPoint x="1307" y="272" /><mxPoint x="1477" y="272" /><mxPoint x="1477" y="282" /><mxPoint x="1927" y="282" /><mxPoint x="1927" y="292" /><mxPoint x="2377" y="292" /><mxPoint x="2377" y="302" /><mxPoint x="2827" y="302" /><mxPoint x="2827" y="312" /><mxPoint x="3277" y="312" /><mxPoint x="3277" y="322" /><mxPoint x="3727" y="322" /><mxPoint x="3727" y="332" /><mxPoint x="4177" y="332" /><mxPoint x="4177" y="342" /><mxPoint x="4627" y="342" /><mxPoint x="4627" y="402" /><mxPoint x="4650" y="402" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="F12" value="F12. Результаты оплаты" vertex="1" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;spacing=5;rounded=1;fillColor=#dae8fc;">
           <mxGeometry x="5110" y="360" width="420" height="75" as="geometry" />
         </mxCell>
         <mxCell id="e-27" value="" edge="1" parent="1" source="F0" target="F12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;endArrow=none;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="270" />
-              <mxPoint x="5320" y="270" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="1307" y="200" /><mxPoint x="1307" y="262" /><mxPoint x="1487" y="262" /><mxPoint x="1487" y="272" /><mxPoint x="1937" y="272" /><mxPoint x="1937" y="282" /><mxPoint x="2387" y="282" /><mxPoint x="2387" y="292" /><mxPoint x="2837" y="292" /><mxPoint x="2837" y="302" /><mxPoint x="3287" y="302" /><mxPoint x="3287" y="312" /><mxPoint x="3737" y="312" /><mxPoint x="3737" y="322" /><mxPoint x="4187" y="322" /><mxPoint x="4187" y="332" /><mxPoint x="4637" y="332" /><mxPoint x="4637" y="342" /><mxPoint x="5087" y="342" /><mxPoint x="5087" y="402" /><mxPoint x="5110" y="402" /></Array></mxGeometry>
         </mxCell>
-      <mxCell id="F6-F6.1" value="F6.1. Приём и проверка сообщения" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="2350" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F6-F6.1" edge="1" parent="1" source="F6" target="F6-F6.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="F6-F6.2" value="F6.2. Сохранение состояния и квитанции" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="2575" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F6-F6.2" edge="1" parent="1" source="F6" target="F6-F6.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="F6-F6.3" value="F6.3. Ответ и контролируемая ошибка" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="2350" y="560" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F6-F6.3" edge="1" parent="1" source="F6" target="F6-F6.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="F7-F7.1" value="F7.1. Доступ администратора и параметры" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="2810" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F7-F7.1" edge="1" parent="1" source="F7" target="F7-F7.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="F7-F7.2" value="F7.2. Штраф и задание оплаты" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="3035" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F7-F7.2" edge="1" parent="1" source="F7" target="F7-F7.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="F7-F7.3" value="F7.3. Ссылка и уведомление" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="2810" y="560" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F7-F7.3" edge="1" parent="1" source="F7" target="F7-F7.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="F8-F8.1" value="F8.1. Роль и исходные данные" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="3270" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F8-F8.1" edge="1" parent="1" source="F8" target="F8-F8.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="F8-F8.2" value="F8.2. Критерии и перечень" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="3495" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F8-F8.2" edge="1" parent="1" source="F8" target="F8-F8.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="F8-F8.3" value="F8.3. Отказ при неполных данных" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="3270" y="560" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F8-F8.3" edge="1" parent="1" source="F8" target="F8-F8.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="F12-F12.1" value="F12.1. Проверка сигнала и объекта платежа" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="5110" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F12-F12.1" edge="1" parent="1" source="F12" target="F12-F12.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="F12-F12.2" value="F12.2. Применение результата и задолженность" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="5335" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F12-F12.2" edge="1" parent="1" source="F12" target="F12-F12.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="F12-F12.3" value="F12.3. Повтор, ссылка и уведомление" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="5110" y="560" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F12-F12.3" edge="1" parent="1" source="F12" target="F12-F12.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell></root>
+      <mxCell id="F6-F6.1" value="F6.1. Приём и проверка сообщения" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="2350" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F6-F6.1" edge="1" parent="1" source="F6" target="F6-F6.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=#ffffff;"><mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2407" y="435" /><mxPoint x="2407" y="480" /></Array></mxGeometry></mxCell><mxCell id="F6-F6.2" value="F6.2. Сохранение состояния и квитанции" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="2575" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F6-F6.2" edge="1" parent="1" source="F6" target="F6-F6.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=#ffffff;"><mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2557" y="435" /><mxPoint x="2557" y="502" /><mxPoint x="2575" y="502" /></Array></mxGeometry></mxCell><mxCell id="F6-F6.3" value="F6.3. Ответ и контролируемая ошибка" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="2350" y="560" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F6-F6.3" edge="1" parent="1" source="F6" target="F6-F6.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=#ffffff;"><mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2487" y="435" /><mxPoint x="2487" y="532" /><mxPoint x="2407" y="532" /><mxPoint x="2407" y="560" /></Array></mxGeometry></mxCell><mxCell id="F7-F7.1" value="F7.1. Доступ администратора и параметры" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="2810" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F7-F7.1" edge="1" parent="1" source="F7" target="F7-F7.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=#ffffff;"><mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2867" y="435" /><mxPoint x="2867" y="480" /></Array></mxGeometry></mxCell><mxCell id="F7-F7.2" value="F7.2. Штраф и задание оплаты" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="3035" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F7-F7.2" edge="1" parent="1" source="F7" target="F7-F7.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=#ffffff;"><mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="3017" y="435" /><mxPoint x="3017" y="502" /><mxPoint x="3035" y="502" /></Array></mxGeometry></mxCell><mxCell id="F7-F7.3" value="F7.3. Ссылка и уведомление" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="2810" y="560" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F7-F7.3" edge="1" parent="1" source="F7" target="F7-F7.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=#ffffff;"><mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="2947" y="435" /><mxPoint x="2947" y="532" /><mxPoint x="2867" y="532" /><mxPoint x="2867" y="560" /></Array></mxGeometry></mxCell><mxCell id="F8-F8.1" value="F8.1. Роль и исходные данные" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="3270" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F8-F8.1" edge="1" parent="1" source="F8" target="F8-F8.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=#ffffff;"><mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="3327" y="435" /><mxPoint x="3327" y="480" /></Array></mxGeometry></mxCell><mxCell id="F8-F8.2" value="F8.2. Критерии и перечень" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="3495" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F8-F8.2" edge="1" parent="1" source="F8" target="F8-F8.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=#ffffff;"><mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="3477" y="435" /><mxPoint x="3477" y="502" /><mxPoint x="3495" y="502" /></Array></mxGeometry></mxCell><mxCell id="F8-F8.3" value="F8.3. Отказ при неполных данных" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="3270" y="560" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F8-F8.3" edge="1" parent="1" source="F8" target="F8-F8.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=#ffffff;"><mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="3407" y="435" /><mxPoint x="3407" y="532" /><mxPoint x="3327" y="532" /><mxPoint x="3327" y="560" /></Array></mxGeometry></mxCell><mxCell id="F12-F12.1" value="F12.1. Проверка сигнала и объекта платежа" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="5110" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F12-F12.1" edge="1" parent="1" source="F12" target="F12-F12.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=#ffffff;"><mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="5167" y="435" /><mxPoint x="5167" y="480" /></Array></mxGeometry></mxCell><mxCell id="F12-F12.2" value="F12.2. Применение результата и задолженность" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="5335" y="480" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F12-F12.2" edge="1" parent="1" source="F12" target="F12-F12.2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=#ffffff;"><mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="5317" y="435" /><mxPoint x="5317" y="502" /><mxPoint x="5335" y="502" /></Array></mxGeometry></mxCell><mxCell id="F12-F12.3" value="F12.3. Повтор, ссылка и уведомление" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="5110" y="560" width="120" height="40" as="geometry"/></mxCell><mxCell id="e-F12-F12.3" edge="1" parent="1" source="F12" target="F12-F12.3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=#ffffff;"><mxGeometry relative="1" as="geometry" x="0" y="0"><Array as="points"><mxPoint x="5247" y="435" /><mxPoint x="5247" y="532" /><mxPoint x="5167" y="532" /><mxPoint x="5167" y="560" /></Array></mxGeometry></mxCell></root>
     </mxGraphModel>
   </diagram>
 </mxfile>
