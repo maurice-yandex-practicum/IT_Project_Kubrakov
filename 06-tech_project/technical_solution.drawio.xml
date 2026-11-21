@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="Размещение и обмены" name="Размещение и обмены">
+    <mxGraphModel dx="1600" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1120" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Техническое решение АС «Каршеринг»" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=28;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1520" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Состав и физические способы обмена • контрольный стенд Docker Compose / Linux" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=16;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="85" width="1520" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="roles" value="Арендатор&lt;br&gt;Администратор&lt;br&gt;Техническая служба&lt;br&gt;Средство обращения к API" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=18;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#dbeafe;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="app" value="FastAPI / Uvicorn&lt;br&gt;Серверное приложение • один процесс&lt;br&gt;&lt;br&gt;gateway • auth&lt;br&gt;registration • docs_adapter&lt;br&gt;rental • state&lt;br&gt;finance • payment_adapter&lt;br&gt;maintenance • admin&lt;br&gt;telemetry_adapter • notifier&lt;br&gt;&lt;br&gt;Входы API и обработчики заданий&lt;br&gt;Вызовы модулей Python&lt;br&gt;&lt;br&gt;Детализация: листы rental и state" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=18;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#dbeafe;" vertex="1" parent="1">
+          <mxGeometry x="590" y="170" width="470" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="db" value="PostgreSQL&lt;br&gt;D1–D9: предметные данные, состояние,&lt;br&gt;квитанции, команды и исходящие задания&lt;br&gt;Транзакции и ограничения целостности" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=18;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#dcfce7;" vertex="1" parent="1">
+          <mxGeometry x="590" y="820" width="470" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="passport" value="Имитатор проверки паспорта&lt;br&gt;Запрос и результат проверки" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#f1f5f9;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="175" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="license" value="Имитатор проверки ВУ&lt;br&gt;Запрос и результат проверки" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#f1f5f9;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="310" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="telematics" value="Имитатор телематики&lt;br&gt;Команды с поколением&lt;br&gt;Состояние и подтверждения" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#f1f5f9;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="480" width="290" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="payments" value="Тестовый магазин ЮKassa&lt;br&gt;Создание и проверка платежа&lt;br&gt;Уведомления о результате" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#f1f5f9;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="690" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="smtp" value="Сервер электронной почты&lt;br&gt;Результат передачи письма" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#f1f5f9;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="880" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="environment" value="Условия стенда&lt;br&gt;4 vCPU • 8 ГиБ RAM • локальная сеть&lt;br&gt;&lt;br&gt;Приложение и PostgreSQL запускаются&lt;br&gt;в контейнерах Docker Compose.&lt;br&gt;&lt;br&gt;Пулы соединений и исполнители:&lt;br&gt;телеметрия 8 • пользователи 8 • фон 2.&lt;br&gt;Внешние вызовы — вне транзакций." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#fef3c7;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="400" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Двусторонние стрелки показывают направления обмена. Входящие состояния, подтверждения команд и уведомления платежей принимаются отдельными маршрутами API (раздел 6.4)." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=16;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1010" width="1520" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="api" value="HTTPS / JSON • JWT&lt;br&gt;запрос / ответ" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=14;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.21153846153846154;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="roles" target="app">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="0.0" y="-15.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="passport-call" value="HTTP / JSON&lt;br&gt;request_id, серия, номер&lt;br&gt;valid, reason" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=13;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.10576923076923077;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="app" target="passport">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="0.0" y="-5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="license-call" value="HTTP / JSON&lt;br&gt;request_id, серия, номер&lt;br&gt;valid, reason" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=13;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.36538461538461536;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="app" target="license">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="0.0" y="-5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="telematics-call" value="HTTP / JSON • токен&lt;br&gt;команды / состояния&lt;br&gt;подтверждения / квитанции" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=13;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.7115384615384616;exitDx=0;exitDy=0;entryX=0;entryY=0.48;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="app" target="telematics">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="0.0" y="-5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="payment-call" value="HTTPS / JSON&lt;br&gt;платёж / GET&lt;br&gt;уведомление" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=13;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.8942307692307693;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="app" target="payments">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="635" />
+              <mxPoint x="1170" y="750" />
+            </Array>
+            <mxPoint x="0.0" y="2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mail-call" value="SMTP&lt;br&gt;письмо / результат" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=13;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.9519230769230769;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="app" target="smtp">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="665" />
+              <mxPoint x="1120" y="930" />
+            </Array>
+            <mxPoint x="60.0" y="12.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sql" value="SQLAlchemy / psycopg&lt;br&gt;SQL • транзакции • пулы 8/8/2" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=14;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="app" target="db">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="0.0" y="-5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Устройство rental" name="Устройство rental">
+    <mxGraphModel dx="1760" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1760" pageHeight="1260" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Техническое устройство компонента rental" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=28;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1680" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="F3–F5 • приём параметров, предметное решение, транзакция, исполнение сохранённой команды" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=16;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="85" width="1680" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway" value="gateway / auth&lt;br&gt;Маршрутизация&lt;br&gt;JWT, роль и контекст" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#f1f5f9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rental-api" value="rental.api&lt;br&gt;Параметры F3 / F4 / F5&lt;br&gt;Корреляция результата команды&lt;br&gt;RA2, RI2–RI3, FN3, RA14" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#dbeafe;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rental-service" value="rental.service&lt;br&gt;Допуск, снимок, переходы&lt;br&gt;Начало и окончание аренды&lt;br&gt;RA7, RA16–RA17, RA15, FN6&lt;br&gt;RC / CL: согласование" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#dbeafe;" vertex="1" parent="1">
+          <mxGeometry x="760" y="220" width="330" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rental-repository" value="rental.repository&lt;br&gt;Чтение и изменение данных&lt;br&gt;Блокировки ТС → аренда&lt;br&gt;Фиксация транзакции" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#dbeafe;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="230" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="docs-adapter" value="docs_adapter • RA4 / RA5&lt;br&gt;Проверки паспорта и ВУ&lt;br&gt;request_id, valid, reason&lt;br&gt;Ожидание каждого ответа ≤3 с" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=16;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#f1f5f9;" vertex="1" parent="1">
+          <mxGeometry x="370" y="500" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="state" value="state • RA6 / FN2&lt;br&gt;Актуальное состояние ТС&lt;br&gt;measured_at, technical_status,&lt;br&gt;координаты и возраст данных" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#f1f5f9;" vertex="1" parent="1">
+          <mxGeometry x="760" y="500" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="db" value="PostgreSQL • ресурсы&lt;br&gt;D2: ТС, модель • D4: rentals&lt;br&gt;D1 / D5 / D6 / D8: чтение&lt;br&gt;D9: outbox, command_results&lt;br&gt;Предметная запись и задание атомарны" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=18;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#dcfce7;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="560" width="460" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="worker" value="telemetry_adapter&lt;br&gt;Обработчик задания D9&lt;br&gt;RA10 / RC1 / CL2&lt;br&gt;Тот же command_id при повторе" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#f1f5f9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="715" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="telematics" value="Имитатор телематики&lt;br&gt;Поколение и результаты команд&lt;br&gt;Повтор command_id безопасен" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#f1f5f9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1040" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="once" value="Применение opened • RA13 → RA14 → RA17&lt;br&gt;Служебный доступ проверяет auth.&lt;br&gt;starting + актуальное поколение + своевременный ответ&lt;br&gt;→ active; started_at = время первого приёма.&lt;br&gt;Запись command_results и переход — одна транзакция.&lt;br&gt;Повтор → 200; время, стоимость и задания сохраняются.&lt;br&gt;Таймер меняет только starting; active не отменяется." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#fef3c7;" vertex="1" parent="1">
+          <mxGeometry x="370" y="820" width="700" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="fields" value="Преобразование данных&lt;br&gt;F3: vehicle_id + пользователь&lt;br&gt;→ аренда, снимок условий, задание.&lt;br&gt;F5: rental_id + состояние + parking&lt;br&gt;→ ended_at, finish_parking_id, сумма;&lt;br&gt;finished и задания закрытия/оплаты.&lt;br&gt;Повтор F5 возвращает сохранённый итог.&lt;br&gt;Оплату выполняют finance / payment_adapter." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#fef3c7;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="850" width="550" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Связи между модулями передают вызов и результат. Детальные условия допуска, подтверждения и завершения установлены в разделах 6.5–6.6; физические таблицы — в разделе 6.3.1." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=16;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1135" width="1310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="request" value="Python&lt;br&gt;контекст, параметры" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=12;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.4666666666666667;entryDx=0;entryDy=0;" edge="1" parent="1" source="gateway" target="rental-api">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="0.0" y="-10.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="application" value="Python&lt;br&gt;параметры / результат" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=12;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.4722222222222222;entryDx=0;entryDy=0;" edge="1" parent="1" source="rental-api" target="rental-service">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="0.0" y="-10.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="repository" value="Python&lt;br&gt;решение / записи" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=12;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.4722222222222222;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rental-service" target="rental-repository">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="0.0" y="-10.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sql" value="SQLAlchemy / psycopg&lt;br&gt;SQL • ограничения • COMMIT" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=14;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.29347826086956524;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rental-repository" target="db">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="15.0" y="-5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="documents" value="Python: RA4 / RA5&lt;br&gt;результаты проверки" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=14;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=0.30303030303030304;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rental-service" target="docs-adapter">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="445" />
+              <mxPoint x="505" y="445" />
+            </Array>
+            <mxPoint x="-27.5" y="-10.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="state-read" value="Python&lt;br&gt;состояние / возраст" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=13;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=0.7272727272727273;exitY=1;exitDx=0;exitDy=0;entryX=0.7272727272727273;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rental-service" target="state">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="0.0" y="0.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="job" value="SQLAlchemy / psycopg • D9&lt;br&gt;задание и прежний command_id" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=14;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="worker" target="db">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="790" />
+              <mxPoint x="1120" y="660" />
+            </Array>
+            <mxPoint x="-110.0" y="-15.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="command" value="HTTP / JSON&lt;br&gt;POST /commands&lt;br&gt;command_id, attempt_id,&lt;br&gt;lease_version, command_seq" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=14;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="worker" target="telematics">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="0.0" y="-2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="callback" value="HTTP / JSON → gateway / auth&lt;br&gt;commands/result • RA13" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=14;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="telematics" target="rental-api">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="1105" />
+              <mxPoint x="20" y="165" />
+              <mxPoint x="505" y="165" />
+            </Array>
+            <mxPoint x="240.0" y="-205.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Устройство state" name="Устройство state">
+    <mxGraphModel dx="1760" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1760" pageHeight="1140" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Техническое устройство компонента state" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=28;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1680" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="F6 • первое состояние, порядок отметок, защита повторов и подтверждение после фиксации" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=16;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="85" width="1680" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-auth" value="gateway / auth • ST1&lt;br&gt;POST состояния телематики&lt;br&gt;Служебный Bearer-токен&lt;br&gt;Допуск к обработке" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#f1f5f9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="telemetry-adapter" value="telemetry_adapter • ST6&lt;br&gt;schema_version 1.0 / 1.1&lt;br&gt;Нормализация JSON&lt;br&gt;Даты RFC3339 → UTC" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#f1f5f9;" vertex="1" parent="1">
+          <mxGeometry x="365" y="230" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="state-api" value="state.api • ST2&lt;br&gt;Нормализованное сообщение&lt;br&gt;Внутренний вызов Python&lt;br&gt;Передача результата gateway" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#dbeafe;" vertex="1" parent="1">
+          <mxGeometry x="715" y="230" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="state-service" value="state.service • ST2 / ST3&lt;br&gt;ТС, значения и время&lt;br&gt;Повтор / новая отметка&lt;br&gt;Решение о сохранении" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#dbeafe;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="230" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="state-repository" value="state.repository • ST3&lt;br&gt;Квитанция и состояние&lt;br&gt;Одна транзакция PostgreSQL&lt;br&gt;Чтение состояния для RA6,&lt;br&gt;RS2 и FN2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#dbeafe;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="230" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="response" value="gateway • ST4 / ST5&lt;br&gt;После COMMIT: HTTP 200&lt;br&gt;message_id, outcome, applied,&lt;br&gt;current_measured_at&lt;br&gt;При ошибке — причина;&lt;br&gt;подтверждение не выдаётся" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=18;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#f1f5f9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="620" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="rules" value="Проверки и исходы&lt;br&gt;Будущее measured_at → 400; неизвестное ТС → 404.&lt;br&gt;Первое допустимое сообщение → applied.&lt;br&gt;Новая отметка больше сохранённой → applied.&lt;br&gt;Ранняя или равная отметка → ignored.&lt;br&gt;Тот же message_id и тело → duplicate, applied=false.&lt;br&gt;Тот же message_id с другим телом → 409.&lt;br&gt;Операционный статус ТС сохраняется.&lt;br&gt;Ошибка хранения → откат состояния и квитанции." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#fef3c7;" vertex="1" parent="1">
+          <mxGeometry x="460" y="590" width="580" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="db" value="PostgreSQL&lt;br&gt;D2: vehicles — проверка ТС&lt;br&gt;D3: vehicle_states — PK(vehicle_id)&lt;br&gt;D3: telemetry_receipts — PK(message_id)&lt;br&gt;Одна строка состояния на ТС" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=18;fontColor=#334155;align=center;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#dcfce7;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="620" width="580" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="transaction" value="Транзакция state.repository&lt;br&gt;1. Закрепить message_id и сравнить отпечаток повтора.&lt;br&gt;2. INSERT … ON CONFLICT (vehicle_id) DO UPDATE&lt;br&gt;   при большей measured_at.&lt;br&gt;3. Записать исход квитанции; COMMIT." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=17;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=#334155;strokeWidth=1.5;fillColor=#fef3c7;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="875" width="580" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="capacity" value="Приём F6: 8 мест обработки; при исчерпании — 429. Пулы и исполнители 8 / 8 / 2 разделены между телеметрией, пользовательскими запросами и фоновыми действиями. Нагрузочные показатели устанавливаются проверкой П-20." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=16;fontColor=#334155;align=left;verticalAlign=middle;spacing=14;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="960" width="1000" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="json" value="JSON&lt;br&gt;тело сообщения" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=12;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gateway-auth" target="telemetry-adapter">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="-0.5" y="-10.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="normalized" value="Python&lt;br&gt;нормализованные&lt;br&gt;поля" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=12;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="telemetry-adapter" target="state-api">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="0.0" y="-10.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="application" value="Python&lt;br&gt;параметры&lt;br&gt;сообщения" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=12;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="state-api" target="state-service">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="-0.5" y="-10.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="repository" value="Python&lt;br&gt;решение / запись" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=12;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="state-service" target="state-repository">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="0.0" y="-10.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sql" value="SQLAlchemy / psycopg&lt;br&gt;INSERT / UPDATE • COMMIT" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=14;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.7413793103448276;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="state-repository" target="db">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <mxPoint x="-50.0" y="-5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="response-call" value="Python: исход после COMMIT&lt;br&gt;либо контролируемая ошибка" style="noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;whiteSpace=wrap;fontFamily=Arial;fontSize=14;strokeColor=#334155;fontColor=#334155;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="state-api" target="response">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="465" />
+              <mxPoint x="220" y="465" />
+            </Array>
+            <mxPoint x="20.0" y="-15.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
