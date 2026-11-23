@@ -1,0 +1,472 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4910" height="1212" viewBox="0 0 4910 1212">
+<rect x="0" y="0" width="4910" height="1212" fill="#ffffff"/>
+<text x="2455.0" y="40.0" font-family="DejaVu Sans" font-size="20" text-anchor="middle" fill="#000" font-weight="bold">Архитектура: элементы окружения, компоненты, связи, группы данных</text>
+<rect x="45.0" y="180.0" width="4310.0" height="962.0" rx="6" fill="#f3f9f1" stroke="#2e8b3d" stroke-width="1.6"/>
+<text x="4341.0" y="204.0" font-family="DejaVu Sans" font-size="15" text-anchor="end" fill="#2e8b3d" font-weight="bold">Комплекс программ «Продажа билетов и контроль входа»</text>
+<polyline points="2950.0,150.0 2950.0,302.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="2950.0,302.0 2945.2,290.5 2954.8,290.5" fill="#1f5fbf"/>
+<polyline points="2960.0,302.0 2960.0,150.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="2960.0,150.0 2964.8,161.5 2955.2,161.5" fill="#2e8b3d"/>
+<rect x="2965.0" y="214.5" width="169.6" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2967.0" y="226.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X01 → P06, P08, P13, P21</text>
+<rect x="2965.0" y="230.9" width="176.5" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2967.0" y="242.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">← P07, P09, P12, P14, P22</text>
+<polyline points="925.0,150.0 925.0,302.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="925.0,302.0 920.2,290.5 929.8,290.5" fill="#1f5fbf"/>
+<polyline points="935.0,302.0 935.0,150.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="935.0,150.0 939.8,161.5 930.2,161.5" fill="#2e8b3d"/>
+<rect x="940.0" y="214.5" width="204.1" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="942.0" y="226.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X02 → P03, P28, P05, P19, P23</text>
+<rect x="940.0" y="230.9" width="107.5" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="942.0" y="242.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">← P04, P20, P24</text>
+<polyline points="310.0,150.0 310.0,302.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="310.0,302.0 305.2,290.5 314.8,290.5" fill="#1f5fbf"/>
+<polyline points="320.0,302.0 320.0,150.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="320.0,150.0 324.8,161.5 315.2,161.5" fill="#2e8b3d"/>
+<rect x="325.0" y="214.5" width="66.1" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="327.0" y="226.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X03 → P17</text>
+<rect x="325.0" y="230.9" width="38.5" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="327.0" y="242.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">← P18</text>
+<polyline points="1590.0,150.0 1590.0,302.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="1590.0,302.0 1585.2,290.5 1594.8,290.5" fill="#1f5fbf"/>
+<polyline points="1600.0,302.0 1600.0,150.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="1600.0,150.0 1604.8,161.5 1595.2,161.5" fill="#2e8b3d"/>
+<rect x="1605.0" y="214.5" width="100.6" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1607.0" y="226.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X04 → P01, P25</text>
+<rect x="1605.0" y="230.9" width="73.0" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1607.0" y="242.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">← P02, P26</text>
+<polyline points="2070.0,358.0 2070.0,588.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="2070.0,588.0 2065.2,576.5 2074.8,576.5" fill="#1f5fbf"/>
+<polyline points="2080.0,588.0 2080.0,358.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="2080.0,358.0 2084.8,369.5 2075.2,369.5" fill="#2e8b3d"/>
+<rect x="2085.0" y="368.5" width="169.6" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2087.0" y="380.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X05 → P03, P28, P05, P06</text>
+<rect x="2085.0" y="384.9" width="73.0" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2087.0" y="396.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">← P04, P07</text>
+<polyline points="1750.0,358.0 1750.0,588.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="1750.0,588.0 1745.2,576.5 1754.8,576.5" fill="#1f5fbf"/>
+<polyline points="1760.0,588.0 1760.0,358.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="1760.0,358.0 1764.8,369.5 1755.2,369.5" fill="#2e8b3d"/>
+<rect x="1765.0" y="368.5" width="66.1" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1767.0" y="380.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X06 → P01</text>
+<rect x="1765.0" y="384.9" width="38.5" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1767.0" y="396.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">← P02</text>
+<polyline points="2425.0,358.0 2425.0,588.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="2425.0,588.0 2420.2,576.5 2429.8,576.5" fill="#1f5fbf"/>
+<polyline points="2435.0,588.0 2435.0,358.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="2435.0,358.0 2439.8,369.5 2430.2,369.5" fill="#2e8b3d"/>
+<rect x="2440.0" y="368.5" width="66.1" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2442.0" y="380.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X07 → P08</text>
+<rect x="2440.0" y="384.9" width="38.5" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2442.0" y="396.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">← P09</text>
+<polyline points="2890.0,358.0 2890.0,588.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="2890.0,588.0 2885.2,576.5 2894.8,576.5" fill="#1f5fbf"/>
+<polyline points="2900.0,588.0 2900.0,358.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="2900.0,358.0 2904.8,369.5 2895.2,369.5" fill="#2e8b3d"/>
+<rect x="2905.0" y="368.5" width="176.5" height="30.8" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2907.0" y="380.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X08</text>
+<text x="2907.0" y="394.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">→ запрос состояния заказа</text>
+<rect x="2905.0" y="399.3" width="38.5" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2907.0" y="410.8" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">← P12</text>
+<polyline points="3750.0,358.0 3750.0,588.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="3750.0,588.0 3745.2,576.5 3754.8,576.5" fill="#1f5fbf"/>
+<polyline points="3760.0,588.0 3760.0,358.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="3760.0,358.0 3764.8,369.5 3755.2,369.5" fill="#2e8b3d"/>
+<rect x="3765.0" y="368.5" width="66.1" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3767.0" y="380.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X09 → P13</text>
+<rect x="3765.0" y="384.9" width="38.5" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3767.0" y="396.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">← P14</text>
+<polyline points="310.0,358.0 310.0,588.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="310.0,588.0 305.2,576.5 314.8,576.5" fill="#1f5fbf"/>
+<polyline points="320.0,588.0 320.0,358.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="320.0,358.0 324.8,369.5 315.2,369.5" fill="#2e8b3d"/>
+<rect x="325.0" y="368.5" width="66.1" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="327.0" y="380.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X10 → P17</text>
+<rect x="325.0" y="384.9" width="38.5" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="327.0" y="396.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">← P18</text>
+<polyline points="925.0,358.0 925.0,588.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="925.0,588.0 920.2,576.5 929.8,576.5" fill="#1f5fbf"/>
+<polyline points="935.0,588.0 935.0,358.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="935.0,358.0 939.8,369.5 930.2,369.5" fill="#2e8b3d"/>
+<rect x="940.0" y="368.5" width="66.1" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="942.0" y="380.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X11 → P19</text>
+<rect x="940.0" y="384.9" width="38.5" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="942.0" y="396.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">← P20</text>
+<polyline points="2580.0,630.0 2670.0,630.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="2670.0,630.0 2658.5,634.8 2658.5,625.2" fill="#1f5fbf"/>
+<rect x="2599.9" y="605.0" width="50.2" height="15.8" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2625.0" y="616.0" font-family="DejaVu Sans" font-size="11" text-anchor="middle" fill="#333" font-weight="normal">X12 I02</text>
+<polyline points="2150.0,588.0 2150.0,512.0 3570.0,512.0 3570.0,588.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="3570.0,588.0 3565.2,576.5 3574.8,576.5" fill="#1f5fbf"/>
+<rect x="2162.0" y="485.5" width="66.1" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2164.0" y="497.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X13 → I01</text>
+<polyline points="3075.0,588.0 3075.0,551.0 4105.0,551.0 4105.0,588.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="4105.0,588.0 4100.2,576.5 4109.8,576.5" fill="#1f5fbf"/>
+<polyline points="4115.0,588.0 4115.0,561.0 3085.0,561.0 3085.0,588.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="3085.0,588.0 3080.2,576.5 3089.8,576.5" fill="#2e8b3d"/>
+<rect x="3092.0" y="529.5" width="280.0" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3094.0" y="541.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X14 → счёт на оплату; решение о списании</text>
+<rect x="3392.0" y="529.5" width="266.2" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3394.0" y="541.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">← результат оплаты; результат списания</text>
+<polyline points="3980.0,625.0 4070.0,625.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="4070.0,625.0 4058.5,629.8 4058.5,620.2" fill="#1f5fbf"/>
+<polyline points="4070.0,635.0 3980.0,635.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="3980.0,635.0 3991.5,630.2 3991.5,639.8" fill="#2e8b3d"/>
+<rect x="4013.1" y="605.0" width="23.8" height="15.8" fill="#ffffff" fill-opacity="0.85"/>
+<text x="4025.0" y="616.0" font-family="DejaVu Sans" font-size="11" text-anchor="middle" fill="#333" font-weight="normal">X15</text>
+<polyline points="4300.0,625.0 4600.0,625.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="4600.0,625.0 4588.5,629.8 4588.5,620.2" fill="#1f5fbf"/>
+<polyline points="4600.0,635.0 4300.0,635.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="4300.0,635.0 4311.5,630.2 4311.5,639.8" fill="#2e8b3d"/>
+<rect x="4382.4" y="604.5" width="135.1" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="4450.0" y="616.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" fill="#1f5fbf" font-weight="normal">X16 → P10, P27, P15</text>
+<rect x="4430.8" y="644.5" width="38.5" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="4450.0" y="656.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" fill="#2e8b3d" font-weight="normal">← P29</text>
+<polyline points="3210.0,630.0 3120.0,630.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="3120.0,630.0 3131.5,625.2 3131.5,634.8" fill="#1f5fbf"/>
+<rect x="3153.1" y="605.0" width="23.8" height="15.8" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3165.0" y="616.0" font-family="DejaVu Sans" font-size="11" text-anchor="middle" fill="#333" font-weight="normal">X17</text>
+<polyline points="1430.0,358.0 1430.0,588.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="1430.0,588.0 1425.2,576.5 1434.8,576.5" fill="#1f5fbf"/>
+<polyline points="1440.0,588.0 1440.0,358.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="1440.0,358.0 1444.8,369.5 1435.2,369.5" fill="#2e8b3d"/>
+<rect x="1445.0" y="368.5" width="135.1" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1447.0" y="380.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X18 → P21, P23, P25</text>
+<rect x="1445.0" y="384.9" width="107.5" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1447.0" y="396.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">← P22, P24, P26</text>
+<polyline points="4725.0,594.0 4725.0,330.0 4300.0,330.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="4300.0,330.0 4311.5,325.2 4311.5,334.8" fill="#1f5fbf"/>
+<rect x="4735.0" y="450.5" width="100.6" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="4737.0" y="462.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X19 → P11, P16</text>
+<polyline points="4185.0,358.0 4185.0,588.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="4185.0,588.0 4180.2,576.5 4189.8,576.5" fill="#1f5fbf"/>
+<rect x="4195.0" y="368.5" width="100.6" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="4197.0" y="380.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">X20 → P11, P16</text>
+<polyline points="2190.0,625.0 2280.0,625.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="2280.0,625.0 2268.5,629.8 2268.5,620.2" fill="#1f5fbf"/>
+<polyline points="2280.0,635.0 2190.0,635.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="2190.0,635.0 2201.5,630.2 2201.5,639.8" fill="#2e8b3d"/>
+<rect x="2223.1" y="605.0" width="23.8" height="15.8" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2235.0" y="616.0" font-family="DejaVu Sans" font-size="11" text-anchor="middle" fill="#333" font-weight="normal">X21</text>
+<polyline points="3440.0,630.0 3530.0,630.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="3530.0,630.0 3518.5,634.8 3518.5,625.2" fill="#1f5fbf"/>
+<rect x="3473.1" y="605.0" width="23.8" height="15.8" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3485.0" y="616.0" font-family="DejaVu Sans" font-size="11" text-anchor="middle" fill="#333" font-weight="normal">X22</text>
+<polyline points="1749.0,672.0 1749.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="1749.0,833.0 1744.2,821.5 1753.8,821.5" fill="#1f5fbf"/>
+<polyline points="1761.0,833.0 1761.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="1761.0,672.0 1765.8,683.5 1756.2,683.5" fill="#2e8b3d"/>
+<rect x="1767.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1769.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q01</text>
+<rect x="1767.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1769.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A01</text>
+<path d="M1707.0,841.0 A48.0,8 0 0,1 1803.0,841.0 L1803.0,889.0 A48.0,8 0 0,1 1707.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M1707.0,841.0 A48.0,8 0 0,0 1803.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="1755.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД1</text>
+<polyline points="2069.0,672.0 2069.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="2069.0,833.0 2064.2,821.5 2073.8,821.5" fill="#1f5fbf"/>
+<polyline points="2081.0,833.0 2081.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="2081.0,672.0 2085.8,683.5 2076.2,683.5" fill="#2e8b3d"/>
+<rect x="2087.0" y="721.0" width="66.1" height="30.8" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2089.0" y="732.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q02, Q16,</text>
+<text x="2089.0" y="746.9" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q22, Q23</text>
+<rect x="2087.0" y="753.0" width="66.1" height="30.8" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2089.0" y="764.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A02, A16,</text>
+<text x="2089.0" y="778.9" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A22, A23</text>
+<path d="M2027.0,841.0 A48.0,8 0 0,1 2123.0,841.0 L2123.0,889.0 A48.0,8 0 0,1 2027.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M2027.0,841.0 A48.0,8 0 0,0 2123.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="2075.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД1</text>
+<polyline points="2499.0,672.0 2499.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="2499.0,833.0 2494.2,821.5 2503.8,821.5" fill="#1f5fbf"/>
+<polyline points="2511.0,833.0 2511.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="2511.0,672.0 2515.8,683.5 2506.2,683.5" fill="#2e8b3d"/>
+<rect x="2517.0" y="737.0" width="59.2" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2519.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q03, Q04</text>
+<rect x="2517.0" y="754.0" width="59.2" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2519.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A03, A04</text>
+<path d="M2457.0,841.0 A48.0,8 0 0,1 2553.0,841.0 L2553.0,889.0 A48.0,8 0 0,1 2457.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M2457.0,841.0 A48.0,8 0 0,0 2553.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="2505.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД2</text>
+<polyline points="3039.0,672.0 3039.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="3039.0,833.0 3034.2,821.5 3043.8,821.5" fill="#1f5fbf"/>
+<polyline points="3051.0,833.0 3051.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="3051.0,672.0 3055.8,683.5 3046.2,683.5" fill="#2e8b3d"/>
+<rect x="3057.0" y="737.0" width="59.2" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3059.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q05, Q26</text>
+<rect x="3057.0" y="754.0" width="59.2" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3059.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A05, A26</text>
+<path d="M2997.0,841.0 A48.0,8 0 0,1 3093.0,841.0 L3093.0,889.0 A48.0,8 0 0,1 2997.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M2997.0,841.0 A48.0,8 0 0,0 3093.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="3045.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД3</text>
+<polyline points="2889.0,672.0 2889.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="2889.0,833.0 2884.2,821.5 2893.8,821.5" fill="#1f5fbf"/>
+<polyline points="2901.0,833.0 2901.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="2901.0,672.0 2905.8,683.5 2896.2,683.5" fill="#2e8b3d"/>
+<rect x="2907.0" y="737.0" width="59.2" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2909.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q06, Q25</text>
+<rect x="2907.0" y="754.0" width="59.2" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2909.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A06, A25</text>
+<path d="M2847.0,841.0 A48.0,8 0 0,1 2943.0,841.0 L2943.0,889.0 A48.0,8 0 0,1 2847.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M2847.0,841.0 A48.0,8 0 0,0 2943.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="2895.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД2</text>
+<polyline points="3319.0,672.0 3319.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="3319.0,833.0 3314.2,821.5 3323.8,821.5" fill="#1f5fbf"/>
+<polyline points="3331.0,833.0 3331.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="3331.0,672.0 3335.8,683.5 3326.2,683.5" fill="#2e8b3d"/>
+<rect x="3337.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3339.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q07</text>
+<rect x="3337.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3339.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A07</text>
+<path d="M3277.0,841.0 A48.0,8 0 0,1 3373.0,841.0 L3373.0,889.0 A48.0,8 0 0,1 3277.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M3277.0,841.0 A48.0,8 0 0,0 3373.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="3325.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД2</text>
+<polyline points="3749.0,672.0 3749.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="3749.0,833.0 3744.2,821.5 3753.8,821.5" fill="#1f5fbf"/>
+<polyline points="3761.0,833.0 3761.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="3761.0,672.0 3765.8,683.5 3756.2,683.5" fill="#2e8b3d"/>
+<rect x="3767.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3769.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q08</text>
+<rect x="3767.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3769.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A08</text>
+<path d="M3707.0,841.0 A48.0,8 0 0,1 3803.0,841.0 L3803.0,889.0 A48.0,8 0 0,1 3707.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M3707.0,841.0 A48.0,8 0 0,0 3803.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="3755.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД2</text>
+<polyline points="3899.0,672.0 3899.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="3899.0,833.0 3894.2,821.5 3903.8,821.5" fill="#1f5fbf"/>
+<polyline points="3911.0,833.0 3911.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="3911.0,672.0 3915.8,683.5 3906.2,683.5" fill="#2e8b3d"/>
+<rect x="3917.0" y="737.0" width="59.2" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3919.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q09, Q18</text>
+<rect x="3917.0" y="754.0" width="59.2" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3919.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A09, A18</text>
+<path d="M3857.0,841.0 A48.0,8 0 0,1 3953.0,841.0 L3953.0,889.0 A48.0,8 0 0,1 3857.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M3857.0,841.0 A48.0,8 0 0,0 3953.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="3905.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД3</text>
+<polyline points="309.0,672.0 309.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="309.0,833.0 304.2,821.5 313.8,821.5" fill="#1f5fbf"/>
+<polyline points="321.0,833.0 321.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="321.0,672.0 325.8,683.5 316.2,683.5" fill="#2e8b3d"/>
+<rect x="327.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="329.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q10</text>
+<rect x="327.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="329.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A10</text>
+<path d="M267.0,841.0 A48.0,8 0 0,1 363.0,841.0 L363.0,889.0 A48.0,8 0 0,1 267.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M267.0,841.0 A48.0,8 0 0,0 363.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="315.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД2</text>
+<polyline points="459.0,672.0 459.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="459.0,833.0 454.2,821.5 463.8,821.5" fill="#1f5fbf"/>
+<polyline points="471.0,833.0 471.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="471.0,672.0 475.8,683.5 466.2,683.5" fill="#2e8b3d"/>
+<rect x="477.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="479.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q11</text>
+<rect x="477.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="479.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A11</text>
+<path d="M417.0,841.0 A48.0,8 0 0,1 513.0,841.0 L513.0,889.0 A48.0,8 0 0,1 417.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M417.0,841.0 A48.0,8 0 0,0 513.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="465.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД4</text>
+<polyline points="699.0,672.0 699.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="699.0,833.0 694.2,821.5 703.8,821.5" fill="#1f5fbf"/>
+<polyline points="711.0,833.0 711.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="711.0,672.0 715.8,683.5 706.2,683.5" fill="#2e8b3d"/>
+<rect x="717.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="719.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q12</text>
+<rect x="717.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="719.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A12</text>
+<path d="M657.0,841.0 A48.0,8 0 0,1 753.0,841.0 L753.0,889.0 A48.0,8 0 0,1 657.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M657.0,841.0 A48.0,8 0 0,0 753.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="705.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД1</text>
+<polyline points="849.0,672.0 849.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="849.0,833.0 844.2,821.5 853.8,821.5" fill="#1f5fbf"/>
+<polyline points="861.0,833.0 861.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="861.0,672.0 865.8,683.5 856.2,683.5" fill="#2e8b3d"/>
+<rect x="867.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="869.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q13</text>
+<rect x="867.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="869.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A13</text>
+<path d="M807.0,841.0 A48.0,8 0 0,1 903.0,841.0 L903.0,889.0 A48.0,8 0 0,1 807.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M807.0,841.0 A48.0,8 0 0,0 903.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="855.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД2</text>
+<polyline points="999.0,672.0 999.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="999.0,833.0 994.2,821.5 1003.8,821.5" fill="#1f5fbf"/>
+<polyline points="1011.0,833.0 1011.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="1011.0,672.0 1015.8,683.5 1006.2,683.5" fill="#2e8b3d"/>
+<rect x="1017.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1019.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q14</text>
+<rect x="1017.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1019.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A14</text>
+<path d="M957.0,841.0 A48.0,8 0 0,1 1053.0,841.0 L1053.0,889.0 A48.0,8 0 0,1 957.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M957.0,841.0 A48.0,8 0 0,0 1053.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="1005.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД3</text>
+<polyline points="1149.0,672.0 1149.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="1149.0,833.0 1144.2,821.5 1153.8,821.5" fill="#1f5fbf"/>
+<polyline points="1161.0,833.0 1161.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="1161.0,672.0 1165.8,683.5 1156.2,683.5" fill="#2e8b3d"/>
+<rect x="1167.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1169.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q15</text>
+<rect x="1167.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1169.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A15</text>
+<path d="M1107.0,841.0 A48.0,8 0 0,1 1203.0,841.0 L1203.0,889.0 A48.0,8 0 0,1 1107.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M1107.0,841.0 A48.0,8 0 0,0 1203.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="1155.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД4</text>
+<polyline points="1429.0,672.0 1429.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="1429.0,833.0 1424.2,821.5 1433.8,821.5" fill="#1f5fbf"/>
+<polyline points="1441.0,833.0 1441.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="1441.0,672.0 1445.8,683.5 1436.2,683.5" fill="#2e8b3d"/>
+<rect x="1447.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1449.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q17</text>
+<rect x="1447.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="1449.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A17</text>
+<path d="M1387.0,841.0 A48.0,8 0 0,1 1483.0,841.0 L1483.0,889.0 A48.0,8 0 0,1 1387.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M1387.0,841.0 A48.0,8 0 0,0 1483.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="1435.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД1</text>
+<polyline points="3599.0,672.0 3599.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="3599.0,833.0 3594.2,821.5 3603.8,821.5" fill="#1f5fbf"/>
+<polyline points="3611.0,833.0 3611.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="3611.0,672.0 3615.8,683.5 3606.2,683.5" fill="#2e8b3d"/>
+<rect x="3617.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3619.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q19</text>
+<rect x="3617.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="3619.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A19</text>
+<path d="M3557.0,841.0 A48.0,8 0 0,1 3653.0,841.0 L3653.0,889.0 A48.0,8 0 0,1 3557.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M3557.0,841.0 A48.0,8 0 0,0 3653.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="3605.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД1</text>
+<polyline points="159.0,672.0 159.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="159.0,833.0 154.2,821.5 163.8,821.5" fill="#1f5fbf"/>
+<polyline points="171.0,833.0 171.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="171.0,672.0 175.8,683.5 166.2,683.5" fill="#2e8b3d"/>
+<rect x="177.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="179.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q20</text>
+<rect x="177.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="179.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A20</text>
+<path d="M117.0,841.0 A48.0,8 0 0,1 213.0,841.0 L213.0,889.0 A48.0,8 0 0,1 117.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M117.0,841.0 A48.0,8 0 0,0 213.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="165.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД1</text>
+<polyline points="2349.0,672.0 2349.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="2349.0,833.0 2344.2,821.5 2353.8,821.5" fill="#1f5fbf"/>
+<polyline points="2361.0,833.0 2361.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="2361.0,672.0 2365.8,683.5 2356.2,683.5" fill="#2e8b3d"/>
+<rect x="2367.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2369.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q21</text>
+<rect x="2367.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2369.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A21</text>
+<path d="M2307.0,841.0 A48.0,8 0 0,1 2403.0,841.0 L2403.0,889.0 A48.0,8 0 0,1 2307.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M2307.0,841.0 A48.0,8 0 0,0 2403.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="2355.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД1</text>
+<polyline points="2739.0,672.0 2739.0,833.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="2739.0,833.0 2734.2,821.5 2743.8,821.5" fill="#1f5fbf"/>
+<polyline points="2751.0,833.0 2751.0,672.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="2751.0,672.0 2755.8,683.5 2746.2,683.5" fill="#2e8b3d"/>
+<rect x="2757.0" y="737.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2759.0" y="748.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#1f5fbf" font-weight="normal">Q24</text>
+<rect x="2757.0" y="754.0" width="24.7" height="16.4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="2759.0" y="765.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#2e8b3d" font-weight="normal">A24</text>
+<path d="M2697.0,841.0 A48.0,8 0 0,1 2793.0,841.0 L2793.0,889.0 A48.0,8 0 0,1 2697.0,889.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M2697.0,841.0 A48.0,8 0 0,0 2793.0,841.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="2745.0" y="874.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД1</text>
+<rect x="90.0" y="302.0" width="4210.0" height="56.0" fill="#ffffff" stroke="#000" stroke-width="1.6"/>
+<rect x="82.0" y="314.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<rect x="82.0" y="334.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<text x="2195.0" y="335.0" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#000" font-weight="bold">K1  API-шлюз: приём запросов, вход, роли</text>
+<rect x="90.0" y="588.0" width="450.0" height="84.0" fill="#ffffff" stroke="#000" stroke-width="1.6"/>
+<rect x="82.0" y="600.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<rect x="82.0" y="648.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<text x="315.0" y="618.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">K8</text>
+<text x="315.0" y="634.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Модуль контроля входа</text>
+<text x="315.0" y="650.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">(F5)</text>
+<rect x="630.0" y="588.0" width="600.0" height="84.0" fill="#ffffff" stroke="#000" stroke-width="1.6"/>
+<rect x="622.0" y="600.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<rect x="622.0" y="648.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<text x="930.0" y="618.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">K9</text>
+<text x="930.0" y="634.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Модуль отчётности</text>
+<text x="930.0" y="650.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">(F6)</text>
+<rect x="1320.0" y="588.0" width="230.0" height="84.0" fill="#ffffff" stroke="#000" stroke-width="1.6"/>
+<rect x="1312.0" y="600.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<rect x="1312.0" y="648.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<text x="1435.0" y="610.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">K11</text>
+<text x="1435.0" y="626.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Модуль учёта пользователей</text>
+<text x="1435.0" y="642.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">и организаторов</text>
+<text x="1435.0" y="658.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">(F1)</text>
+<rect x="1640.0" y="588.0" width="230.0" height="84.0" fill="#ffffff" stroke="#000" stroke-width="1.6"/>
+<rect x="1632.0" y="600.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<rect x="1632.0" y="648.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<text x="1755.0" y="618.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">K3</text>
+<text x="1755.0" y="634.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Модуль загрузки схем залов</text>
+<text x="1755.0" y="650.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">(F1)</text>
+<rect x="1960.0" y="588.0" width="230.0" height="84.0" fill="#ffffff" stroke="#000" stroke-width="1.6"/>
+<rect x="1952.0" y="600.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<rect x="1952.0" y="648.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<text x="2075.0" y="618.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">K2</text>
+<text x="2075.0" y="634.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Модуль каталога</text>
+<text x="2075.0" y="650.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">(F1, F2)</text>
+<rect x="2280.0" y="588.0" width="300.0" height="84.0" fill="#ffffff" stroke="#000" stroke-width="1.6"/>
+<rect x="2272.0" y="600.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<rect x="2272.0" y="648.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<text x="2430.0" y="618.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">K4</text>
+<text x="2430.0" y="634.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Модуль бронирования</text>
+<text x="2430.0" y="650.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">(F2)</text>
+<rect x="2670.0" y="588.0" width="450.0" height="84.0" fill="#ffffff" stroke="#000" stroke-width="1.6"/>
+<rect x="2662.0" y="600.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<rect x="2662.0" y="648.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<text x="2895.0" y="618.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">K5</text>
+<text x="2895.0" y="634.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Модуль оплаты</text>
+<text x="2895.0" y="650.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">(F3)</text>
+<rect x="3210.0" y="588.0" width="230.0" height="84.0" fill="#ffffff" stroke="#000" stroke-width="1.6"/>
+<rect x="3202.0" y="600.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<rect x="3202.0" y="648.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<text x="3325.0" y="618.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">K10</text>
+<text x="3325.0" y="634.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Планировщик заданий</text>
+<text x="3325.0" y="650.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">(F3)</text>
+<rect x="3530.0" y="588.0" width="450.0" height="84.0" fill="#ffffff" stroke="#000" stroke-width="1.6"/>
+<rect x="3522.0" y="600.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<rect x="3522.0" y="648.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<text x="3755.0" y="618.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">K6</text>
+<text x="3755.0" y="634.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Модуль возвратов</text>
+<text x="3755.0" y="650.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">(F4)</text>
+<rect x="4070.0" y="588.0" width="230.0" height="84.0" fill="#ffffff" stroke="#000" stroke-width="1.6"/>
+<rect x="4062.0" y="600.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<rect x="4062.0" y="648.0" width="16" height="10" fill="#ffffff" stroke="#000" stroke-width="1.2"/>
+<text x="4185.0" y="618.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">K7</text>
+<text x="4185.0" y="634.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Адаптер платёжного сервиса</text>
+<text x="4185.0" y="650.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">(F3, F4)</text>
+<rect x="185.0" y="90.0" width="260.0" height="60.0" fill="#fde9d0" stroke="#000" stroke-width="1.5"/>
+<text x="315.0" y="114.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">ESO3</text>
+<text x="315.0" y="131.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Контролёр (приложение сканера)</text>
+<rect x="800.0" y="90.0" width="260.0" height="60.0" fill="#fde9d0" stroke="#000" stroke-width="1.5"/>
+<text x="930.0" y="114.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">ESO2</text>
+<text x="930.0" y="131.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Организатор (кабинет)</text>
+<rect x="1465.0" y="90.0" width="260.0" height="60.0" fill="#fde9d0" stroke="#000" stroke-width="1.5"/>
+<text x="1595.0" y="114.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">ESO4</text>
+<text x="1595.0" y="131.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Администратор (консоль)</text>
+<rect x="2825.0" y="90.0" width="260.0" height="60.0" fill="#fde9d0" stroke="#000" stroke-width="1.5"/>
+<text x="2955.0" y="114.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">ESO1</text>
+<text x="2955.0" y="131.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Покупатель (браузер)</text>
+<rect x="4600.0" y="594.0" width="250.0" height="72.0" fill="#fde9d0" stroke="#000" stroke-width="1.5"/>
+<text x="4725.0" y="616.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">ESO5</text>
+<text x="4725.0" y="633.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">Платёжный сервис (REST API,</text>
+<text x="4725.0" y="648.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="normal">уведомления)</text>
+<rect x="65.0" y="952.0" width="4270.0" height="170" rx="6" fill="#eeeeee" stroke="#888" stroke-width="1.2"/>
+<text x="79.0" y="976.0" font-family="DejaVu Sans" font-size="13.5" text-anchor="start" fill="#333" font-weight="bold">Группы данных — части одной БД PostgreSQL 17 (под компонентом нарисованы те группы, к которым он обращается)</text>
+<path d="M419.0,1017.0 A125.0,8 0 0,1 669.0,1017.0 L669.0,1097.0 A125.0,8 0 0,1 419.0,1097.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M419.0,1017.0 A125.0,8 0 0,0 669.0,1017.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="544.0" y="1059.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД1 (D1)</text>
+<text x="544.0" y="1077.0" font-family="DejaVu Sans" font-size="11" text-anchor="middle" fill="#000" font-weight="normal">участников, площадок и</text>
+<text x="544.0" y="1090.0" font-family="DejaVu Sans" font-size="11" text-anchor="middle" fill="#000" font-weight="normal">мероприятий</text>
+<path d="M1257.0,1017.0 A125.0,8 0 0,1 1507.0,1017.0 L1507.0,1097.0 A125.0,8 0 0,1 1257.0,1097.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M1257.0,1017.0 A125.0,8 0 0,0 1507.0,1017.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="1382.0" y="1059.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД2 (D2)</text>
+<text x="1382.0" y="1077.0" font-family="DejaVu Sans" font-size="11" text-anchor="middle" fill="#000" font-weight="normal">заказов и билетов</text>
+<path d="M2095.0,1017.0 A125.0,8 0 0,1 2345.0,1017.0 L2345.0,1097.0 A125.0,8 0 0,1 2095.0,1097.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M2095.0,1017.0 A125.0,8 0 0,0 2345.0,1017.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="2220.0" y="1059.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД3 (D3)</text>
+<text x="2220.0" y="1077.0" font-family="DejaVu Sans" font-size="11" text-anchor="middle" fill="#000" font-weight="normal">платежей и возвратов</text>
+<path d="M2933.0,1017.0 A125.0,8 0 0,1 3183.0,1017.0 L3183.0,1097.0 A125.0,8 0 0,1 2933.0,1097.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M2933.0,1017.0 A125.0,8 0 0,0 3183.0,1017.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="3058.0" y="1059.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД4 (D4)</text>
+<text x="3058.0" y="1077.0" font-family="DejaVu Sans" font-size="11" text-anchor="middle" fill="#000" font-weight="normal">журнала проходов</text>
+<path d="M3771.0,1017.0 A125.0,8 0 0,1 4021.0,1017.0 L4021.0,1097.0 A125.0,8 0 0,1 3771.0,1097.0 Z" fill="#e2e2e2" stroke="#000" stroke-width="1.4"/>
+<path d="M3771.0,1017.0 A125.0,8 0 0,0 4021.0,1017.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<text x="3896.0" y="1059.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">БД5</text>
+<text x="3896.0" y="1077.0" font-family="DejaVu Sans" font-size="11" text-anchor="middle" fill="#000" font-weight="normal">Журнал изменений (аудит)</text>
+<text x="3756.0" y="1120.0" font-family="DejaVu Sans" font-size="11" text-anchor="end" fill="#555">БД5 пишется триггерами при изменении БД1 и БД2 (R18)</text>
+<text x="24.0" y="1188.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" fill="#555" font-weight="normal">Синяя стрелка — запрос или документ, зелёная — ответ. X — связь (состав документов — таблица 3.5, технология — раздел 4.3); P, I — документы DFD; Q / A — запрос и ответ к группе данных.</text>
+</svg>

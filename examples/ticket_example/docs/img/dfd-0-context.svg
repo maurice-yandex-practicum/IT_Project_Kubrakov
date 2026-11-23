@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="828" viewBox="0 0 1760 828">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="880.0" y="36.0" font-family="DejaVu Sans" font-size="19" text-anchor="middle" fill="#000" font-weight="normal">КД. Контекстная диаграмма (уровень 0)</text>
+<rect x="690" y="70.0" width="380" height="693.0" rx="12" fill="#e8f1fb" stroke="#000" stroke-width="1.6"/>
+<line x1="690.0" y1="100.0" x2="1070.0" y2="100.0" stroke="#000" stroke-width="1.2"/>
+<text x="880.0" y="91.0" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#000" font-weight="bold">F0</text>
+<text x="880.0" y="414.5" font-family="DejaVu Sans" font-size="20" text-anchor="middle" fill="#000" font-weight="bold">Продажа билетов и</text>
+<text x="880.0" y="438.5" font-family="DejaVu Sans" font-size="20" text-anchor="middle" fill="#000" font-weight="bold">контроль входа на</text>
+<text x="880.0" y="462.5" font-family="DejaVu Sans" font-size="20" text-anchor="middle" fill="#000" font-weight="bold">мероприятия</text>
+<rect x="30" y="80.0" width="230" height="347.0" fill="#fde9d0" stroke="#000" stroke-width="2.5"/>
+<text x="145.0" y="249.5" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#000" font-weight="normal">E1</text>
+<text x="145.0" y="266.5" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#000" font-weight="normal">Покупатель</text>
+<line x1="260.0" y1="113.0" x2="680.0" y2="113.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="690.0,113.0 679.0,117.5 679.0,108.5" fill="#3a3a3a"/>
+<text x="475.0" y="108.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P21 Заявка на регистрацию</text>
+<line x1="690.0" y1="150.0" x2="270.0" y2="150.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="260.0,150.0 271.0,145.5 271.0,154.5" fill="#3a3a3a"/>
+<text x="475.0" y="145.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P22 Подтверждение регистрации</text>
+<line x1="260.0" y1="187.0" x2="680.0" y2="187.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="690.0,187.0 679.0,191.5 679.0,182.5" fill="#3a3a3a"/>
+<text x="475.0" y="182.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P06 Запрос афиши</text>
+<line x1="690.0" y1="224.0" x2="270.0" y2="224.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="260.0,224.0 271.0,219.5 271.0,228.5" fill="#3a3a3a"/>
+<text x="475.0" y="219.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P07 Афиша и схема свободных мест</text>
+<line x1="260.0" y1="261.0" x2="680.0" y2="261.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="690.0,261.0 679.0,265.5 679.0,256.5" fill="#3a3a3a"/>
+<text x="475.0" y="256.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P08 Заявка на бронирование</text>
+<line x1="690.0" y1="298.0" x2="270.0" y2="298.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="260.0,298.0 271.0,293.5 271.0,302.5" fill="#3a3a3a"/>
+<text x="475.0" y="293.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P09 Ответ на заявку</text>
+<line x1="690.0" y1="335.0" x2="270.0" y2="335.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="260.0,335.0 271.0,330.5 271.0,339.5" fill="#3a3a3a"/>
+<text x="475.0" y="330.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P12 Итог покупки</text>
+<line x1="260.0" y1="372.0" x2="680.0" y2="372.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="690.0,372.0 679.0,376.5 679.0,367.5" fill="#3a3a3a"/>
+<text x="475.0" y="367.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P13 Заявление на возврат</text>
+<line x1="690.0" y1="409.0" x2="270.0" y2="409.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="260.0,409.0 271.0,404.5 271.0,413.5" fill="#3a3a3a"/>
+<text x="475.0" y="404.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P14 Уведомление о возврате или отказ в возврате</text>
+<rect x="30" y="517.0" width="230" height="236.0" fill="#fde9d0" stroke="#000" stroke-width="2.5"/>
+<text x="145.0" y="631.0" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#000" font-weight="normal">E5</text>
+<text x="145.0" y="648.0" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#000" font-weight="normal">Платёжный сервис</text>
+<line x1="690.0" y1="550.0" x2="270.0" y2="550.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="260.0,550.0 271.0,545.5 271.0,554.5" fill="#3a3a3a"/>
+<text x="475.0" y="545.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P10 Счёт на оплату</text>
+<line x1="260.0" y1="587.0" x2="680.0" y2="587.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="690.0,587.0 679.0,591.5 679.0,582.5" fill="#3a3a3a"/>
+<text x="475.0" y="582.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P11 Результат оплаты</text>
+<line x1="690.0" y1="624.0" x2="270.0" y2="624.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="260.0,624.0 271.0,619.5 271.0,628.5" fill="#3a3a3a"/>
+<text x="475.0" y="619.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P27 Решение о списании</text>
+<line x1="260.0" y1="661.0" x2="680.0" y2="661.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="690.0,661.0 679.0,665.5 679.0,656.5" fill="#3a3a3a"/>
+<text x="475.0" y="656.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P29 Результат списания</text>
+<line x1="690.0" y1="698.0" x2="270.0" y2="698.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="260.0,698.0 271.0,693.5 271.0,702.5" fill="#3a3a3a"/>
+<text x="475.0" y="693.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P15 Распоряжение на возврат средств</text>
+<line x1="260.0" y1="735.0" x2="680.0" y2="735.0" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="690.0,735.0 679.0,739.5 679.0,730.5" fill="#3a3a3a"/>
+<text x="475.0" y="730.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P16 Подтверждение возврата средств</text>
+<rect x="1500" y="96.5" width="230" height="310.0" fill="#fde9d0" stroke="#000" stroke-width="2.5"/>
+<text x="1615.0" y="247.5" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#000" font-weight="normal">E2</text>
+<text x="1615.0" y="264.5" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#000" font-weight="normal">Организатор</text>
+<line x1="1500.0" y1="129.5" x2="1080.0" y2="129.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1070.0,129.5 1081.0,125.0 1081.0,134.0" fill="#3a3a3a"/>
+<text x="1285.0" y="124.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P03 Карточка мероприятия с промокодами</text>
+<line x1="1070.0" y1="166.5" x2="1490.0" y2="166.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1500.0,166.5 1489.0,171.0 1489.0,162.0" fill="#3a3a3a"/>
+<text x="1285.0" y="161.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P04 Уведомление о статусе мероприятия</text>
+<line x1="1500.0" y1="203.5" x2="1080.0" y2="203.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1070.0,203.5 1081.0,199.0 1081.0,208.0" fill="#3a3a3a"/>
+<text x="1285.0" y="198.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P05 Распоряжение об отмене мероприятия</text>
+<line x1="1500.0" y1="240.5" x2="1080.0" y2="240.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1070.0,240.5 1081.0,236.0 1081.0,245.0" fill="#3a3a3a"/>
+<text x="1285.0" y="235.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P23 Сведения о сотрудниках организатора</text>
+<line x1="1070.0" y1="277.5" x2="1490.0" y2="277.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1500.0,277.5 1489.0,282.0 1489.0,273.0" fill="#3a3a3a"/>
+<text x="1285.0" y="272.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P24 Подтверждение назначения ролей</text>
+<line x1="1500.0" y1="314.5" x2="1080.0" y2="314.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1070.0,314.5 1081.0,310.0 1081.0,319.0" fill="#3a3a3a"/>
+<text x="1285.0" y="309.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P28 Распоряжение о публикации мероприятия</text>
+<line x1="1500.0" y1="351.5" x2="1080.0" y2="351.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1070.0,351.5 1081.0,347.0 1081.0,356.0" fill="#3a3a3a"/>
+<text x="1285.0" y="346.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P19 Запрос отчёта</text>
+<line x1="1070.0" y1="388.5" x2="1490.0" y2="388.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1500.0,388.5 1489.0,393.0 1489.0,384.0" fill="#3a3a3a"/>
+<text x="1285.0" y="383.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P20 Отчёт о продажах и посещаемости</text>
+<rect x="1500" y="446.5" width="230" height="162.0" fill="#fde9d0" stroke="#000" stroke-width="2.5"/>
+<text x="1615.0" y="515.5" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#000" font-weight="normal">E4</text>
+<text x="1615.0" y="532.5" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#000" font-weight="normal">Администратор</text>
+<text x="1615.0" y="549.5" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#000" font-weight="normal">сервиса</text>
+<line x1="1500.0" y1="479.5" x2="1080.0" y2="479.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1070.0,479.5 1081.0,475.0 1081.0,484.0" fill="#3a3a3a"/>
+<text x="1285.0" y="474.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P01 Сведения о площадке и схема зала</text>
+<line x1="1070.0" y1="516.5" x2="1490.0" y2="516.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1500.0,516.5 1489.0,521.0 1489.0,512.0" fill="#3a3a3a"/>
+<text x="1285.0" y="511.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P02 Протокол загрузки схемы зала</text>
+<line x1="1500.0" y1="553.5" x2="1080.0" y2="553.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1070.0,553.5 1081.0,549.0 1081.0,558.0" fill="#3a3a3a"/>
+<text x="1285.0" y="548.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P25 Сведения об организаторе</text>
+<line x1="1070.0" y1="590.5" x2="1490.0" y2="590.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1500.0,590.5 1489.0,595.0 1489.0,586.0" fill="#3a3a3a"/>
+<text x="1285.0" y="585.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P26 Подтверждение регистрации организатора</text>
+<rect x="1500" y="648.5" width="230" height="88.0" fill="#fde9d0" stroke="#000" stroke-width="2.5"/>
+<text x="1615.0" y="688.5" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#000" font-weight="normal">E3</text>
+<text x="1615.0" y="705.5" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#000" font-weight="normal">Контролёр</text>
+<line x1="1500.0" y1="681.5" x2="1080.0" y2="681.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1070.0,681.5 1081.0,677.0 1081.0,686.0" fill="#3a3a3a"/>
+<text x="1285.0" y="676.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P17 Код билета</text>
+<line x1="1070.0" y1="718.5" x2="1490.0" y2="718.5" stroke="#3a3a3a" stroke-width="1.4"/>
+<polygon points="1500.0,718.5 1489.0,723.0 1489.0,714.0" fill="#3a3a3a"/>
+<text x="1285.0" y="713.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#3a3a3a" font-weight="normal">P18 Результат проверки билета</text>
+<line x1="145.0" y1="427.0" x2="145.0" y2="517.0" stroke="#e07b00" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="155.0" y="468.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" fill="#e07b00" font-weight="normal">вне системы:</text>
+<text x="155.0" y="483.0" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" fill="#e07b00" font-weight="normal">Оплата банковской картой</text>
+<text x="880.0" y="803.0" font-family="DejaVu Sans" font-size="13" text-anchor="middle" fill="#555" font-weight="normal">Система показана одной функцией F0; хранилища и внутреннее устройство на этом уровне скрыты. Рыжий пунктир — взаимодействие вне системы, на уровень 1 не переносится.</text>
+</svg>

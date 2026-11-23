@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1617" height="794" viewBox="0 0 1617 794">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="808.5" y="38.0" font-family="DejaVu Sans" font-size="19" text-anchor="middle" fill="#000" font-weight="bold" font-style="normal">F2.2. Оформление брони — процесс программы</text>
+<rect x="12" y="174" width="1593" height="460" fill="#eef4fc" stroke="#888" stroke-width="1.2"/>
+<rect x="12" y="174" width="46" height="460" fill="#f2f2f2" stroke="#888" stroke-width="1.2"/>
+<g transform="translate(35.0,404.0) rotate(-90)"><text x="0" y="5.0" font-family="DejaVu Sans" font-size="13.5" font-weight="bold" text-anchor="middle">F2.2 Оформление брони</text></g>
+<polyline points="504.8,280.0 504.8,228.5" fill="none" stroke="#777" stroke-width="1.1" stroke-dasharray="2,3"/>
+<path d="M 308.79999999999995 542 V 616 A 68.0 9 0 0 0 444.79999999999995 616 V 542" fill="#e9e9e9" stroke="#000" stroke-width="1.3"/>
+<ellipse cx="376.79999999999995" cy="542" rx="68.0" ry="9" fill="#e9e9e9" stroke="#000" stroke-width="1.3"/>
+<text x="376.8" y="566.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="bold" font-style="normal">БД1</text>
+<text x="376.8" y="581.0" font-family="DejaVu Sans" font-size="10.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">участников, площадок</text>
+<text x="376.8" y="593.5" font-family="DejaVu Sans" font-size="10.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">и мероприятий</text>
+<polyline points="365.8,365.0 365.8,523.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="365.8,533.0 360.8,522.0 370.8,522.0" fill="#1f5fbf" stroke="#1f5fbf" stroke-width="1.2"/>
+<polyline points="387.8,533.0 387.8,375.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="387.8,365.0 392.8,376.0 382.8,376.0" fill="#2e8b3d" stroke="#2e8b3d" stroke-width="1.2"/>
+<text x="357.8" y="426.0" font-family="DejaVu Sans" font-size="11" text-anchor="end" fill="#1f5fbf" font-weight="normal" font-style="normal">Q21 Запрос условий</text>
+<text x="357.8" y="439.5" font-family="DejaVu Sans" font-size="11" text-anchor="end" fill="#1f5fbf" font-weight="normal" font-style="normal">продажи</text>
+<text x="357.8" y="458.4" font-family="DejaVu Sans" font-size="11" text-anchor="end" fill="#2e8b3d" font-weight="normal" font-style="normal">A21 Окно продаж,</text>
+<text x="357.8" y="471.9" font-family="DejaVu Sans" font-size="11" text-anchor="end" fill="#2e8b3d" font-weight="normal" font-style="normal">цены зон и промокод</text>
+<path d="M 564.8 542 V 616 A 68.0 9 0 0 0 700.8 616 V 542" fill="#e9e9e9" stroke="#000" stroke-width="1.3"/>
+<ellipse cx="632.8" cy="542" rx="68.0" ry="9" fill="#e9e9e9" stroke="#000" stroke-width="1.3"/>
+<text x="632.8" y="566.0" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#000" font-weight="bold" font-style="normal">БД2</text>
+<text x="632.8" y="581.0" font-family="DejaVu Sans" font-size="10.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">заказов и билетов</text>
+<polyline points="621.8,365.0 621.8,523.0" fill="none" stroke="#1f5fbf" stroke-width="1.5"/>
+<polygon points="621.8,533.0 616.8,522.0 626.8,522.0" fill="#1f5fbf" stroke="#1f5fbf" stroke-width="1.2"/>
+<polyline points="643.8,533.0 643.8,375.0" fill="none" stroke="#2e8b3d" stroke-width="1.5"/>
+<polygon points="643.8,365.0 648.8,376.0 638.8,376.0" fill="#2e8b3d" stroke="#2e8b3d" stroke-width="1.2"/>
+<text x="651.8" y="426.0" font-family="DejaVu Sans" font-size="11" text-anchor="start" fill="#1f5fbf" font-weight="normal" font-style="normal">Q04 Бронь мест</text>
+<text x="651.8" y="444.9" font-family="DejaVu Sans" font-size="11" text-anchor="start" fill="#2e8b3d" font-weight="normal" font-style="normal">A04 Квитанция брони</text>
+<text x="651.8" y="458.4" font-family="DejaVu Sans" font-size="11" text-anchor="start" fill="#2e8b3d" font-weight="normal" font-style="normal">или отказ «место</text>
+<text x="651.8" y="471.9" font-family="DejaVu Sans" font-size="11" text-anchor="start" fill="#2e8b3d" font-weight="normal" font-style="normal">занято»</text>
+<circle cx="180.0" cy="154.0" r="4" fill="#fff" stroke="#555555" stroke-width="1.2"/>
+<polyline points="180.0,158.0 180.0,296.0" fill="none" stroke="#555555" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polygon points="180.0,306.0 175.0,295.0 185.0,295.0" fill="#ffffff" stroke="#555555" stroke-width="1.2"/>
+<polyline points="198.0,324.0 345.8,324.0" fill="none" stroke="#000" stroke-width="1.6"/>
+<polygon points="354.8,324.0 343.8,329.0 343.8,319.0" fill="#000" stroke="#000" stroke-width="1.2"/>
+<polyline points="654.8,324.0 793.6,324.0" fill="none" stroke="#000" stroke-width="1.6"/>
+<polygon points="802.6,324.0 791.6,329.0 791.6,319.0" fill="#000" stroke="#000" stroke-width="1.2"/>
+<polyline points="856.6,324.0 1016.2,324.0" fill="none" stroke="#000" stroke-width="1.6"/>
+<polygon points="1025.2,324.0 1014.2,329.0 1014.2,319.0" fill="#000" stroke="#000" stroke-width="1.2"/>
+<polyline points="829.6,297.0 829.6,276.0" fill="none" stroke="#000" stroke-width="1.6"/>
+<polygon points="829.6,267.0 834.6,278.0 824.6,278.0" fill="#000" stroke="#000" stroke-width="1.2"/>
+<circle cx="829.6" cy="227.0" r="4" fill="#fff" stroke="#555555" stroke-width="1.2"/>
+<polyline points="829.6,223.0 829.6,160.0" fill="none" stroke="#555555" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polygon points="829.6,150.0 834.6,161.0 824.6,161.0" fill="#ffffff" stroke="#555555" stroke-width="1.2"/>
+<circle cx="1091.2" cy="287.0" r="4" fill="#fff" stroke="#555555" stroke-width="1.2"/>
+<polyline points="1091.2,283.0 1091.2,160.0" fill="none" stroke="#555555" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polygon points="1091.2,150.0 1096.2,161.0 1086.2,161.0" fill="#ffffff" stroke="#555555" stroke-width="1.2"/>
+<circle cx="1171.2" cy="361.0" r="4" fill="#fff" stroke="#555555" stroke-width="1.2"/>
+<polyline points="1171.2,365.0 1171.2,648.0" fill="none" stroke="#555555" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polygon points="1171.2,658.0 1166.2,647.0 1176.2,647.0" fill="#ffffff" stroke="#555555" stroke-width="1.2"/>
+<polyline points="1237.2,324.0 1382.6,324.0" fill="none" stroke="#000" stroke-width="1.6"/>
+<polygon points="1391.6,324.0 1380.6,329.0 1380.6,319.0" fill="#000" stroke="#000" stroke-width="1.2"/>
+<rect x="110.4" y="94.0" width="1136.8" height="56.0" fill="#fbfbfb" stroke="#000" stroke-width="1.7"/>
+<rect x="110.4" y="94.0" width="16" height="56.0" fill="#e6e6e6" stroke="#000" stroke-width="1.2"/>
+<text x="686.8" y="126.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#000" font-weight="bold" font-style="normal">Покупатель</text>
+<circle cx="180" cy="324.0" r="18" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<rect x="172.0" y="318.5" width="16" height="11" fill="#fff" stroke="#000" stroke-width="1.1"/>
+<polyline points="172.0,318.5 180.0,325.0 188.0,318.5" fill="none" stroke="#000" stroke-width="1.1"/>
+<rect x="354.8" y="283.0" width="300.0" height="82.0" rx="11" fill="#ffffff" stroke="#000" stroke-width="1.5"/>
+<text x="504.8" y="304.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">Проверка условий продажи</text>
+<text x="504.8" y="320.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">и мест, создание брони</text>
+<text x="504.8" y="336.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">(одна транзакция)</text>
+<text x="504.8" y="352.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">[K4 бронирование]</text>
+<polygon points="829.5999999999999,297.0 856.5999999999999,324.0 829.5999999999999,351.0 802.5999999999999,324.0" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<polyline points="820.6,315.0 838.6,333.0" fill="none" stroke="#000" stroke-width="3"/>
+<polyline points="820.6,333.0 838.6,315.0" fill="none" stroke="#000" stroke-width="3"/>
+<circle cx="829.5999999999999" cy="249.0" r="18" fill="#fff" stroke="#000" stroke-width="4.5"/>
+<rect x="821.6" y="243.5" width="16" height="11" fill="#000" stroke="#000" stroke-width="1.1"/>
+<polyline points="821.6,243.5 829.6,250.0 837.6,243.5" fill="none" stroke="#fff" stroke-width="1.1"/>
+<rect x="1025.2" y="291.0" width="212.0" height="66.0" rx="11" fill="#ffffff" stroke="#000" stroke-width="1.5"/>
+<text x="1131.2" y="312.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">Бронь покупателю,</text>
+<text x="1131.2" y="328.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">передача к оплате</text>
+<text x="1131.2" y="344.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">[K4 бронирование]</text>
+<circle cx="1409.6" cy="324.0" r="18" fill="#fff" stroke="#000" stroke-width="4.5"/>
+<rect x="968.8" y="658.0" width="324.8" height="56.0" fill="#eef4fc" stroke="#000" stroke-width="1.7"/>
+<rect x="968.8" y="658.0" width="16" height="56.0" fill="#e6e6e6" stroke="#000" stroke-width="1.2"/>
+<text x="1139.2" y="690.5" font-family="DejaVu Sans" font-size="12.5" text-anchor="middle" fill="#000" font-weight="bold" font-style="normal">F3.1 Выставление счёта</text>
+<path d="M 489.79999999999995 187.5 H 510.79999999999995 L 519.8 196.5 V 225.5 H 489.79999999999995 Z" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<polyline points="510.8,187.5 510.8,196.5 519.8,196.5" fill="none" stroke="#000" stroke-width="1.1"/>
+<rect x="124.0" y="344.1" width="110.0" height="33.3" fill="#eef4fc" fill-opacity="0.88"/>
+<text x="180.0" y="357.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">Получена заявка</text>
+<text x="180.0" y="371.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">на бронирование</text>
+<rect x="525.8" y="191.3" width="163.1" height="32.0" fill="#eef4fc" fill-opacity="0.88"/>
+<text x="527.8" y="203.8" font-family="DejaVu Sans" font-size="11" text-anchor="start" fill="#000" font-weight="normal" font-style="normal">Заказ [бронь],</text>
+<text x="527.8" y="217.5" font-family="DejaVu Sans" font-size="11" text-anchor="start" fill="#000" font-weight="normal" font-style="normal">билеты [зарезервированы]</text>
+<rect x="842.4" y="351.0" width="116.7" height="33.3" fill="#eef4fc" fill-opacity="0.88"/>
+<text x="844.4" y="363.9" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#000" font-weight="normal" font-style="normal">Места свободны,</text>
+<text x="844.4" y="378.3" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#000" font-weight="normal" font-style="normal">продажи открыты?</text>
+<rect x="733.6" y="233.2" width="70.0" height="33.3" fill="#eef4fc" fill-opacity="0.88"/>
+<text x="803.6" y="246.1" font-family="DejaVu Sans" font-size="11.5" text-anchor="end" fill="#000" font-weight="normal" font-style="normal">Отказ</text>
+<text x="803.6" y="260.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="end" fill="#000" font-weight="normal" font-style="normal">отправлен</text>
+<rect x="1373.6" y="344.1" width="70.0" height="33.3" fill="#eef4fc" fill-opacity="0.88"/>
+<text x="1409.6" y="357.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">Бронь</text>
+<text x="1409.6" y="371.4" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" fill="#000" font-weight="normal" font-style="normal">оформлена</text>
+<rect x="868.6" y="304.1" width="23.3" height="18.9" fill="#eef4fc" fill-opacity="0.88"/>
+<text x="870.6" y="317.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#333333" font-weight="normal" font-style="normal">да</text>
+<rect x="835.6" y="273.4" width="30.0" height="18.9" fill="#eef4fc" fill-opacity="0.88"/>
+<text x="837.6" y="286.3" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#333333" font-weight="normal" font-style="normal">нет</text>
+<rect x="186.0" y="212.2" width="96.7" height="33.3" fill="#eef4fc" fill-opacity="0.88"/>
+<text x="188.0" y="225.1" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#333333" font-weight="normal" font-style="normal">P08 Заявка на</text>
+<text x="188.0" y="239.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#333333" font-weight="normal" font-style="normal">бронирование</text>
+<rect x="835.6" y="179.7" width="156.7" height="47.7" fill="#eef4fc" fill-opacity="0.88"/>
+<text x="837.6" y="192.6" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#333333" font-weight="normal" font-style="normal">P09 Ответ на заявку</text>
+<text x="837.6" y="207.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#333333" font-weight="normal" font-style="normal">(отказ: место занято /</text>
+<text x="837.6" y="221.3" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#333333" font-weight="normal" font-style="normal">продажи закрыты)</text>
+<rect x="1097.2" y="204.7" width="136.7" height="33.3" fill="#eef4fc" fill-opacity="0.88"/>
+<text x="1099.2" y="217.6" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#333333" font-weight="normal" font-style="normal">P09 Ответ на заявку</text>
+<text x="1099.2" y="232.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#333333" font-weight="normal" font-style="normal">(бронь)</text>
+<rect x="1177.2" y="491.7" width="70.0" height="33.3" fill="#eef4fc" fill-opacity="0.88"/>
+<text x="1179.2" y="504.6" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#333333" font-weight="normal" font-style="normal">I02 Бронь</text>
+<text x="1179.2" y="519.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#333333" font-weight="normal" font-style="normal">к оплате</text>
+<text x="16.0" y="760.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#555" font-weight="normal" font-style="normal">Сплошная стрелка — порядок действий внутри процесса; пунктир с кружком — сообщение между процессами (документ DFD); прямоугольник с серой полосой — свёрнутый пул (участник или другой процесс); круг с конвертом — начало или «получено</text>
+<text x="16.0" y="775.0" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" fill="#555" font-weight="normal" font-style="normal">сообщение»; толстый круг с чёрным конвертом — конец с отправкой; синяя / зелёная — запрос Q / ответ A к БД; [Kn] — компонент.</text>
+</svg>
